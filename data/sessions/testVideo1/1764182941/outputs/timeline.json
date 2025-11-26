@@ -1,0 +1,4498 @@
+[
+  {
+    "t": 0.0,
+    "face": {
+      "angry": 0.007116865793687916,
+      "disgust": 8.659744861996319e-08,
+      "fear": 0.0014905794305333905,
+      "happy": 0.001247352589372807,
+      "sad": 0.02265305558888604,
+      "surprise": 8.191793300420812e-06,
+      "neutral": 0.9674838682067708
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.49674838682067707
+  },
+  {
+    "t": 0.1,
+    "face": {
+      "surprise": 0.00013846925878824675,
+      "sad": 0.02682772272349891,
+      "neutral": 0.9637281735842785,
+      "disgust": 7.916282693127895e-08,
+      "happy": 0.001172452273998034,
+      "angry": 0.006571789711338762,
+      "fear": 0.0015613132852705285
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.49637281735842786
+  },
+  {
+    "t": 0.2,
+    "face": {
+      "surprise": 0.0002687467194388406,
+      "sad": 0.03100238970310544,
+      "neutral": 0.9599724791012362,
+      "disgust": 7.172820551864392e-08,
+      "happy": 0.0010975519614043272,
+      "angry": 0.006026713649228409,
+      "fear": 0.0016320471373813023
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.49599724791012356
+  },
+  {
+    "t": 0.3,
+    "face": {
+      "surprise": 0.00039902417525220245,
+      "sad": 0.03517705652770563,
+      "neutral": 0.9562167847576435,
+      "disgust": 6.429358438205808e-08,
+      "happy": 0.0010226516515916858,
+      "angry": 0.005481637607356853,
+      "fear": 0.001702780986865712
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.4956216784757643
+  },
+  {
+    "t": 0.4,
+    "face": {
+      "surprise": 0.0005293016262283328,
+      "sad": 0.03935172319729948,
+      "neutral": 0.9524610905535007,
+      "disgust": 5.685896352152142e-08,
+      "happy": 0.0009477513445601102,
+      "angry": 0.004936561585724097,
+      "fear": 0.001773514833723758
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.49524610905535005
+  },
+  {
+    "t": 0.5,
+    "face": {
+      "surprise": 0.0006595790723672317,
+      "sad": 0.04352638971188702,
+      "neutral": 0.9487053964888076,
+      "disgust": 4.942434293703392e-08,
+      "happy": 0.0008728510403096,
+      "angry": 0.004391485584330136,
+      "fear": 0.00184424867795544
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.4948705396488807
+  },
+  {
+    "t": 0.6,
+    "face": {
+      "surprise": 0.0007898565136688994,
+      "sad": 0.04770105607146824,
+      "neutral": 0.9449497025635643,
+      "disgust": 4.198972262859557e-08,
+      "happy": 0.0007979507388401548,
+      "angry": 0.003846409603174971,
+      "fear": 0.001914982519560758
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.4944949702563564
+  },
+  {
+    "t": 0.7,
+    "face": {
+      "surprise": 0.0009201339501333365,
+      "sad": 0.05187572227604316,
+      "neutral": 0.9411940087777708,
+      "disgust": 3.4555102596206355e-08,
+      "happy": 0.0007230504401517751,
+      "angry": 0.003301333642258601,
+      "fear": 0.0019857163585397133
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.49411940087777706
+  },
+  {
+    "t": 0.8,
+    "face": {
+      "surprise": 0.0010504113817605431,
+      "sad": 0.05605038832561177,
+      "neutral": 0.9374383151314271,
+      "disgust": 2.712048283986624e-08,
+      "happy": 0.0006481501442444599,
+      "angry": 0.0027562577015810227,
+      "fear": 0.002056450194892304
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.4937438315131427
+  },
+  {
+    "t": 0.9,
+    "face": {
+      "surprise": 0.0011806888085505193,
+      "sad": 0.06022505422017412,
+      "neutral": 0.9336826216245331,
+      "disgust": 1.968586335957523e-08,
+      "happy": 0.0005732498511182098,
+      "angry": 0.0022111817811422364,
+      "fear": 0.0021271840286185327
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 3,
+    "congruence": 0.4873682621624533
+  },
+  {
+    "t": 1.0,
+    "face": {
+      "surprise": 0.0013109662305032653,
+      "sad": 0.06439971995973016,
+      "neutral": 0.9299269282570888,
+      "disgust": 1.225124415533331e-08,
+      "happy": 0.0004983495607730242,
+      "angry": 0.0016661058809422417,
+      "fear": 0.002197917859718398
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 3,
+    "congruence": 0.48699269282570884
+  },
+  {
+    "t": 1.1,
+    "face": {
+      "surprise": 0.001180063893386894,
+      "sad": 0.06127116486562368,
+      "neutral": 0.9324989645750503,
+      "disgust": 1.771024977200916e-08,
+      "happy": 0.00046998478684025404,
+      "angry": 0.0025654015323694967,
+      "fear": 0.0020144026364795806
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 3,
+    "congruence": 0.48724989645750505
+  },
+  {
+    "t": 1.2,
+    "face": {
+      "surprise": 0.0010491615542025238,
+      "sad": 0.05814260972209218,
+      "neutral": 0.9350710009336449,
+      "disgust": 2.316925547492653e-08,
+      "happy": 0.00044162001245937635,
+      "angry": 0.003464697198003848,
+      "fear": 0.0018308874103415854
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 3,
+    "congruence": 0.4875071000933645
+  },
+  {
+    "t": 1.3,
+    "face": {
+      "surprise": 0.0009182592129501555,
+      "sad": 0.055014054529135735,
+      "neutral": 0.9376430373328728,
+      "disgust": 2.8628261264085405e-08,
+      "happy": 0.0004132552376303915,
+      "angry": 0.004363992877845294,
+      "fear": 0.0016473721813044127
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.4937643037332873
+  },
+  {
+    "t": 1.4,
+    "face": {
+      "surprise": 0.0007873568696297888,
+      "sad": 0.05188549928675426,
+      "neutral": 0.9402150737727336,
+      "disgust": 3.4087267139485774e-08,
+      "happy": 0.00038489046235329913,
+      "angry": 0.005263288571893835,
+      "fear": 0.0014638569493680617
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.49402150737727335
+  },
+  {
+    "t": 1.5,
+    "face": {
+      "surprise": 0.0006564545242414238,
+      "sad": 0.0487569439949478,
+      "neutral": 0.9427871102532276,
+      "disgust": 3.9546273101127654e-08,
+      "happy": 0.0003565256866280994,
+      "angry": 0.006162584280149469,
+      "fear": 0.0012803417145325323
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.4942787110253227
+  },
+  {
+    "t": 1.6,
+    "face": {
+      "surprise": 0.0005255521767850605,
+      "sad": 0.04562838865371635,
+      "neutral": 0.9453591467743546,
+      "disgust": 4.500527914901103e-08,
+      "happy": 0.00032816091045479226,
+      "angry": 0.007061880002612199,
+      "fear": 0.0010968264767978251
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.49453591467743546
+  },
+  {
+    "t": 1.7,
+    "face": {
+      "surprise": 0.00039464982726069865,
+      "sad": 0.042499833263059915,
+      "neutral": 0.9479311833361147,
+      "disgust": 5.046428528313592e-08,
+      "happy": 0.00029979613383337766,
+      "angry": 0.007961175739282024,
+      "fear": 0.0009133112361639397
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.4947931183336115
+  },
+  {
+    "t": 1.8,
+    "face": {
+      "surprise": 0.0002637474756683384,
+      "sad": 0.03937127782297849,
+      "neutral": 0.9505032199385081,
+      "disgust": 5.592329150350234e-08,
+      "happy": 0.0002714313567638557,
+      "angry": 0.008860471490158946,
+      "fear": 0.0007297959926308766
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 3,
+    "congruence": 0.4890503219938508
+  },
+  {
+    "t": 1.9,
+    "face": {
+      "surprise": 0.00013284512200797963,
+      "sad": 0.03624272233347207,
+      "neutral": 0.9530752565815344,
+      "disgust": 6.138229781011024e-08,
+      "happy": 0.0002430665792462263,
+      "angry": 0.009759767255242965,
+      "fear": 0.0005462807461986347
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 3,
+    "congruence": 0.48930752565815344
+  },
+  {
+    "t": 2.0,
+    "face": {
+      "surprise": 1.942766279624074e-06,
+      "sad": 0.03311416679454065,
+      "neutral": 0.9556472932651933,
+      "disgust": 6.684130420295962e-08,
+      "happy": 0.00021470180128092267,
+      "angry": 0.010659063034534066,
+      "fear": 0.0003627654968672157
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 3,
+    "congruence": 0.4895647293265193
+  },
+  {
+    "t": 2.1,
+    "face": {
+      "surprise": 0.00022293913904254683,
+      "sad": 0.029802816991651646,
+      "neutral": 0.8623152546291579,
+      "disgust": 6.015717379910517e-08,
+      "happy": 0.09773925349734876,
+      "angry": 0.009593186562222297,
+      "fear": 0.0003264890234030441
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 3,
+    "congruence": 0.48023152546291575
+  },
+  {
+    "t": 2.2,
+    "face": {
+      "surprise": 0.0004439355108696999,
+      "sad": 0.02649146720278396,
+      "neutral": 0.7689832163883203,
+      "disgust": 5.347304342355346e-08,
+      "happy": 0.19526380478046632,
+      "angry": 0.008527310094423788,
+      "fear": 0.00029021255009247865
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.47689832163883206
+  },
+  {
+    "t": 2.3,
+    "face": {
+      "surprise": 0.0006649318817610833,
+      "sad": 0.023180117427937595,
+      "neutral": 0.6756511785426805,
+      "disgust": 4.678891307630452e-08,
+      "happy": 0.29278835565063355,
+      "angry": 0.007461433631138544,
+      "fear": 0.0002539360769355195
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.467565117854268
+  },
+  {
+    "t": 2.4,
+    "face": {
+      "surprise": 0.0008859282517166972,
+      "sad": 0.019868767667112548,
+      "neutral": 0.5823191410922387,
+      "disgust": 4.010478275735832e-08,
+      "happy": 0.3903129061078505,
+      "angry": 0.006395557172366563,
+      "fear": 0.00021765960393216658
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.4582319141092239
+  },
+  {
+    "t": 2.5,
+    "face": {
+      "surprise": 0.0011069246207365412,
+      "sad": 0.016557417920308824,
+      "neutral": 0.48898710403699464,
+      "disgust": 3.342065246671489e-08,
+      "happy": 0.4878374561521172,
+      "angry": 0.005329680718107846,
+      "fear": 0.00018138313108241995
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.44889871040369944
+  },
+  {
+    "t": 2.6,
+    "face": {
+      "surprise": 0.001327920988820616,
+      "sad": 0.013246068187526416,
+      "neutral": 0.3956550673769485,
+      "disgust": 2.673652220437421e-08,
+      "happy": 0.5853620057834337,
+      "angry": 0.004263804268362393,
+      "fear": 0.0001451066583862795
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.4395655067376949
+  },
+  {
+    "t": 2.7,
+    "face": {
+      "surprise": 0.0015489173559689207,
+      "sad": 0.009934718468765326,
+      "neutral": 0.30232303111210007,
+      "disgust": 2.0052391970336287e-08,
+      "happy": 0.6828865550017997,
+      "angry": 0.0031979278231302026,
+      "fear": 0.00010883018584374533
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.43023230311120997
+  },
+  {
+    "t": 2.8,
+    "face": {
+      "surprise": 0.0017699137221814558,
+      "sad": 0.006623368764025555,
+      "neutral": 0.20899099524244952,
+      "disgust": 1.3368261764601117e-08,
+      "happy": 0.7804111038072156,
+      "angry": 0.0021320513824112756,
+      "fear": 7.255371345481738e-05
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 5,
+    "congruence": 0.4108990995242449
+  },
+  {
+    "t": 2.9,
+    "face": {
+      "surprise": 0.0019909100874582215,
+      "sad": 0.0033120190733071037,
+      "neutral": 0.1156589597679968,
+      "disgust": 6.6841315871687035e-09,
+      "happy": 0.8779356521996813,
+      "angry": 0.001066174946205612,
+      "fear": 3.627724121949569e-05
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 5,
+    "congruence": 0.4015658959767997
+  },
+  {
+    "t": 3.0,
+    "face": {
+      "surprise": 0.0022119064517992114,
+      "sad": 6.693966100134617e-07,
+      "neutral": 0.022326924688743116,
+      "disgust": 1.43803913367498e-15,
+      "happy": 0.9754602001791952,
+      "angry": 2.985145132257718e-07,
+      "fear": 7.691377807103689e-10
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 5,
+    "congruence": 0.3922326924688743
+  },
+  {
+    "t": 3.1,
+    "face": {
+      "surprise": 0.0019956061638224114,
+      "sad": 9.233396568094561e-07,
+      "neutral": 0.021603952617540896,
+      "disgust": 4.296589093479884e-13,
+      "happy": 0.9763987283609117,
+      "angry": 7.881637539561466e-07,
+      "fear": 1.3538846324603332e-09
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 5,
+    "congruence": 0.39216039526175406
+  },
+  {
+    "t": 3.2,
+    "face": {
+      "surprise": 0.0017793058766350652,
+      "sad": 1.1772827026786084e-06,
+      "neutral": 0.020880980548977378,
+      "disgust": 8.578797779993796e-13,
+      "happy": 0.9773372565392027,
+      "angry": 1.2778129928993978e-06,
+      "fear": 1.938631482076086e-09
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.40208809805489776
+  },
+  {
+    "t": 3.3,
+    "face": {
+      "surprise": 0.0015630055902371724,
+      "sad": 1.4312257476209182e-06,
+      "neutral": 0.020158008483052568,
+      "disgust": 1.2861006450878488e-12,
+      "happy": 0.9782757847140682,
+      "angry": 1.7674622300555254e-06,
+      "fear": 2.5233783295576278e-09
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.40201580084830524
+  },
+  {
+    "t": 3.4,
+    "face": {
+      "surprise": 0.001346705304628733,
+      "sad": 1.6851687916363862e-06,
+      "neutral": 0.01943503641976646,
+      "disgust": 1.7143215106133957e-12,
+      "happy": 0.9792143128855082,
+      "angry": 2.257111465424529e-06,
+      "fear": 3.1081251749049576e-09
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.4019435036419766
+  },
+  {
+    "t": 3.5,
+    "face": {
+      "surprise": 0.0011304050198097475,
+      "sad": 1.9391118347250112e-06,
+      "neutral": 0.01871206435911906,
+      "disgust": 2.1425423745760203e-12,
+      "happy": 0.9801528410535228,
+      "angry": 2.7467606990064095e-06,
+      "fear": 3.692872018118077e-09
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.4018712064359119
+  },
+  {
+    "t": 3.6,
+    "face": {
+      "surprise": 0.0009141047357802154,
+      "sad": 2.1930548768867944e-06,
+      "neutral": 0.01798909230111037,
+      "disgust": 2.5707632369757235e-12,
+      "happy": 0.9810913692181121,
+      "angry": 3.236409930801166e-06,
+      "fear": 4.277618859196986e-09
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.4017989092301111
+  },
+  {
+    "t": 3.7,
+    "face": {
+      "surprise": 0.0006978044525401369,
+      "sad": 2.4469979181217355e-06,
+      "neutral": 0.017266120245740382,
+      "disgust": 2.9989840978125045e-12,
+      "happy": 0.9820298973792758,
+      "angry": 3.7260591608087994e-06,
+      "fear": 4.862365698141682e-09
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.40172661202457405
+  },
+  {
+    "t": 3.8,
+    "face": {
+      "surprise": 0.0004815041700895119,
+      "sad": 2.700940958429835e-06,
+      "neutral": 0.016543148193009102,
+      "disgust": 3.4272049570863632e-12,
+      "happy": 0.9829684255370142,
+      "angry": 4.215708389029309e-06,
+      "fear": 5.447112534952169e-09
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 3,
+    "congruence": 0.3956543148193009
+  },
+  {
+    "t": 3.9,
+    "face": {
+      "surprise": 0.0002652038884283405,
+      "sad": 2.954883997811091e-06,
+      "neutral": 0.01582017614291653,
+      "disgust": 3.8554258147973e-12,
+      "happy": 0.9839069536913271,
+      "angry": 4.705357615462696e-06,
+      "fear": 6.031859369628444e-09
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 3,
+    "congruence": 0.3955820176142917
+  },
+  {
+    "t": 4.0,
+    "face": {
+      "surprise": 4.8903607556628314e-05,
+      "sad": 3.2088270362693466e-06,
+      "neutral": 0.015097204095462953,
+      "disgust": 4.2836466710930365e-12,
+      "happy": 0.9848454818422141,
+      "angry": 5.195006840110403e-06,
+      "fear": 6.616606209622181e-09
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 3,
+    "congruence": 0.3955097204095463
+  },
+  {
+    "t": 4.1,
+    "face": {
+      "surprise": 0.00010196113454213416,
+      "sad": 0.00021979521724543053,
+      "neutral": 0.03076176539622121,
+      "disgust": 8.320829442974449e-09,
+      "happy": 0.9684097533774118,
+      "angry": 8.721723086691065e-05,
+      "fear": 0.00041949932288306543
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 3,
+    "congruence": 0.39707617653962207
+  },
+  {
+    "t": 4.2,
+    "face": {
+      "surprise": 0.00015501866165181085,
+      "sad": 0.00043638160796147013,
+      "neutral": 0.04642632673363933,
+      "disgust": 1.6637375258741066e-08,
+      "happy": 0.9519740248741448,
+      "angry": 0.00016923945508566797,
+      "fear": 0.0008389920301416624
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.4046426326733639
+  },
+  {
+    "t": 4.3,
+    "face": {
+      "surprise": 0.0002080761888856583,
+      "sad": 0.0006529679991843877,
+      "neutral": 0.06209088810771729,
+      "disgust": 2.4953921093970938e-08,
+      "happy": 0.9355382963324131,
+      "angry": 0.00025126167949638236,
+      "fear": 0.0012584847383820001
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.40620908881077167
+  },
+  {
+    "t": 4.4,
+    "face": {
+      "surprise": 0.00026113371624367665,
+      "sad": 0.0008695543909141841,
+      "neutral": 0.07775544951845513,
+      "disgust": 3.3270466948664066e-08,
+      "happy": 0.919102567752217,
+      "angry": 0.0003332839040990538,
+      "fear": 0.0016779774476040799
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.4077755449518455
+  },
+  {
+    "t": 4.5,
+    "face": {
+      "surprise": 0.00031419124372586573,
+      "sad": 0.0010861407831508584,
+      "neutral": 0.0934200109658528,
+      "disgust": 4.1587012822820455e-08,
+      "happy": 0.902666839133556,
+      "angry": 0.00041530612889368224,
+      "fear": 0.0020974701578078993
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.40934200109658525
+  },
+  {
+    "t": 4.6,
+    "face": {
+      "surprise": 0.0003672487713322257,
+      "sad": 0.001302727175894411,
+      "neutral": 0.10908457244991035,
+      "disgust": 4.99035587164401e-08,
+      "happy": 0.8862311104764306,
+      "angry": 0.0004973283538802679,
+      "fear": 0.0025169628689934607
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.41090845724499103
+  },
+  {
+    "t": 4.7,
+    "face": {
+      "surprise": 0.0004203062990627565,
+      "sad": 0.0015193135691448424,
+      "neutral": 0.12474913397062774,
+      "disgust": 5.8220104629523e-08,
+      "happy": 0.8697953817808404,
+      "angry": 0.0005793505790588104,
+      "fear": 0.0029364555811607625
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.41247491339706277
+  },
+  {
+    "t": 4.8,
+    "face": {
+      "surprise": 0.0004733638269174581,
+      "sad": 0.0017358999629021516,
+      "neutral": 0.140413695528005,
+      "disgust": 6.653665056206916e-08,
+      "happy": 0.8533596530467857,
+      "angry": 0.00066137280442931,
+      "fear": 0.0033559482943098067
+    },
+    "audio": {},
+    "text": " Um, my name is, wait, can I give you lies too?",
+    "spikes": 0,
+    "congruence": 0.41404136955280046
+  },
+  {
+    "t": 4.9,
+    "face": {
+      "surprise": 0.0005264213548963306,
+      "sad": 0.00195248635716634,
+      "neutral": 0.15607825712204215,
+      "disgust": 7.485319651407859e-08,
+      "happy": 0.8369239242742663,
+      "angry": 0.000743395029991767,
+      "fear": 0.0037754410084405916
+    },
+    "audio": {},
+    "text": " Just say anything.",
+    "spikes": 4,
+    "congruence": 0.4076078257122042
+  },
+  {
+    "t": 5.0,
+    "face": {
+      "surprise": 0.0005794788829993737,
+      "sad": 0.0021690727519374058,
+      "neutral": 0.1717428187527391,
+      "disgust": 8.316974248555125e-08,
+      "happy": 0.8204881954632823,
+      "angry": 0.0008254172557461806,
+      "fear": 0.004194933723553116
+    },
+    "audio": {},
+    "text": " Just say anything.",
+    "spikes": 4,
+    "congruence": 0.40917428187527394
+  },
+  {
+    "t": 5.1,
+    "face": {
+      "surprise": 0.0005760019530638673,
+      "sad": 0.004890697102600343,
+      "neutral": 0.248225069231726,
+      "disgust": 2.2247365296008156e-07,
+      "happy": 0.7409865177736402,
+      "angry": 0.001072689250122188,
+      "fear": 0.004248802215194359
+    },
+    "audio": {},
+    "text": " Just say anything.",
+    "spikes": 4,
+    "congruence": 0.4168225069231726
+  },
+  {
+    "t": 5.2,
+    "face": {
+      "surprise": 0.000572525023096137,
+      "sad": 0.007612321478486553,
+      "neutral": 0.3247073204195293,
+      "disgust": 3.6177756472564265e-07,
+      "happy": 0.6614848393471986,
+      "angry": 0.001319961246789844,
+      "fear": 0.004302670707334834
+    },
+    "audio": {},
+    "text": " Just say anything.",
+    "spikes": 4,
+    "congruence": 0.42447073204195296
+  },
+  {
+    "t": 5.3,
+    "face": {
+      "surprise": 0.0005690480930961833,
+      "sad": 0.010333945879595992,
+      "neutral": 0.40118957231614805,
+      "disgust": 5.010814777822321e-07,
+      "happy": 0.5819831601839583,
+      "angry": 0.001567233245749145,
+      "fear": 0.004356539199974544
+    },
+    "audio": {},
+    "text": " Just say anything.",
+    "spikes": 0,
+    "congruence": 0.44011895723161476
+  },
+  {
+    "t": 5.4,
+    "face": {
+      "surprise": 0.0005655711630640064,
+      "sad": 0.01305557030592866,
+      "neutral": 0.4776718249215822,
+      "disgust": 6.403853921298498e-07,
+      "happy": 0.5024814802839194,
+      "angry": 0.0018145052470000915,
+      "fear": 0.004410407693113494
+    },
+    "audio": {},
+    "text": " Just say anything.",
+    "spikes": 0,
+    "congruence": 0.4477671824921582
+  },
+  {
+    "t": 5.5,
+    "face": {
+      "surprise": 0.0005620942329996063,
+      "sad": 0.015777194757484552,
+      "neutral": 0.5541540782358318,
+      "disgust": 7.79689307768496e-07,
+      "happy": 0.42297979964708193,
+      "angry": 0.0020617772505426837,
+      "fear": 0.004464276186751681
+    },
+    "audio": {},
+    "text": " Just say anything.",
+    "spikes": 0,
+    "congruence": 0.45541540782358314
+  },
+  {
+    "t": 5.6,
+    "face": {
+      "surprise": 0.0005586173029029832,
+      "sad": 0.018498819234263678,
+      "neutral": 0.6306363322588968,
+      "disgust": 9.189932246981707e-07,
+      "happy": 0.3434781182734458,
+      "angry": 0.002309049256376921,
+      "fear": 0.004518144680889105
+    },
+    "audio": {},
+    "text": " Just say anything.",
+    "spikes": 0,
+    "congruence": 0.4630636332258896
+  },
+  {
+    "t": 5.7,
+    "face": {
+      "surprise": 0.0005551403727741367,
+      "sad": 0.021220443736266036,
+      "neutral": 0.7071185869907772,
+      "disgust": 1.0582971429188742e-06,
+      "happy": 0.2639764361630111,
+      "angry": 0.002556321264502804,
+      "fear": 0.0045720131755257664
+    },
+    "audio": {},
+    "text": " Just say anything.",
+    "spikes": 0,
+    "congruence": 0.4707118586990777
+  },
+  {
+    "t": 5.8,
+    "face": {
+      "surprise": 0.000551663442613067,
+      "sad": 0.023942068263491614,
+      "neutral": 0.7836008424314731,
+      "disgust": 1.1976010624306057e-06,
+      "happy": 0.18447475331577773,
+      "angry": 0.002803593274920333,
+      "fear": 0.004625881670661667
+    },
+    "audio": {},
+    "text": " Just say anything.",
+    "spikes": 0,
+    "congruence": 0.4783600842431473
+  },
+  {
+    "t": 5.9,
+    "face": {
+      "surprise": 0.0005481865124197743,
+      "sad": 0.026663692815940436,
+      "neutral": 0.8600830985809844,
+      "disgust": 1.336904983233366e-06,
+      "happy": 0.10497306973174579,
+      "angry": 0.0030508652876295073,
+      "fear": 0.004679750166296804
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 4,
+    "congruence": 0.47800830985809845
+  },
+  {
+    "t": 6.0,
+    "face": {
+      "surprise": 0.0005447095821942584,
+      "sad": 0.02938531739361248,
+      "neutral": 0.9365653554393113,
+      "disgust": 1.4762089053271548e-06,
+      "happy": 0.025471385410915134,
+      "angry": 0.003298137302630327,
+      "fear": 0.0047336186624311796
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 4,
+    "congruence": 0.48565653554393107
+  },
+  {
+    "t": 6.1,
+    "face": {
+      "surprise": 0.008009445357916317,
+      "sad": 0.02645983943300128,
+      "neutral": 0.878845903518984,
+      "disgust": 1.3286762428908746e-06,
+      "happy": 0.07943516217386717,
+      "angry": 0.002984095456867654,
+      "fear": 0.004264225383120777
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 4,
+    "congruence": 0.4798845903518984
+  },
+  {
+    "t": 6.2,
+    "face": {
+      "surprise": 0.015474181037852716,
+      "sad": 0.02353436150992895,
+      "neutral": 0.8211264523392943,
+      "disgust": 1.1811435823476902e-06,
+      "happy": 0.13339893824437346,
+      "angry": 0.0026700536151346766,
+      "fear": 0.003794832109833511
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 4,
+    "congruence": 0.47411264523392943
+  },
+  {
+    "t": 6.3,
+    "face": {
+      "surprise": 0.022938916622003053,
+      "sad": 0.020608883624395793,
+      "neutral": 0.7634070019002497,
+      "disgust": 1.0336109236976166e-06,
+      "happy": 0.18736271362242693,
+      "angry": 0.0023560117774314234,
+      "fear": 0.00332543884256941
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.47634070019002495
+  },
+  {
+    "t": 6.4,
+    "face": {
+      "surprise": 0.03040365211036734,
+      "sad": 0.01768340577640181,
+      "neutral": 0.7056875522018501,
+      "disgust": 8.860782669406539e-07,
+      "happy": 0.24132648830802755,
+      "angry": 0.0020419699437578946,
+      "fear": 0.002856045581328473
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.470568755220185
+  },
+  {
+    "t": 6.5,
+    "face": {
+      "surprise": 0.037868387502945564,
+      "sad": 0.014757927965946997,
+      "neutral": 0.6479681032440953,
+      "disgust": 7.385456120768017e-07,
+      "happy": 0.2952902623011754,
+      "angry": 0.0017279281141140905,
+      "fear": 0.002386652326110701
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.46479681032440956
+  },
+  {
+    "t": 6.6,
+    "face": {
+      "surprise": 0.04533312279973774,
+      "sad": 0.011832450193031353,
+      "neutral": 0.5902486550269853,
+      "disgust": 5.910129591060604e-07,
+      "happy": 0.34925403560187035,
+      "angry": 0.0014138862885000113,
+      "fear": 0.0019172590769160924
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.45902486550269855
+  },
+  {
+    "t": 6.7,
+    "face": {
+      "surprise": 0.05279785800074386,
+      "sad": 0.008906972457654877,
+      "neutral": 0.5325292075505202,
+      "disgust": 4.4348030802842976e-07,
+      "happy": 0.40321780821011266,
+      "angry": 0.0010998444669156563,
+      "fear": 0.0014478658337446484
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.45325292075505197
+  },
+  {
+    "t": 6.8,
+    "face": {
+      "surprise": 0.060262593105963935,
+      "sad": 0.005981494759817572,
+      "neutral": 0.47480976081470017,
+      "disgust": 2.959476588439099e-07,
+      "happy": 0.45718158012590204,
+      "angry": 0.0007858026493610257,
+      "fear": 0.0009784725965963684
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.44748097608146997
+  },
+  {
+    "t": 6.9,
+    "face": {
+      "surprise": 0.06772732811539797,
+      "sad": 0.003056017099519436,
+      "neutral": 0.41709031481952485,
+      "disgust": 1.484150115525006e-07,
+      "happy": 0.5111453513492389,
+      "angry": 0.00047176083583611955,
+      "fear": 0.0005090793654712523
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 6,
+    "congruence": 0.4297090314819525
+  },
+  {
+    "t": 7.0,
+    "face": {
+      "surprise": 0.07519206302904595,
+      "sad": 0.0001305394767604658,
+      "neutral": 0.3593708695649944,
+      "disgust": 8.823661542018375e-10,
+      "happy": 0.5651091218801227,
+      "angry": 0.0001577190263409375,
+      "fear": 3.968614036929982e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 6,
+    "congruence": 0.4239370869564994
+  },
+  {
+    "t": 7.1,
+    "face": {
+      "surprise": 0.0676802169203298,
+      "sad": 0.00011792899341698419,
+      "neutral": 0.34613284573226966,
+      "disgust": 7.941765015237601e-10,
+      "happy": 0.5858912854253525,
+      "angry": 0.00014199497839450208,
+      "fear": 3.572715605997064e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 6,
+    "congruence": 0.422613284573227
+  },
+  {
+    "t": 7.2,
+    "face": {
+      "surprise": 0.060168370748958304,
+      "sad": 0.00010531850996858106,
+      "neutral": 0.33289482178913454,
+      "disgust": 7.059868481232153e-10,
+      "happy": 0.6066734491439171,
+      "angry": 0.00012627093031694357,
+      "fear": 3.17681717176621e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 6,
+    "congruence": 0.42128948217891343
+  },
+  {
+    "t": 7.3,
+    "face": {
+      "surprise": 0.05265652451493273,
+      "sad": 9.270802641499769e-05,
+      "neutral": 0.31965679773558503,
+      "disgust": 6.177971939871072e-10,
+      "happy": 0.6274556130358195,
+      "angry": 0.00011054688210823554,
+      "fear": 2.7809187342332864e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4319656797735585
+  },
+  {
+    "t": 7.4,
+    "face": {
+      "surprise": 0.04514467821825313,
+      "sad": 8.00975427562341e-05,
+      "neutral": 0.30641877357162123,
+      "disgust": 5.296075391154358e-10,
+      "happy": 0.6482377771010596,
+      "angry": 9.4822833768378e-05,
+      "fear": 2.3850202933982935e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.43064187735716214
+  },
+  {
+    "t": 7.5,
+    "face": {
+      "surprise": 0.037632831858919476,
+      "sad": 6.748705899229023e-05,
+      "neutral": 0.29318074929724297,
+      "disgust": 4.41417883508201e-10,
+      "happy": 0.6690199413396374,
+      "angry": 7.909878529737088e-05,
+      "fear": 1.989121849261231e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4293180749297243
+  },
+  {
+    "t": 7.6,
+    "face": {
+      "surprise": 0.03012098543693178,
+      "sad": 5.487657512316614e-05,
+      "neutral": 0.27994272491245037,
+      "disgust": 3.532282271654029e-10,
+      "happy": 0.689802105751553,
+      "angry": 6.33747366952142e-05,
+      "fear": 1.5932234018220982e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.427994272491245
+  },
+  {
+    "t": 7.7,
+    "face": {
+      "surprise": 0.022609138952290036,
+      "sad": 4.226609114886179e-05,
+      "neutral": 0.26670470041724337,
+      "disgust": 2.650385700870414e-10,
+      "happy": 0.7105842703368064,
+      "angry": 4.7650687961907995e-05,
+      "fear": 1.1973249510808967e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4266704700417243
+  },
+  {
+    "t": 7.8,
+    "face": {
+      "surprise": 0.015097292404994246,
+      "sad": 2.9655607069377206e-05,
+      "neutral": 0.253466675811622,
+      "disgust": 1.7684891227311667e-10,
+      "happy": 0.7313664350953977,
+      "angry": 3.192663909745223e-05,
+      "fear": 8.01426497037625e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4253466675811622
+  },
+  {
+    "t": 7.9,
+    "face": {
+      "surprise": 0.007585445795044408,
+      "sad": 1.7045122884712372e-05,
+      "neutral": 0.24022865109558628,
+      "disgust": 8.865925372362848e-11,
+      "happy": 0.7521486000273266,
+      "angry": 1.620259010184691e-05,
+      "fear": 4.055280396922838e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 3,
+    "congruence": 0.4180228651095586
+  },
+  {
+    "t": 8.0,
+    "face": {
+      "surprise": 7.359912244051954e-05,
+      "sad": 4.434638594867287e-06,
+      "neutral": 0.2269906262691362,
+      "disgust": 4.695944385769587e-13,
+      "happy": 0.7729307651325933,
+      "angry": 4.785409750920327e-07,
+      "fear": 9.629579044872808e-08
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 3,
+    "congruence": 0.4166990626269136
+  },
+  {
+    "t": 8.1,
+    "face": {
+      "surprise": 0.00011377679053373165,
+      "sad": 4.82239456286405e-06,
+      "neutral": 0.20444915960957086,
+      "disgust": 4.2280741860689055e-13,
+      "happy": 0.7954317087998859,
+      "angry": 4.42876828284001e-07,
+      "fear": 8.952819565235253e-08
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 3,
+    "congruence": 0.414444915960957
+  },
+  {
+    "t": 8.2,
+    "face": {
+      "surprise": 0.00015395445835970318,
+      "sad": 5.210150528274218e-06,
+      "neutral": 0.18190769310046515,
+      "disgust": 3.760203989600786e-13,
+      "happy": 0.8179326523169882,
+      "angry": 4.0721268171597264e-07,
+      "fear": 8.276060090164106e-08
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 3,
+    "congruence": 0.4121907693100465
+  },
+  {
+    "t": 8.3,
+    "face": {
+      "surprise": 0.00019413212591749506,
+      "sad": 5.597906491096177e-06,
+      "neutral": 0.1593662267418202,
+      "disgust": 3.2923337962556277e-13,
+      "happy": 0.8404335956839003,
+      "angry": 3.715485353859969e-07,
+      "fear": 7.599300619610226e-08
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.415936622674182
+  },
+  {
+    "t": 8.4,
+    "face": {
+      "surprise": 0.0002343097932071073,
+      "sad": 5.985662451329925e-06,
+      "neutral": 0.13682476053363596,
+      "disgust": 2.824463606033429e-13,
+      "happy": 0.8629345389006222,
+      "angry": 3.358843892940737e-07,
+      "fear": 6.922541153573604e-08
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.41368247605336356
+  },
+  {
+    "t": 8.5,
+    "face": {
+      "surprise": 0.0002744874602285399,
+      "sad": 6.373418408975463e-06,
+      "neutral": 0.11428329447591254,
+      "disgust": 2.3565934189341907e-13,
+      "happy": 0.8854354819671539,
+      "angry": 3.002202434402032e-07,
+      "fear": 6.24578169205425e-08
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4114283294475912
+  },
+  {
+    "t": 8.6,
+    "face": {
+      "surprise": 0.000314665126981793,
+      "sad": 6.761174364032791e-06,
+      "neutral": 0.09174182856864983,
+      "disgust": 1.8887232349579118e-13,
+      "happy": 0.9079364248834952,
+      "angry": 2.645560978243852e-07,
+      "fear": 5.5690222350521565e-08
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.409174182856865
+  },
+  {
+    "t": 8.7,
+    "face": {
+      "surprise": 0.00035484279346686645,
+      "sad": 7.14893031650191e-06,
+      "neutral": 0.06920036281184788,
+      "disgust": 1.4208530541045936e-13,
+      "happy": 0.9304373676496464,
+      "angry": 2.2889195244661977e-07,
+      "fear": 4.892262782567328e-08
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4069200362811848
+  },
+  {
+    "t": 8.8,
+    "face": {
+      "surprise": 0.00039502045968376024,
+      "sad": 7.5366862663828175e-06,
+      "neutral": 0.04665889720550667,
+      "disgust": 9.52982876374235e-14,
+      "happy": 0.9529383102656073,
+      "angry": 1.9322780730690693e-07,
+      "fear": 4.2155033345997616e-08
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4046658897205507
+  },
+  {
+    "t": 8.9,
+    "face": {
+      "surprise": 0.0004351981256324744,
+      "sad": 7.924442213675514e-06,
+      "neutral": 0.024117431749626203,
+      "disgust": 4.8511270176683637e-14,
+      "happy": 0.9754392527313779,
+      "angry": 1.5756366240524667e-07,
+      "fear": 3.538743891149458e-08
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 2,
+    "congruence": 0.39841174317496264
+  },
+  {
+    "t": 9.0,
+    "face": {
+      "surprise": 0.00047537579131300893,
+      "sad": 8.312198158380002e-06,
+      "neutral": 0.0015759664442064792,
+      "disgust": 1.724253028239778e-15,
+      "happy": 0.9979401950469582,
+      "angry": 1.2189951774163896e-07,
+      "fear": 2.8619844522164178e-08
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 2,
+    "congruence": 0.39615759664442063
+  },
+  {
+    "t": 9.1,
+    "face": {
+      "surprise": 0.0004285704103870396,
+      "sad": 7.807159229993755e-06,
+      "neutral": 0.005025896525265678,
+      "disgust": 1.6872113099287095e-15,
+      "happy": 0.9945375887499286,
+      "angry": 1.1138317094155192e-07,
+      "fear": 2.577201607727728e-08
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 2,
+    "congruence": 0.39650258965252655
+  },
+  {
+    "t": 9.2,
+    "face": {
+      "surprise": 0.00038176502904595477,
+      "sad": 7.302120297128343e-06,
+      "neutral": 0.008475826636925324,
+      "disgust": 1.6501695912966047e-15,
+      "happy": 0.9911349824227184,
+      "angry": 1.008668240482029e-07,
+      "fear": 2.2924187607134563e-08
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 2,
+    "congruence": 0.39684758266369247
+  },
+  {
+    "t": 9.3,
+    "face": {
+      "surprise": 0.0003349596472897685,
+      "sad": 6.797081359783904e-06,
+      "neutral": 0.011925756779181262,
+      "disgust": 1.6131278723359888e-15,
+      "happy": 0.9877323760653314,
+      "angry": 9.035047706158781e-08,
+      "fear": 2.0076359111735394e-08
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4011925756779181
+  },
+  {
+    "t": 9.4,
+    "face": {
+      "surprise": 0.0002881542651184807,
+      "sad": 6.292042417960443e-06,
+      "neutral": 0.015375686952033497,
+      "disgust": 1.5760861530468623e-15,
+      "happy": 0.984329769677768,
+      "angry": 7.983412998170678e-08,
+      "fear": 1.7228530591079774e-08
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4015375686952033
+  },
+  {
+    "t": 9.5,
+    "face": {
+      "surprise": 0.00024134888253209139,
+      "sad": 5.787003471657957e-06,
+      "neutral": 0.01882561715548202,
+      "disgust": 1.5390444334292246e-15,
+      "happy": 0.9809271632600278,
+      "angry": 6.931778280855971e-08,
+      "fear": 1.4380702045167697e-08
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4018825617155482
+  },
+  {
+    "t": 9.6,
+    "face": {
+      "surprise": 0.0001945434995306006,
+      "sad": 5.281964520876449e-06,
+      "neutral": 0.02227554738952684,
+      "disgust": 1.5020027134830763e-15,
+      "happy": 0.9775245568121113,
+      "angry": 5.8801435542146616e-08,
+      "fear": 1.1532873473999168e-08
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.40222755473895266
+  },
+  {
+    "t": 9.7,
+    "face": {
+      "surprise": 0.0001477381161140083,
+      "sad": 4.776925565615915e-06,
+      "neutral": 0.025725477654167953,
+      "disgust": 1.464960993208417e-15,
+      "happy": 0.9741219503340178,
+      "angry": 4.828508818246751e-08,
+      "fear": 8.685044877574188e-09
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.40257254776541684
+  },
+  {
+    "t": 9.8,
+    "face": {
+      "surprise": 0.00010093273228231447,
+      "sad": 4.271886605876358e-06,
+      "neutral": 0.02917540794940536,
+      "disgust": 1.4279192726052475e-15,
+      "happy": 0.9707193438257481,
+      "angry": 3.776874072952238e-08,
+      "fear": 5.837216255892755e-09
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4029175407949406
+  },
+  {
+    "t": 9.9,
+    "face": {
+      "surprise": 5.412734803551911e-05,
+      "sad": 3.766847641657776e-06,
+      "neutral": 0.03262533827523906,
+      "disgust": 1.3908775516735667e-15,
+      "happy": 0.9673167372873015,
+      "angry": 2.725239318331123e-08,
+      "fear": 2.9893876089548665e-09
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 2,
+    "congruence": 0.39926253382752386
+  },
+  {
+    "t": 10.0,
+    "face": {
+      "surprise": 7.321963373622209e-06,
+      "sad": 3.261808672960171e-06,
+      "neutral": 0.036075268631669065,
+      "disgust": 1.3538358304133752e-15,
+      "happy": 0.9639141307186786,
+      "angry": 1.6736045543834062e-08,
+      "fear": 1.4155893676052488e-10
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 2,
+    "congruence": 0.39960752686316686
+  },
+  {
+    "t": 10.1,
+    "face": {
+      "surprise": 0.0007009098101447506,
+      "sad": 6.737920446113158e-06,
+      "neutral": 0.07652573424608695,
+      "disgust": 5.715163489754571e-12,
+      "happy": 0.9227635153662135,
+      "angry": 1.5645436671608932e-06,
+      "fear": 1.5381077263263692e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 2,
+    "congruence": 0.4036525734246087
+  },
+  {
+    "t": 10.2,
+    "face": {
+      "surprise": 0.0013944976646014916,
+      "sad": 1.0214032257784816e-05,
+      "neutral": 0.11697620030873325,
+      "disgust": 1.1428973206993093e-11,
+      "happy": 0.8816128995577618,
+      "angry": 3.1123513059291125e-06,
+      "fear": 3.0760739107580844e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 2,
+    "congruence": 0.4076976200308733
+  },
+  {
+    "t": 10.3,
+    "face": {
+      "surprise": 0.0020880855267436994,
+      "sad": 1.3690144107974371e-05,
+      "neutral": 0.15742666681960066,
+      "disgust": 1.7142782987544863e-11,
+      "happy": 0.8404622832933308,
+      "angry": 4.660158961848189e-06,
+      "fear": 4.614040112231605e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.41574266668196
+  },
+  {
+    "t": 10.4,
+    "face": {
+      "surprise": 0.0027816733965713757,
+      "sad": 1.7166255996681828e-05,
+      "neutral": 0.19787713377868926,
+      "disgust": 2.285659283140988e-11,
+      "happy": 0.7993116665729203,
+      "angry": 6.2079666349181214e-06,
+      "fear": 6.1520063307469336e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4197877133778689
+  },
+  {
+    "t": 10.5,
+    "face": {
+      "surprise": 0.0034752612740845197,
+      "sad": 2.0642367923907175e-05,
+      "neutral": 0.23832760118599905,
+      "disgust": 2.857040273858815e-11,
+      "happy": 0.7581610493965307,
+      "angry": 7.75577432513891e-06,
+      "fear": 7.689972566304066e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.42383276011859994
+  },
+  {
+    "t": 10.6,
+    "face": {
+      "surprise": 0.004168849159283132,
+      "sad": 2.4118479889650426e-05,
+      "neutral": 0.27877806904152996,
+      "disgust": 3.428421270907967e-11,
+      "happy": 0.7170104317641617,
+      "angry": 9.303582032510557e-06,
+      "fear": 9.227938818903006e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.427877806904153
+  },
+  {
+    "t": 10.7,
+    "face": {
+      "surprise": 0.004862437052167213,
+      "sad": 2.7594591893911576e-05,
+      "neutral": 0.3192285373452821,
+      "disgust": 3.999802274288445e-11,
+      "happy": 0.6758598136758132,
+      "angry": 1.0851389757033061e-05,
+      "fear": 1.0765905088543752e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4319228537345282
+  },
+  {
+    "t": 10.8,
+    "face": {
+      "surprise": 0.0055560249527367616,
+      "sad": 3.107070393669062e-05,
+      "neutral": 0.35967900609725545,
+      "disgust": 4.571183284000247e-11,
+      "happy": 0.6347091951314853,
+      "angry": 1.2399197498706423e-05,
+      "fear": 1.2303871375226305e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.43596790060972557
+  },
+  {
+    "t": 10.9,
+    "face": {
+      "surprise": 0.006249612860991779,
+      "sad": 3.454681601798757e-05,
+      "neutral": 0.40012947529744985,
+      "disgust": 5.142564300043375e-11,
+      "happy": 0.5935585761311781,
+      "angry": 1.3947005257530641e-05,
+      "fear": 1.3841837678950665e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 3,
+    "congruence": 0.43401294752974495
+  },
+  {
+    "t": 11.0,
+    "face": {
+      "surprise": 0.006943200776932265,
+      "sad": 3.8022928137802416e-05,
+      "neutral": 0.4405799449458657,
+      "disgust": 5.7139453224178286e-11,
+      "happy": 0.5524079566748915,
+      "angry": 1.5494813033505718e-05,
+      "fear": 1.5379803999716836e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 3,
+    "congruence": 0.4380579944945865
+  },
+  {
+    "t": 11.1,
+    "face": {
+      "surprise": 0.006334732333905608,
+      "sad": 3.43695297919385e-05,
+      "neutral": 0.4095841068757713,
+      "disgust": 5.149146675233287e-11,
+      "happy": 0.5840185843872,
+      "angry": 1.4353493505712452e-05,
+      "fear": 1.3853328333959807e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 3,
+    "congruence": 0.4349584106875771
+  },
+  {
+    "t": 11.2,
+    "face": {
+      "surprise": 0.005726263908851014,
+      "sad": 3.0716131553983536e-05,
+      "neutral": 0.37858826972118603,
+      "disgust": 4.584348044730969e-11,
+      "happy": 0.6156292111658406,
+      "angry": 1.321217401162978e-05,
+      "fear": 1.2326852713289663e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 3,
+    "congruence": 0.4318588269721186
+  },
+  {
+    "t": 11.3,
+    "face": {
+      "surprise": 0.00511779550176878,
+      "sad": 2.7062733423939175e-05,
+      "neutral": 0.34759243348212626,
+      "disgust": 4.0195494309111344e-11,
+      "happy": 0.6472398370107967,
+      "angry": 1.2070854551258313e-05,
+      "fear": 1.0800377137707096e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4347592433482126
+  },
+  {
+    "t": 11.4,
+    "face": {
+      "surprise": 0.004509327112658906,
+      "sad": 2.3409335401805405e-05,
+      "neutral": 0.316596598158592,
+      "disgust": 3.4547508337737833e-11,
+      "happy": 0.6788504619220681,
+      "angry": 1.0929535124598054e-05,
+      "fear": 9.273901607212115e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4316596598158592
+  },
+  {
+    "t": 11.5,
+    "face": {
+      "surprise": 0.0039008587415213895,
+      "sad": 1.9755937487582213e-05,
+      "neutral": 0.285600763750583,
+      "disgust": 2.8899522533189136e-11,
+      "happy": 0.7104610858996551,
+      "angry": 9.788215731648998e-06,
+      "fear": 7.747426121804707e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.42856007637505833
+  },
+  {
+    "t": 11.6,
+    "face": {
+      "surprise": 0.0032923903883562327,
+      "sad": 1.6102539681269613e-05,
+      "neutral": 0.25460493025809955,
+      "disgust": 2.3251536895465256e-11,
+      "happy": 0.7420717089435575,
+      "angry": 8.646896372411143e-06,
+      "fear": 6.220950681484879e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.42546049302580996
+  },
+  {
+    "t": 11.7,
+    "face": {
+      "surprise": 0.0026839220531634338,
+      "sad": 1.244914198286759e-05,
+      "neutral": 0.22360909768114143,
+      "disgust": 1.7603551424566196e-11,
+      "happy": 0.7736823310537756,
+      "angry": 7.505577046884494e-06,
+      "fear": 4.694475286252626e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.42236090976811413
+  },
+  {
+    "t": 11.8,
+    "face": {
+      "surprise": 0.0020754537359429907,
+      "sad": 8.795744392376137e-06,
+      "neutral": 0.19261326601970857,
+      "disgust": 1.195556612049193e-11,
+      "happy": 0.8052929522303093,
+      "angry": 6.364257755069044e-06,
+      "fear": 3.167999936107945e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4192613266019709
+  },
+  {
+    "t": 11.9,
+    "face": {
+      "surprise": 0.001466985436694904,
+      "sad": 5.1423469097952535e-06,
+      "neutral": 0.16161743527380099,
+      "disgust": 6.307580983242462e-12,
+      "happy": 0.8369035724731587,
+      "angry": 5.222938496964793e-06,
+      "fear": 1.6415246310508344e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 3,
+    "congruence": 0.4101617435273801
+  },
+  {
+    "t": 12.0,
+    "face": {
+      "surprise": 0.000858517155419172,
+      "sad": 1.4889495351249332e-06,
+      "neutral": 0.13062160544341864,
+      "disgust": 6.595960128177798e-13,
+      "happy": 0.8685141917823238,
+      "angry": 4.081619272571739e-06,
+      "fear": 1.1504937108129279e-07
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 3,
+    "congruence": 0.40706216054434186
+  },
+  {
+    "t": 12.1,
+    "face": {
+      "surprise": 0.000968502178200755,
+      "sad": 4.412178524777088e-05,
+      "neutral": 0.13281113282796383,
+      "disgust": 8.499829703291817e-10,
+      "happy": 0.8661701112174366,
+      "angry": 5.458262277153799e-06,
+      "fear": 6.728788909737569e-07
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 3,
+    "congruence": 0.40728111328279637
+  },
+  {
+    "t": 12.2,
+    "face": {
+      "surprise": 0.001078487204181403,
+      "sad": 8.675462220038934e-05,
+      "neutral": 0.13500066027619942,
+      "disgust": 1.6993063693480278e-09,
+      "happy": 0.8638260305843636,
+      "angry": 6.83490532177568e-06,
+      "fear": 1.2307084270910405e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 3,
+    "congruence": 0.4075000660276199
+  },
+  {
+    "t": 12.3,
+    "face": {
+      "surprise": 0.001188472233360924,
+      "sad": 0.00012938746039296798,
+      "neutral": 0.1371901877881166,
+      "disgust": 2.548629793069129e-09,
+      "happy": 0.8614819498831138,
+      "angry": 8.211548406436709e-06,
+      "fear": 1.7885379794325885e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4137190187788117
+  },
+  {
+    "t": 12.4,
+    "face": {
+      "surprise": 0.0012984572657393195,
+      "sad": 0.00017202029982550695,
+      "neutral": 0.1393797153637154,
+      "disgust": 3.3979532414924876e-09,
+      "happy": 0.8591378691136874,
+      "angry": 9.588191531136896e-06,
+      "fear": 2.3463675479984026e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4139379715363715
+  },
+  {
+    "t": 12.5,
+    "face": {
+      "surprise": 0.0014084423013165889,
+      "sad": 0.00021465314049800627,
+      "neutral": 0.1415692430029958,
+      "disgust": 4.247276714618104e-09,
+      "happy": 0.8567937882760842,
+      "angry": 1.0964834695876237e-05,
+      "fear": 2.904197132788483e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4141569243002996
+  },
+  {
+    "t": 12.6,
+    "face": {
+      "surprise": 0.0015184273400927315,
+      "sad": 0.0002572859824104659,
+      "neutral": 0.1437587707059578,
+      "disgust": 5.096600212445977e-09,
+      "happy": 0.8544497073703043,
+      "angry": 1.2341477900654731e-05,
+      "fear": 3.4620267338028296e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.41437587707059576
+  },
+  {
+    "t": 12.7,
+    "face": {
+      "surprise": 0.001628412382067749,
+      "sad": 0.00029991882556288605,
+      "neutral": 0.14594829847260138,
+      "disgust": 5.945923734976113e-09,
+      "happy": 0.8521056263963478,
+      "angry": 1.3718121145472385e-05,
+      "fear": 4.0198563510414445e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.41459482984726015
+  },
+  {
+    "t": 12.8,
+    "face": {
+      "surprise": 0.0017383974272416405,
+      "sad": 0.00034255166995526663,
+      "neutral": 0.14813782630292655,
+      "disgust": 6.795247282208507e-09,
+      "happy": 0.8497615453542143,
+      "angry": 1.5094764430329198e-05,
+      "fear": 4.577685984504327e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4148137826302926
+  },
+  {
+    "t": 12.9,
+    "face": {
+      "surprise": 0.0018483824756144063,
+      "sad": 0.0003851845155876077,
+      "neutral": 0.15032735419693335,
+      "disgust": 7.644570854143165e-09,
+      "happy": 0.8474174642439043,
+      "angry": 1.647140775522518e-05,
+      "fear": 5.13551563419148e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 2,
+    "congruence": 0.4110327354196933
+  },
+  {
+    "t": 13.0,
+    "face": {
+      "surprise": 0.0019583675271860473,
+      "sad": 0.00042781736245990957,
+      "neutral": 0.1525168821546218,
+      "disgust": 8.493894450780086e-09,
+      "happy": 0.8450733830654176,
+      "angry": 1.784805112016032e-05,
+      "fear": 5.693345300102901e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 2,
+    "congruence": 0.4112516882154622
+  },
+  {
+    "t": 13.1,
+    "face": {
+      "surprise": 0.0017633604712273205,
+      "sad": 0.0021311894500349185,
+      "neutral": 0.2348760311998057,
+      "disgust": 1.2893369728541054e-08,
+      "happy": 0.7606614475725538,
+      "angry": 0.000543692358179308,
+      "fear": 2.426605482913854e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 2,
+    "congruence": 0.41948760311998057
+  },
+  {
+    "t": 13.2,
+    "face": {
+      "surprise": 0.001568353419276153,
+      "sad": 0.0038345615026038997,
+      "neutral": 0.3172351785524254,
+      "disgust": 1.7292844915888108e-08,
+      "happy": 0.6762495138144413,
+      "angry": 0.001069536654431824,
+      "fear": 4.283876397648609e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 2,
+    "congruence": 0.42772351785524254
+  },
+  {
+    "t": 13.3,
+    "face": {
+      "surprise": 0.0013733463713326358,
+      "sad": 0.005537933520166353,
+      "neutral": 0.39959432421245666,
+      "disgust": 2.1692320012820184e-08,
+      "happy": 0.5918375817911047,
+      "angry": 0.001595380939877551,
+      "fear": 6.141147274214012e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4399594324212457
+  },
+  {
+    "t": 13.4,
+    "face": {
+      "surprise": 0.0011783393273967688,
+      "sad": 0.007241305502722279,
+      "neutral": 0.48195346817989954,
+      "disgust": 2.6091795019337276e-08,
+      "happy": 0.5074256515025438,
+      "angry": 0.002121225214516489,
+      "fear": 7.998418112610066e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.44819534681799
+  },
+  {
+    "t": 13.5,
+    "face": {
+      "surprise": 0.000983332287468552,
+      "sad": 0.008944677450271677,
+      "neutral": 0.5643126104547541,
+      "disgust": 3.04912699354394e-08,
+      "happy": 0.4230137229487588,
+      "angry": 0.0026470694783486373,
+      "fear": 9.85568891283677e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4564312610454754
+  },
+  {
+    "t": 13.6,
+    "face": {
+      "surprise": 0.0007883252515479854,
+      "sad": 0.010648049362814554,
+      "neutral": 0.6466717510370203,
+      "disgust": 3.489074476112654e-08,
+      "happy": 0.33860179612974944,
+      "angry": 0.0031729137313739977,
+      "fear": 0.00011712959674894126
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.46466717510370203
+  },
+  {
+    "t": 13.7,
+    "face": {
+      "surprise": 0.0005933182196350688,
+      "sad": 0.012351421240350904,
+      "neutral": 0.7290308899266984,
+      "disgust": 3.929021949639872e-08,
+      "happy": 0.25418987104551566,
+      "angry": 0.00369875797359257,
+      "fear": 0.00013570230398782135
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4729030889926698
+  },
+  {
+    "t": 13.8,
+    "face": {
+      "surprise": 0.0003983111917298022,
+      "sad": 0.014054793082880733,
+      "neutral": 0.8113900271237884,
+      "disgust": 4.368969414125593e-08,
+      "happy": 0.16977794769605759,
+      "angry": 0.004224602205004355,
+      "fear": 0.00015427501084500802
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.48113900271237886
+  },
+  {
+    "t": 13.9,
+    "face": {
+      "surprise": 0.00020330416783218531,
+      "sad": 0.01575816489040404,
+      "neutral": 0.8937491626282902,
+      "disgust": 4.808916869569817e-08,
+      "happy": 0.08536602608137503,
+      "angry": 0.004750446425609352,
+      "fear": 0.0001728477173205012
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 4,
+    "congruence": 0.481374916262829
+  },
+  {
+    "t": 14.0,
+    "face": {
+      "surprise": 8.297147942218008e-06,
+      "sad": 0.017461536662920826,
+      "neutral": 0.9761082964402039,
+      "disgust": 5.2488643159725456e-08,
+      "happy": 0.0009541062014679895,
+      "angry": 0.005276290635407562,
+      "fear": 0.00019142042341430097
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 4,
+    "congruence": 0.48961082964402036
+  },
+  {
+    "t": 14.1,
+    "face": {
+      "surprise": 0.0003085293234548992,
+      "sad": 0.015717904837778657,
+      "neutral": 0.9136828594604065,
+      "disgust": 4.72502221008078e-08,
+      "happy": 0.06536416410874446,
+      "angry": 0.004753773146495462,
+      "fear": 0.00017272187289788115
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 4,
+    "congruence": 0.48336828594604064
+  },
+  {
+    "t": 14.2,
+    "face": {
+      "surprise": 0.0006087614985100697,
+      "sad": 0.013974273015293345,
+      "neutral": 0.8512574225757223,
+      "disgust": 4.201180104987244e-08,
+      "happy": 0.12977422191788363,
+      "angry": 0.004231255658379542,
+      "fear": 0.0001540233224099531
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 4,
+    "congruence": 0.4771257422575722
+  },
+  {
+    "t": 14.3,
+    "face": {
+      "surprise": 0.0009089936731075623,
+      "sad": 0.012230641195466048,
+      "neutral": 0.7888319857862004,
+      "disgust": 3.6773380006922585e-08,
+      "happy": 0.19418427962883522,
+      "angry": 0.0037087381710601544,
+      "fear": 0.00013532477195052936
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.47888319857862005
+  },
+  {
+    "t": 14.4,
+    "face": {
+      "surprise": 0.001209225847247377,
+      "sad": 0.010487009378296767,
+      "neutral": 0.7264065490918407,
+      "disgust": 3.153495897195825e-08,
+      "happy": 0.2585943372415993,
+      "angry": 0.0031862206845372993,
+      "fear": 0.00011662622151960997
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.47264065490918405
+  },
+  {
+    "t": 14.5,
+    "face": {
+      "surprise": 0.0015094580209295142,
+      "sad": 0.008743377563785504,
+      "neutral": 0.663981112492643,
+      "disgust": 2.629653794497943e-08,
+      "happy": 0.3230043947561758,
+      "angry": 0.002663703198810978,
+      "fear": 9.792767111719488e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.46639811124926434
+  },
+  {
+    "t": 14.6,
+    "face": {
+      "surprise": 0.001809690194153973,
+      "sad": 0.0069997457519322525,
+      "neutral": 0.6015556759886075,
+      "disgust": 2.105811692598613e-08,
+      "happy": 0.38741445217256487,
+      "angry": 0.0021411857138811875,
+      "fear": 7.922912074328409e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4601555675988608
+  },
+  {
+    "t": 14.7,
+    "face": {
+      "surprise": 0.002109922366920754,
+      "sad": 0.005256113942737017,
+      "neutral": 0.539130239579734,
+      "disgust": 1.581969591497834e-08,
+      "happy": 0.45182450949076636,
+      "angry": 0.00161866822974793,
+      "fear": 6.053057039787763e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4539130239579734
+  },
+  {
+    "t": 14.8,
+    "face": {
+      "surprise": 0.002410154539229857,
+      "sad": 0.0035124821361997953,
+      "neutral": 0.476704803266023,
+      "disgust": 1.0581274911956076e-08,
+      "happy": 0.5162345667107803,
+      "angry": 0.001096150746411205,
+      "fear": 4.183202008097547e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4476704803266023
+  },
+  {
+    "t": 14.9,
+    "face": {
+      "surprise": 0.0027103867110812824,
+      "sad": 0.0017688503323205907,
+      "neutral": 0.414279367047474,
+      "disgust": 5.342853916919328e-09,
+      "happy": 0.5806446238326066,
+      "angry": 0.0005736332638710126,
+      "fear": 2.313346979257765e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 5,
+    "congruence": 0.43142793670474733
+  },
+  {
+    "t": 15.0,
+    "face": {
+      "surprise": 0.0030106188824750306,
+      "sad": 2.5218531099400957e-05,
+      "neutral": 0.35185393092408707,
+      "disgust": 1.0443292986809754e-10,
+      "happy": 0.6450546808562455,
+      "angry": 5.1115782127352874e-05,
+      "fear": 4.434919532684135e-06
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 5,
+    "congruence": 0.42518539309240866
+  },
+  {
+    "t": 15.1,
+    "face": {
+      "surprise": 0.004426964057818657,
+      "sad": 0.00011983486386382855,
+      "neutral": 0.37472943873385517,
+      "disgust": 7.958349154975239e-09,
+      "happy": 0.6205486374330377,
+      "angry": 9.433813057238007e-05,
+      "fear": 8.077882250306792e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 5,
+    "congruence": 0.4274729438733855
+  },
+  {
+    "t": 15.2,
+    "face": {
+      "surprise": 0.005843309242474169,
+      "sad": 0.00021445119725097732,
+      "neutral": 0.39760494669404534,
+      "disgust": 1.58122654317212e-08,
+      "happy": 0.5960425938486869,
+      "angry": 0.00013756047930177465,
+      "fear": 0.00015712272597539432
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 5,
+    "congruence": 0.42976049466940447
+  },
+  {
+    "t": 15.3,
+    "face": {
+      "surprise": 0.007259654436441145,
+      "sad": 0.0003090675312601615,
+      "neutral": 0.4204804548046258,
+      "disgust": 2.366618176010111e-08,
+      "happy": 0.5715365501032261,
+      "angry": 0.0001807828283153256,
+      "fear": 0.00023346662994962783
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4420480454804626
+  },
+  {
+    "t": 15.4,
+    "face": {
+      "surprise": 0.008675999639719593,
+      "sad": 0.00040368386589138117,
+      "neutral": 0.4433559630655966,
+      "disgust": 3.1520098140114964e-08,
+      "happy": 0.5470305061966555,
+      "angry": 0.00022400517761303294,
+      "fear": 0.0003098105344257685
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.44433559630655967
+  },
+  {
+    "t": 15.5,
+    "face": {
+      "surprise": 0.010092344852309504,
+      "sad": 0.0004983002011446362,
+      "neutral": 0.4662314714769576,
+      "disgust": 3.937401457176275e-08,
+      "happy": 0.522524462128975,
+      "angry": 0.0002672275271948966,
+      "fear": 0.0003861544394038163
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4466231471476958
+  },
+  {
+    "t": 15.6,
+    "face": {
+      "surprise": 0.011508690074210888,
+      "sad": 0.0005929165370199269,
+      "neutral": 0.48910698003870895,
+      "disgust": 4.7227931055044495e-08,
+      "happy": 0.49801841790018453,
+      "angry": 0.00031044987706091665,
+      "fear": 0.0004624983448837713
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4489106980038709
+  },
+  {
+    "t": 15.7,
+    "face": {
+      "surprise": 0.012925035305423733,
+      "sad": 0.0006875328735172528,
+      "neutral": 0.5119824887508505,
+      "disgust": 5.508184758996017e-08,
+      "happy": 0.4735123735102842,
+      "angry": 0.00035367222721109306,
+      "fear": 0.0005388422508656334
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4511982488750851
+  },
+  {
+    "t": 15.8,
+    "face": {
+      "surprise": 0.01434138054594805,
+      "sad": 0.0007821492106366143,
+      "neutral": 0.5348579976133824,
+      "disgust": 6.293576417650979e-08,
+      "happy": 0.44900632895927395,
+      "angry": 0.0003968945776454257,
+      "fear": 0.0006151861573494027
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4534857997613382
+  },
+  {
+    "t": 15.9,
+    "face": {
+      "surprise": 0.015757725795783835,
+      "sad": 0.0008767655483780112,
+      "neutral": 0.5577335066263046,
+      "disgust": 7.078968081469335e-08,
+      "happy": 0.4245002842471537,
+      "angry": 0.0004401169283639149,
+      "fear": 0.0006915300643350791
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 3,
+    "congruence": 0.44977335066263047
+  },
+  {
+    "t": 16.0,
+    "face": {
+      "surprise": 0.017174071054931087,
+      "sad": 0.0009713818867414436,
+      "neutral": 0.580609015789617,
+      "disgust": 7.864359750451086e-08,
+      "happy": 0.39999423937392375,
+      "angry": 0.0004833392793665604,
+      "fear": 0.0007678739718226628
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 3,
+    "congruence": 0.45206090157896167
+  },
+  {
+    "t": 16.1,
+    "face": {
+      "surprise": 0.015458645896290004,
+      "sad": 0.004836084543846603,
+      "neutral": 0.6170644082079131,
+      "disgust": 8.944970298120781e-08,
+      "happy": 0.3602339631053291,
+      "angry": 0.0015368410722316403,
+      "fear": 0.0008699677246865128
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 3,
+    "congruence": 0.45570644082079126
+  },
+  {
+    "t": 16.2,
+    "face": {
+      "surprise": 0.01374322075036372,
+      "sad": 0.008700787172305095,
+      "neutral": 0.6535198003559788,
+      "disgust": 1.0025580837780263e-07,
+      "happy": 0.32047368713146274,
+      "angry": 0.0025903428572877515,
+      "fear": 0.0009720614767935743
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 3,
+    "congruence": 0.45935198003559785
+  },
+  {
+    "t": 16.3,
+    "face": {
+      "surprise": 0.012027795617153541,
+      "sad": 0.012565489772115314,
+      "neutral": 0.6899751922338079,
+      "disgust": 1.1106191369429392e-07,
+      "happy": 0.2807134114523313,
+      "angry": 0.003643844634534462,
+      "fear": 0.001074155228143835
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4689975192233808
+  },
+  {
+    "t": 16.4,
+    "face": {
+      "surprise": 0.01031237049665947,
+      "sad": 0.016430192343277257,
+      "neutral": 0.7264305838414004,
+      "disgust": 1.2186801893068171e-07,
+      "happy": 0.24095313606793498,
+      "angry": 0.004697346403971773,
+      "fear": 0.001176248978737295
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.47264305838414
+  },
+  {
+    "t": 16.5,
+    "face": {
+      "surprise": 0.008596945388881502,
+      "sad": 0.020294894885790924,
+      "neutral": 0.7628859751787562,
+      "disgust": 1.3267412408696595e-07,
+      "happy": 0.20119286097827366,
+      "angry": 0.0057508481655996835,
+      "fear": 0.001278342728573954
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4762885975178756
+  },
+  {
+    "t": 16.6,
+    "face": {
+      "surprise": 0.006881520293819644,
+      "sad": 0.02415959739965632,
+      "neutral": 0.7993413662458755,
+      "disgust": 1.434802291631467e-07,
+      "happy": 0.16143258618334735,
+      "angry": 0.006804349919418196,
+      "fear": 0.0013804364776538128
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.47993413662458756
+  },
+  {
+    "t": 16.7,
+    "face": {
+      "surprise": 0.00516609521147389,
+      "sad": 0.028024299884873437,
+      "neutral": 0.8357967570427582,
+      "disgust": 1.5428633415922388e-07,
+      "happy": 0.12167231168315612,
+      "angry": 0.007857851665427306,
+      "fear": 0.0014825302259768704
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4835796757042758
+  },
+  {
+    "t": 16.8,
+    "face": {
+      "surprise": 0.003450670141844243,
+      "sad": 0.031889002341442284,
+      "neutral": 0.8722521475694043,
+      "disgust": 1.6509243907519764e-07,
+      "happy": 0.08191203747769991,
+      "angry": 0.00891135340362702,
+      "fear": 0.0015846239735431273
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4872252147569404
+  },
+  {
+    "t": 16.9,
+    "face": {
+      "surprise": 0.0017352450849307023,
+      "sad": 0.03575370476936286,
+      "neutral": 0.9087075378258138,
+      "disgust": 1.758985439110678e-07,
+      "happy": 0.04215176356697875,
+      "angry": 0.009964855134017332,
+      "fear": 0.0016867177203525837
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 5,
+    "congruence": 0.4808707537825814
+  },
+  {
+    "t": 17.0,
+    "face": {
+      "surprise": 1.9820040733267274e-05,
+      "sad": 0.039618407168635156,
+      "neutral": 0.9451629278119869,
+      "disgust": 1.867046486668345e-07,
+      "happy": 0.0023914899509926064,
+      "angry": 0.011018356856598244,
+      "fear": 0.0017888114664052395
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 5,
+    "congruence": 0.4845162927811987
+  },
+  {
+    "t": 17.1,
+    "face": {
+      "surprise": 1.7838540548226163e-05,
+      "sad": 0.0387846587487768,
+      "neutral": 0.9465925954776833,
+      "disgust": 1.6806407568298124e-07,
+      "happy": 0.0021523741729743214,
+      "angry": 0.010814017991708953,
+      "fear": 0.0016383470042328362
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 5,
+    "congruence": 0.48465925954776834
+  },
+  {
+    "t": 17.2,
+    "face": {
+      "surprise": 1.5857040350658386e-05,
+      "sad": 0.03795091032344139,
+      "neutral": 0.9480222631527591,
+      "disgust": 1.4942350257669632e-07,
+      "happy": 0.0019132583933968589,
+      "angry": 0.010609679125477294,
+      "fear": 0.0014878825410721745
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 5,
+    "congruence": 0.4848022263152759
+  },
+  {
+    "t": 17.3,
+    "face": {
+      "surprise": 1.387554014007697e-05,
+      "sad": 0.03711716189263028,
+      "neutral": 0.9494519308372243,
+      "disgust": 1.3078292934798808e-07,
+      "happy": 0.001674142612248986,
+      "angry": 0.010405340257903625,
+      "fear": 0.001337418076923327
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4949451930837224
+  },
+  {
+    "t": 17.4,
+    "face": {
+      "surprise": 1.1894039916481909e-05,
+      "sad": 0.03628341345634348,
+      "neutral": 0.9508815985310791,
+      "disgust": 1.1214235599685654e-07,
+      "happy": 0.001435026829530704,
+      "angry": 0.010201001388987947,
+      "fear": 0.0011869536117862934
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.49508815985310795
+  },
+  {
+    "t": 17.5,
+    "face": {
+      "surprise": 9.9125396798732e-06,
+      "sad": 0.03544966501458095,
+      "neutral": 0.9523112662343233,
+      "disgust": 9.350178252330167e-08,
+      "happy": 0.0011959110452420105,
+      "angry": 0.009996662518730257,
+      "fear": 0.0010364891456610733
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4952311266234323
+  },
+  {
+    "t": 17.6,
+    "face": {
+      "surprise": 7.931039430250844e-06,
+      "sad": 0.03461591656734274,
+      "neutral": 0.9537409339469569,
+      "disgust": 7.486120892732349e-08,
+      "happy": 0.0009567952593829075,
+      "angry": 0.009792323647130554,
+      "fear": 0.0008860246785476671
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4953740933946957
+  },
+  {
+    "t": 17.7,
+    "face": {
+      "surprise": 5.949539167614846e-06,
+      "sad": 0.033782168114628815,
+      "neutral": 0.95517060166898,
+      "disgust": 5.622063520892202e-08,
+      "happy": 0.0007176794719533943,
+      "angry": 0.009587984774188846,
+      "fear": 0.0007355602104460747
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.495517060166898
+  },
+  {
+    "t": 17.8,
+    "face": {
+      "surprise": 3.9680388919652005e-06,
+      "sad": 0.032948419656439194,
+      "neutral": 0.9566002694003926,
+      "disgust": 3.758006136809723e-08,
+      "happy": 0.0004785636829534709,
+      "angry": 0.009383645899905126,
+      "fear": 0.0005850957413562961
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.49566002694003924
+  },
+  {
+    "t": 17.9,
+    "face": {
+      "surprise": 1.9865386033019087e-06,
+      "sad": 0.03211467119277387,
+      "neutral": 0.9580299371411947,
+      "disgust": 1.893948740484912e-08,
+      "happy": 0.0002394478923831372,
+      "angry": 0.009179307024279394,
+      "fear": 0.00043463127127833117
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 4,
+    "congruence": 0.48780299371411945
+  },
+  {
+    "t": 18.0,
+    "face": {
+      "surprise": 5.038301624971038e-09,
+      "sad": 0.03128092272363284,
+      "neutral": 0.9594596048913859,
+      "disgust": 2.9891331917769744e-10,
+      "happy": 3.3210024239335024e-07,
+      "angry": 0.008974968147311652,
+      "fear": 0.0002841668002121799
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 4,
+    "congruence": 0.48794596048913863
+  },
+  {
+    "t": 18.1,
+    "face": {
+      "surprise": 1.6215247820091073e-06,
+      "sad": 0.028659149772739024,
+      "neutral": 0.9628796846757102,
+      "disgust": 5.866730178603078e-10,
+      "happy": 4.111219132998795e-06,
+      "angry": 0.00819367971464852,
+      "fear": 0.00026175250631421687
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 4,
+    "congruence": 0.488287968467571
+  },
+  {
+    "t": 18.2,
+    "face": {
+      "surprise": 3.238011280322013e-06,
+      "sad": 0.026037376792767197,
+      "neutral": 0.9662997644979664,
+      "disgust": 8.744327197371167e-10,
+      "happy": 7.890338065552515e-06,
+      "angry": 0.007412391273320129,
+      "fear": 0.00023933821216767784
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 4,
+    "congruence": 0.48862997644979667
+  },
+  {
+    "t": 18.3,
+    "face": {
+      "surprise": 4.8544977965631786e-06,
+      "sad": 0.02341560378371759,
+      "neutral": 0.9697198443581543,
+      "disgust": 1.1621924248054341e-09,
+      "happy": 1.166945704001999e-05,
+      "angry": 0.00663110282332656,
+      "fear": 0.00021692391777254448
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4969719844358154
+  },
+  {
+    "t": 18.4,
+    "face": {
+      "surprise": 6.470984330732601e-06,
+      "sad": 0.02079383074559022,
+      "neutral": 0.9731399242562739,
+      "disgust": 1.44995213306526e-09,
+      "happy": 1.5448576056401224e-05,
+      "angry": 0.005849814364667816,
+      "fear": 0.00019450962312881693
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4973139924256274
+  },
+  {
+    "t": 18.5,
+    "face": {
+      "surprise": 8.087470882830286e-06,
+      "sad": 0.018172057678385072,
+      "neutral": 0.9765600041923252,
+      "disgust": 1.7377118445165947e-09,
+      "happy": 1.9227695114696215e-05,
+      "angry": 0.0050685258973438944,
+      "fear": 0.00017209532823649507
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4976560004192325
+  },
+  {
+    "t": 18.6,
+    "face": {
+      "surprise": 9.703957452856227e-06,
+      "sad": 0.015550284582102152,
+      "neutral": 0.9799800841663081,
+      "disgust": 2.0254715591594376e-09,
+      "happy": 2.3006814214904964e-05,
+      "angry": 0.004287237421354794,
+      "fear": 0.0001496810330955789
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4979980084166308
+  },
+  {
+    "t": 18.7,
+    "face": {
+      "surprise": 1.1320444040810432e-05,
+      "sad": 0.01292851145674146,
+      "neutral": 0.9834001641782228,
+      "disgust": 2.3132312769937893e-09,
+      "happy": 2.6785933357027475e-05,
+      "angry": 0.003505948936700518,
+      "fear": 0.00012726673770606853
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4983400164178223
+  },
+  {
+    "t": 18.8,
+    "face": {
+      "surprise": 1.2936930646692891e-05,
+      "sad": 0.010306738302302994,
+      "neutral": 0.9868202442280692,
+      "disgust": 2.6009909980196494e-09,
+      "happy": 3.056505254106374e-05,
+      "angry": 0.0027246604433810635,
+      "fear": 0.00010485244206796382
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4986820244228069
+  },
+  {
+    "t": 18.9,
+    "face": {
+      "surprise": 1.4553417270503617e-05,
+      "sad": 0.007684965118786756,
+      "neutral": 0.9902403243158473,
+      "disgust": 2.8887507222370193e-09,
+      "happy": 3.4344171767013775e-05,
+      "angry": 0.0019433719413964319,
+      "fear": 8.243814618126489e-05
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 3,
+    "congruence": 0.4930240324315847
+  },
+  {
+    "t": 19.0,
+    "face": {
+      "angry": 0.0011620834307466224,
+      "disgust": 3.176510449645897e-09,
+      "fear": 6.002385004597161e-05,
+      "happy": 3.812329103487757e-05,
+      "sad": 0.005063191906192742,
+      "surprise": 1.61699039122426e-05,
+      "neutral": 0.9936604044415571
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 3,
+    "congruence": 0.49336604044415566
+  },
+  {
+    "t": 19.1,
+    "face": {
+      "surprise": 0.009918360945546626,
+      "sad": 0.010643286768769506,
+      "neutral": 0.9465720284426931,
+      "disgust": 6.6241565703930655e-06,
+      "happy": 0.02805017739667842,
+      "angry": 0.003553919180370516,
+      "fear": 0.00125560310937146
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 3,
+    "congruence": 0.4886572028442693
+  },
+  {
+    "t": 19.2,
+    "face": {
+      "surprise": 0.01982055177816503,
+      "sad": 0.01622338151356133,
+      "neutral": 0.899483653437773,
+      "disgust": 1.3245136490580481e-05,
+      "happy": 0.05606223091104201,
+      "angry": 0.0059457548795074115,
+      "fear": 0.0024511823434605973
+    },
+    "audio": {},
+    "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+    "spikes": 0,
+    "congruence": 0.4899483653437773
+  },
+  {
+    "t": 19.3,
+    "face": {
+      "surprise": 0.02972274240176746,
+      "sad": 0.021803476140568212,
+      "neutral": 0.8523952794267969,
+      "disgust": 1.9866116271011898e-05,
+      "happy": 0.08407428383412567,
+      "angry": 0.00833759052815731,
+      "fear": 0.0036467615523133835
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.48523952794267966
+  },
+  {
+    "t": 19.4,
+    "face": {
+      "surprise": 0.03962493281635392,
+      "sad": 0.02738357064979016,
+      "neutral": 0.8053069064097648,
+      "disgust": 2.648709591168732e-05,
+      "happy": 0.11208633616592943,
+      "angry": 0.010729426126320215,
+      "fear": 0.00484234073592982
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4805306906409765
+  },
+  {
+    "t": 19.5,
+    "face": {
+      "surprise": 0.049527123021924406,
+      "sad": 0.03296366504122717,
+      "neutral": 0.7582185343866764,
+      "disgust": 3.3108075412606744e-05,
+      "happy": 0.14009838790645326,
+      "angry": 0.013121261673996123,
+      "fear": 0.006037919894309908
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4758218534386677
+  },
+  {
+    "t": 19.6,
+    "face": {
+      "surprise": 0.05942931301847895,
+      "sad": 0.038543759314879265,
+      "neutral": 0.7111301633575321,
+      "disgust": 3.9729054773770194e-05,
+      "happy": 0.16811043905569728,
+      "angry": 0.015513097171185047,
+      "fear": 0.007233499027453647
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4711130163357532
+  },
+  {
+    "t": 19.7,
+    "face": {
+      "surprise": 0.06933150280601756,
+      "sad": 0.04412385347074644,
+      "neutral": 0.6640417933223314,
+      "disgust": 4.635003399517767e-05,
+      "happy": 0.1961224896136614,
+      "angry": 0.01790493261788698,
+      "fear": 0.008429078135361041
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.46640417933223316
+  },
+  {
+    "t": 19.8,
+    "face": {
+      "surprise": 0.0792336923845402,
+      "sad": 0.049703947508828665,
+      "neutral": 0.6169534242810746,
+      "disgust": 5.297101307682915e-05,
+      "happy": 0.22413453958034574,
+      "angry": 0.02029676801410192,
+      "fear": 0.009624657218032085
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 6,
+    "congruence": 0.4496953424281074
+  },
+  {
+    "t": 19.9,
+    "face": {
+      "surprise": 0.08913588175404691,
+      "sad": 0.055284041429126,
+      "neutral": 0.5698650562337615,
+      "disgust": 5.959199201872466e-05,
+      "happy": 0.2521465889557502,
+      "angry": 0.022688603359829872,
+      "fear": 0.010820236275466785
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 6,
+    "congruence": 0.4449865056233761
+  },
+  {
+    "t": 20.0,
+    "face": {
+      "surprise": 0.09903807091453488,
+      "sad": 0.06086413523163684,
+      "neutral": 0.5227766891804054,
+      "disgust": 6.621297082086232e-05,
+      "happy": 0.280158637739867,
+      "angry": 0.02508043865507016,
+      "fear": 0.012015815307664802
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 6,
+    "congruence": 0.44027766891804054
+  },
+  {
+    "t": 20.1,
+    "face": {
+      "surprise": 0.08917438401055434,
+      "sad": 0.05542238865233732,
+      "neutral": 0.5693929196310251,
+      "disgust": 5.960159089559703e-05,
+      "happy": 0.2524553425746802,
+      "angry": 0.02265187408095311,
+      "fear": 0.010843489459554281
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 6,
+    "congruence": 0.44493929196310256
+  },
+  {
+    "t": 20.2,
+    "face": {
+      "surprise": 0.07931069686970936,
+      "sad": 0.04998064194236086,
+      "neutral": 0.6160091512010768,
+      "disgust": 5.29902108115675e-05,
+      "happy": 0.22475204674423266,
+      "angry": 0.020223309448517045,
+      "fear": 0.009671163583291783
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4616009151201077
+  },
+  {
+    "t": 20.3,
+    "face": {
+      "surprise": 0.06944700949199993,
+      "sad": 0.04453889510170749,
+      "neutral": 0.6626253838905605,
+      "disgust": 4.637883056877371e-05,
+      "happy": 0.19704875024852406,
+      "angry": 0.01779474475776195,
+      "fear": 0.008498837678877304
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.46626253838905607
+  },
+  {
+    "t": 20.4,
+    "face": {
+      "surprise": 0.059583321877426064,
+      "sad": 0.039097148130377186,
+      "neutral": 0.7092416176994762,
+      "disgust": 3.976745016721568e-05,
+      "happy": 0.16934545308755458,
+      "angry": 0.015366180008687835,
+      "fear": 0.007326511746310845
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.47092416176994767
+  },
+  {
+    "t": 20.5,
+    "face": {
+      "surprise": 0.04971963402598773,
+      "sad": 0.033655401028369954,
+      "neutral": 0.7558578526278242,
+      "disgust": 3.3156069606893395e-05,
+      "happy": 0.14164215526132407,
+      "angry": 0.01293761520129469,
+      "fear": 0.006154185785592406
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4755857852627824
+  },
+  {
+    "t": 20.6,
+    "face": {
+      "surprise": 0.03985594593768494,
+      "sad": 0.028213653795685783,
+      "neutral": 0.8024740886756044,
+      "disgust": 2.6544688887806844e-05,
+      "happy": 0.11393885676983259,
+      "angry": 0.010509050335582516,
+      "fear": 0.0049818597967219835
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.48024740886756045
+  },
+  {
+    "t": 20.7,
+    "face": {
+      "surprise": 0.029992257612517673,
+      "sad": 0.02277190643232467,
+      "neutral": 0.8490903258428169,
+      "disgust": 1.9933308009956025e-05,
+      "happy": 0.08623555761308005,
+      "angry": 0.008080485411551307,
+      "fear": 0.003809533779699579
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.48490903258428164
+  },
+  {
+    "t": 20.8,
+    "face": {
+      "surprise": 0.02012856905048591,
+      "sad": 0.017330158938286603,
+      "neutral": 0.8957065641294615,
+      "disgust": 1.332192697334093e-05,
+      "happy": 0.05853225779106648,
+      "angry": 0.005651920429201066,
+      "fear": 0.00263720773452519
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 6,
+    "congruence": 0.47757065641294616
+  },
+  {
+    "t": 20.9,
+    "face": {
+      "surprise": 0.010264880251589665,
+      "sad": 0.011888411313571587,
+      "neutral": 0.9423228035355383,
+      "disgust": 6.710545777961554e-06,
+      "happy": 0.03082895730379184,
+      "angry": 0.0032233553885317877,
+      "fear": 0.0014648816611988159
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 6,
+    "congruence": 0.4822322803535538
+  },
+  {
+    "t": 21.0,
+    "face": {
+      "surprise": 0.0004011912158317086,
+      "sad": 0.006446663558183165,
+      "neutral": 0.9889390440610311,
+      "disgust": 9.916442381977524e-08,
+      "happy": 0.003125656151263883,
+      "angry": 0.0007947902895455124,
+      "fear": 0.0002925555597208153
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 6,
+    "congruence": 0.4868939044061031
+  },
+  {
+    "t": 21.1,
+    "face": {
+      "surprise": 0.0003610929282644067,
+      "sad": 0.01349368707122398,
+      "neutral": 0.9773920451911565,
+      "disgust": 1.0799265839938344e-07,
+      "happy": 0.002819545930162754,
+      "angry": 0.0055483207668862704,
+      "fear": 0.0003852001196476011
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 6,
+    "congruence": 0.4857392045191157
+  },
+  {
+    "t": 21.2,
+    "face": {
+      "surprise": 0.0003209946414094906,
+      "sad": 0.020540710459067454,
+      "neutral": 0.965845046526426,
+      "disgust": 1.1682089282214932e-07,
+      "happy": 0.0025134357144999757,
+      "angry": 0.010301851159775862,
+      "fear": 0.0004778446779284647
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4965845046526426
+  },
+  {
+    "t": 21.3,
+    "face": {
+      "surprise": 0.0002808963552669601,
+      "sad": 0.027587733721713595,
+      "neutral": 0.954298048066839,
+      "disgust": 1.256491270880729e-07,
+      "happy": 0.0022073255042755475,
+      "angry": 0.015055381468214286,
+      "fear": 0.0005704892345634061
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.49542980480668386
+  },
+  {
+    "t": 21.4,
+    "face": {
+      "surprise": 0.00024079806983681536,
+      "sad": 0.034634756859162404,
+      "neutral": 0.9427510498123962,
+      "disgust": 1.3447736119715415e-07,
+      "happy": 0.0019012152994894698,
+      "angry": 0.019808911692201548,
+      "fear": 0.0006631337895524257
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4942751049812396
+  },
+  {
+    "t": 21.5,
+    "face": {
+      "surprise": 0.0002006997851190562,
+      "sad": 0.041681779871413874,
+      "neutral": 0.931204051763097,
+      "disgust": 1.433055951493931e-07,
+      "happy": 0.0015951051001417426,
+      "angry": 0.02456244183173765,
+      "fear": 0.0007557783428955228
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.49312040517630973
+  },
+  {
+    "t": 21.6,
+    "face": {
+      "surprise": 0.00016060150111368277,
+      "sad": 0.04872880275846803,
+      "neutral": 0.9196570539189417,
+      "disgust": 1.5213382894478978e-07,
+      "happy": 0.0012889949062323657,
+      "angry": 0.02931597188682259,
+      "fear": 0.0008484228945926982
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.49196570539189416
+  },
+  {
+    "t": 21.7,
+    "face": {
+      "surprise": 0.00012050321782069493,
+      "sad": 0.05577582552032487,
+      "neutral": 0.9081100562799301,
+      "disgust": 1.6096206258334417e-07,
+      "happy": 0.0009828847177613383,
+      "angry": 0.03406950185745638,
+      "fear": 0.0009410674446439515
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.490811005627993
+  },
+  {
+    "t": 21.8,
+    "face": {
+      "surprise": 8.04049352400927e-05,
+      "sad": 0.06282284815698438,
+      "neutral": 0.8965630588460625,
+      "disgust": 1.697902960650562e-07,
+      "happy": 0.0006767745347286608,
+      "angry": 0.03882303174363901,
+      "fear": 0.001033711993049283
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 4,
+    "congruence": 0.48165630588460623
+  },
+  {
+    "t": 21.9,
+    "face": {
+      "surprise": 4.030665337187603e-05,
+      "sad": 0.06986987066844658,
+      "neutral": 0.8850160616173387,
+      "disgust": 1.78618529389926e-07,
+      "happy": 0.00037066435713433305,
+      "angry": 0.04357656154537049,
+      "fear": 0.0011263565398086926
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 4,
+    "congruence": 0.4805016061617339
+  },
+  {
+    "t": 22.0,
+    "face": {
+      "surprise": 2.0837221606202115e-07,
+      "sad": 0.07691689305470685,
+      "neutral": 0.8734690645937669,
+      "disgust": 1.8744676255794183e-07,
+      "happy": 6.455418497848283e-05,
+      "angry": 0.048330091262647035,
+      "fear": 0.001219001084922095
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 4,
+    "congruence": 0.47934690645937666
+  },
+  {
+    "t": 22.1,
+    "face": {
+      "surprise": 1.8797791322958613e-07,
+      "sad": 0.07311789507050427,
+      "neutral": 0.8815123416996681,
+      "disgust": 1.687854595652712e-07,
+      "happy": 5.8922573075523826e-05,
+      "angry": 0.04419939237390816,
+      "fear": 0.0011110915194712597
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 4,
+    "congruence": 0.4801512341699668
+  },
+  {
+    "t": 22.2,
+    "face": {
+      "surprise": 1.67583610241013e-07,
+      "sad": 0.06931889705721668,
+      "neutral": 0.8895556188671481,
+      "disgust": 1.501241564297303e-07,
+      "happy": 5.3290961129449384e-05,
+      "angry": 0.040068693453544794,
+      "fear": 0.0010031819531942721
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4889555618867148
+  },
+  {
+    "t": 22.3,
+    "face": {
+      "surprise": 1.4718930709630183e-07,
+      "sad": 0.06551989901484412,
+      "neutral": 0.8975988960962074,
+      "disgust": 1.314628531513191e-07,
+      "happy": 4.765934914025953e-05,
+      "angry": 0.03593799450155695,
+      "fear": 0.0008952723860911331
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4897598896096207
+  },
+  {
+    "t": 22.4,
+    "face": {
+      "surprise": 1.2679500379545261e-07,
+      "sad": 0.06172090094338655,
+      "neutral": 0.9056421733868455,
+      "disgust": 1.1280154973003759e-07,
+      "happy": 4.2027737107954246e-05,
+      "angry": 0.03180729551794462,
+      "fear": 0.0007873628181618423
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.49056421733868455
+  },
+  {
+    "t": 22.5,
+    "face": {
+      "surprise": 1.0640070033846534e-07,
+      "sad": 0.05792190284284401,
+      "neutral": 0.9136854507390628,
+      "disgust": 9.414024616588584e-08,
+      "happy": 3.639612503253355e-05,
+      "angry": 0.027676596502707804,
+      "fear": 0.0006794532494063995
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.49136854507390626
+  },
+  {
+    "t": 22.6,
+    "face": {
+      "surprise": 8.600639672533998e-08,
+      "sad": 0.05412290471321643,
+      "neutral": 0.9217287281528591,
+      "disgust": 7.547894245886379e-08,
+      "happy": 3.076451291399742e-05,
+      "angry": 0.023545897455846492,
+      "fear": 0.0005715436798248048
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4921728728152859
+  },
+  {
+    "t": 22.7,
+    "face": {
+      "surprise": 6.561209295607652e-08,
+      "sad": 0.05032390655450388,
+      "neutral": 0.9297720056282345,
+      "disgust": 5.681763860897145e-08,
+      "happy": 2.5132900752345866e-05,
+      "angry": 0.0194151983773607,
+      "fear": 0.00046363410941705825
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.49297720056282346
+  },
+  {
+    "t": 22.8,
+    "face": {
+      "surprise": 4.5217789030675004e-08,
+      "sad": 0.046524908366706336,
+      "neutral": 0.9378152831651889,
+      "disgust": 3.815633461620883e-08,
+      "happy": 1.9501288547578885e-05,
+      "angry": 0.015284499267250418,
+      "fear": 0.00035572453818315985
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 3,
+    "congruence": 0.4877815283165189
+  },
+  {
+    "t": 22.9,
+    "face": {
+      "surprise": 2.4823484949135403e-08,
+      "sad": 0.042725910149823784,
+      "neutral": 0.9458585607637223,
+      "disgust": 1.9495030480575905e-08,
+      "happy": 1.386967629969648e-05,
+      "angry": 0.011153800125515647,
+      "fear": 0.0002478149661231094
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 3,
+    "congruence": 0.4885858560763722
+  },
+  {
+    "t": 23.0,
+    "face": {
+      "surprise": 4.429181153272579e-09,
+      "sad": 0.03892691190385739,
+      "neutral": 0.9539018384238304,
+      "disgust": 8.337262021045886e-10,
+      "happy": 8.238064009321423e-06,
+      "angry": 0.007023100952158509,
+      "fear": 0.00013990539323701788
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 3,
+    "congruence": 0.48939018384238303
+  },
+  {
+    "t": 23.1,
+    "face": {
+      "surprise": 0.0007772329440889912,
+      "sad": 0.03715248519837559,
+      "neutral": 0.9541239397067182,
+      "disgust": 3.828464361656954e-08,
+      "happy": 0.001098203703800881,
+      "angry": 0.006621325040501102,
+      "fear": 0.00022677512187162572
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 3,
+    "congruence": 0.4894123939706718
+  },
+  {
+    "t": 23.2,
+    "face": {
+      "surprise": 0.0015544614497855986,
+      "sad": 0.03537805851392321,
+      "neutral": 0.9543460409869738,
+      "disgust": 7.573556058718943e-08,
+      "happy": 0.0021881693306748436,
+      "angry": 0.006219549133605296,
+      "fear": 0.0003136448494767074
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.49543460409869733
+  },
+  {
+    "t": 23.3,
+    "face": {
+      "surprise": 0.002331689946270975,
+      "sad": 0.03360363185050023,
+      "neutral": 0.9545681422645971,
+      "disgust": 1.1318647711396426e-07,
+      "happy": 0.003278134944631208,
+      "angry": 0.005817773231471087,
+      "fear": 0.00040051457605226295
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4954568142264597
+  },
+  {
+    "t": 23.4,
+    "face": {
+      "surprise": 0.0031089184335451213,
+      "sad": 0.031829205208106656,
+      "neutral": 0.9547902435395883,
+      "disgust": 1.5063739319689405e-07,
+      "happy": 0.004368100545669977,
+      "angry": 0.005415997334098479,
+      "fear": 0.0004873843015982923
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4954790243539588
+  },
+  {
+    "t": 23.5,
+    "face": {
+      "surprise": 0.003886146911608037,
+      "sad": 0.030054778586742485,
+      "neutral": 0.9550123448119473,
+      "disgust": 1.8808830883597873e-07,
+      "happy": 0.005458066133791148,
+      "angry": 0.005014221441487468,
+      "fear": 0.0005742540261147955
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.49550123448119476
+  },
+  {
+    "t": 23.6,
+    "face": {
+      "surprise": 0.004663375380459722,
+      "sad": 0.028280351986407715,
+      "neutral": 0.955234446081674,
+      "disgust": 2.2553922403121844e-07,
+      "happy": 0.006548031708994722,
+      "angry": 0.004612445553638057,
+      "fear": 0.0006611237496017725
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4955234446081674
+  },
+  {
+    "t": 23.7,
+    "face": {
+      "surprise": 0.005440603840100178,
+      "sad": 0.02650592540710236,
+      "neutral": 0.9554565473487685,
+      "disgust": 2.629901387826131e-07,
+      "happy": 0.007637997271280701,
+      "angry": 0.004210669670550245,
+      "fear": 0.0007479934720592234
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.49554565473487683
+  },
+  {
+    "t": 23.8,
+    "face": {
+      "surprise": 0.006217832290529405,
+      "sad": 0.024731498848826403,
+      "neutral": 0.9556786486132308,
+      "disgust": 3.004410530901628e-07,
+      "happy": 0.008727962820649084,
+      "angry": 0.0038088937922240314,
+      "fear": 0.0008348631934871483
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 5,
+    "congruence": 0.4855678648613231
+  },
+  {
+    "t": 23.9,
+    "face": {
+      "surprise": 0.0069950607317474,
+      "sad": 0.022957072311579847,
+      "neutral": 0.9559007498750609,
+      "disgust": 3.378919669538673e-07,
+      "happy": 0.009817928357099869,
+      "angry": 0.0034071179186594153,
+      "fear": 0.000921732913885547
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 5,
+    "congruence": 0.48559007498750606
+  },
+  {
+    "t": 24.0,
+    "face": {
+      "surprise": 0.007772289163753063,
+      "sad": 0.021182645795375887,
+      "neutral": 0.9561228511342476,
+      "disgust": 3.753428803736741e-07,
+      "happy": 0.010907893880631512,
+      "angry": 0.003005342049857323,
+      "fear": 0.0010086026332543007
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 5,
+    "congruence": 0.4856122851134247
+  },
+  {
+    "t": 24.1,
+    "face": {
+      "surprise": 0.006995061433774264,
+      "sad": 0.037978265499180035,
+      "neutral": 0.9403764992008026,
+      "disgust": 3.3838999800761937e-07,
+      "happy": 0.009817633661394896,
+      "angry": 0.0039044036018108922,
+      "fear": 0.0009277982130393922
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 5,
+    "congruence": 0.48403764992008025
+  },
+  {
+    "t": 24.2,
+    "face": {
+      "surprise": 0.006217833702960219,
+      "sad": 0.05477388522103355,
+      "neutral": 0.9246301472504357,
+      "disgust": 3.0143711560185343e-07,
+      "happy": 0.008727373440986636,
+      "angry": 0.004803465154730634,
+      "fear": 0.0008469937927376474
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.49246301472504356
+  },
+  {
+    "t": 24.3,
+    "face": {
+      "surprise": 0.005440605971310932,
+      "sad": 0.07156950496093643,
+      "neutral": 0.9088837952831472,
+      "disgust": 2.6448423315637615e-07,
+      "happy": 0.007637113219406732,
+      "angry": 0.00570252670861655,
+      "fear": 0.0007661893723490665
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4908883795283147
+  },
+  {
+    "t": 24.4,
+    "face": {
+      "surprise": 0.004663378238826396,
+      "sad": 0.08836512471888869,
+      "neutral": 0.8931374432989367,
+      "disgust": 2.2753135067118753e-07,
+      "happy": 0.006546852996655183,
+      "angry": 0.006601588263468641,
+      "fear": 0.0006853849518736494
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.48931374432989366
+  },
+  {
+    "t": 24.5,
+    "face": {
+      "surprise": 0.0038861505055066154,
+      "sad": 0.10516074449489028,
+      "neutral": 0.8773910912978046,
+      "disgust": 1.9057846814628752e-07,
+      "happy": 0.005456592772731985,
+      "angry": 0.007500649819286906,
+      "fear": 0.0006045805313113959
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.48773910912978047
+  },
+  {
+    "t": 24.6,
+    "face": {
+      "surprise": 0.0031089227713515894,
+      "sad": 0.12195636428894129,
+      "neutral": 0.8616447392797508,
+      "disgust": 1.5362558558167632e-07,
+      "happy": 0.004366332547637145,
+      "angry": 0.008399711376071345,
+      "fear": 0.0005237761106623062
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.48616447392797507
+  },
+  {
+    "t": 24.7,
+    "face": {
+      "surprise": 0.002331695036361317,
+      "sad": 0.13875198410104164,
+      "neutral": 0.8458983872447751,
+      "disgust": 1.1667270297735372e-07,
+      "happy": 0.0032760723213706593,
+      "angry": 0.009298772933821958,
+      "fear": 0.0004429716899263803
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4845898387244775
+  },
+  {
+    "t": 24.8,
+    "face": {
+      "surprise": 0.0015544673005357995,
+      "sad": 0.15554760393119135,
+      "neutral": 0.8301520351928776,
+      "disgust": 7.971982033331985e-08,
+      "happy": 0.002185812093932529,
+      "angry": 0.010197834492538745,
+      "fear": 0.0003621672691036181
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 5,
+    "congruence": 0.4730152035192877
+  },
+  {
+    "t": 24.9,
+    "face": {
+      "surprise": 0.0007772395638750357,
+      "sad": 0.17234322377939043,
+      "neutral": 0.8144056831240584,
+      "disgust": 4.2766937649574636e-08,
+      "happy": 0.0010955518653227524,
+      "angry": 0.011096896052221705,
+      "fear": 0.00028136284819401964
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 5,
+    "congruence": 0.4714405683124058
+  },
+  {
+    "t": 25.0,
+    "face": {
+      "surprise": 1.1826379689933367e-08,
+      "sad": 0.18913884364561545,
+      "neutral": 0.7986593310383403,
+      "disgust": 5.81405492616637e-09,
+      "happy": 5.291635542279795e-06,
+      "angry": 0.011995957612869673,
+      "fear": 0.00020055842719767728
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 5,
+    "congruence": 0.469865933103834
+  },
+  {
+    "t": 25.1,
+    "face": {
+      "surprise": 6.343694225269511e-07,
+      "sad": 0.17843376069894093,
+      "neutral": 0.8097805562003585,
+      "disgust": 2.5451692715082267e-08,
+      "happy": 2.7904218482741385e-05,
+      "angry": 0.0115290549292586,
+      "fear": 0.00022806413184391737
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 5,
+    "congruence": 0.47097805562003586
+  },
+  {
+    "t": 25.2,
+    "face": {
+      "surprise": 1.2569124686766263e-06,
+      "sad": 0.1677286776953029,
+      "neutral": 0.8209017814215547,
+      "disgust": 4.508933060849337e-08,
+      "happy": 5.051680154352838e-05,
+      "angry": 0.011062152243163053,
+      "fear": 0.00025556983663652
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4820901781421555
+  },
+  {
+    "t": 25.3,
+    "face": {
+      "surprise": 1.8794555181389591e-06,
+      "sad": 0.15702359463470125,
+      "neutral": 0.8320230067019289,
+      "disgust": 6.47269686063997e-08,
+      "happy": 7.312938472464079e-05,
+      "angry": 0.010595249554583037,
+      "fear": 0.0002830755415754851
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4832023006701929
+  },
+  {
+    "t": 25.4,
+    "face": {
+      "surprise": 2.5019985709139494e-06,
+      "sad": 0.14631851151713607,
+      "neutral": 0.8431442320414809,
+      "disgust": 8.436460670880125e-08,
+      "happy": 9.574196802607858e-05,
+      "angry": 0.010128346863518555,
+      "fear": 0.0003105812466608128
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4843144232041481
+  },
+  {
+    "t": 25.5,
+    "face": {
+      "surprise": 3.1245416270015977e-06,
+      "sad": 0.13561342834260728,
+      "neutral": 0.8542654574402108,
+      "disgust": 1.0400224491569798e-07,
+      "happy": 0.0001183545514478418,
+      "angry": 0.009661444169969603,
+      "fear": 0.00033808695189250305
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4854265457440211
+  },
+  {
+    "t": 25.6,
+    "face": {
+      "surprise": 3.7470846864019034e-06,
+      "sad": 0.12490834511111495,
+      "neutral": 0.8653866828981188,
+      "disgust": 1.2363988322708997e-07,
+      "happy": 0.00014096713498993043,
+      "angry": 0.00919454147393618,
+      "fear": 0.0003655926572705558
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.48653866828981185
+  },
+  {
+    "t": 25.7,
+    "face": {
+      "surprise": 4.3696277491148655e-06,
+      "sad": 0.11420326182265905,
+      "neutral": 0.8765079084152047,
+      "disgust": 1.4327752164297716e-07,
+      "happy": 0.00016357971865234443,
+      "angry": 0.008727638775418291,
+      "fear": 0.00039309836279497113
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4876507908415204
+  },
+  {
+    "t": 25.8,
+    "face": {
+      "surprise": 4.992170815140488e-06,
+      "sad": 0.10349817847723956,
+      "neutral": 0.8876291339914684,
+      "disgust": 1.6291516016335957e-07,
+      "happy": 0.00018619230243508388,
+      "angry": 0.008260736074415933,
+      "fear": 0.00042060406846574906
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 3,
+    "congruence": 0.48276291339914684
+  },
+  {
+    "t": 25.9,
+    "face": {
+      "surprise": 5.614713884478766e-06,
+      "sad": 0.0927930950748565,
+      "neutral": 0.8987503596269102,
+      "disgust": 1.8255279878823723e-07,
+      "happy": 0.00020880488633814875,
+      "angry": 0.007793833370929105,
+      "fear": 0.0004481097742828894
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 3,
+    "congruence": 0.483875035962691
+  },
+  {
+    "t": 26.0,
+    "face": {
+      "surprise": 6.237256957133715e-06,
+      "sad": 0.08208801161552255,
+      "neutral": 0.9098715853215155,
+      "disgust": 2.021904375176305e-07,
+      "happy": 0.0002314174703615754,
+      "angry": 0.00732693066495923,
+      "fear": 0.00047561548024653805
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 3,
+    "congruence": 0.4849871585321516
+  },
+  {
+    "t": 26.1,
+    "face": {
+      "surprise": 1.089430021349688e-05,
+      "sad": 0.08413084058947935,
+      "neutral": 0.906630119779137,
+      "disgust": 2.4239013863843643e-07,
+      "happy": 0.0002906586784222526,
+      "angry": 0.00828766852019957,
+      "fear": 0.000649575742409745
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 3,
+    "congruence": 0.48466301197791367
+  },
+  {
+    "t": 26.2,
+    "face": {
+      "surprise": 1.5551343518677727e-05,
+      "sad": 0.0861736695848502,
+      "neutral": 0.9033886542027796,
+      "disgust": 2.825898401806377e-07,
+      "happy": 0.00034989988710392854,
+      "angry": 0.009248406385510893,
+      "fear": 0.0008235360063964989
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.49033886542027794
+  },
+  {
+    "t": 26.3,
+    "face": {
+      "surprise": 2.0208386872676253e-05,
+      "sad": 0.08821649860163511,
+      "neutral": 0.9001471885924435,
+      "disgust": 3.227895421442342e-07,
+      "happy": 0.0004091410964066033,
+      "angry": 0.010209144260893196,
+      "fear": 0.0009974962722067995
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4900147188592443
+  },
+  {
+    "t": 26.4,
+    "face": {
+      "surprise": 2.4865430275492468e-05,
+      "sad": 0.09025932763983407,
+      "neutral": 0.8969057229481284,
+      "disgust": 3.6298924452922614e-07,
+      "happy": 0.00046838230633027705,
+      "angry": 0.01116988214634648,
+      "fear": 0.0011714565398406472
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.48969057229481283
+  },
+  {
+    "t": 26.5,
+    "face": {
+      "surprise": 2.952247372712637e-05,
+      "sad": 0.09230215669944708,
+      "neutral": 0.8936642572698348,
+      "disgust": 4.0318894733561334e-07,
+      "happy": 0.0005276235168749496,
+      "angry": 0.012130620041870746,
+      "fear": 0.0013454168092980419
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.48936642572698347
+  },
+  {
+    "t": 26.6,
+    "face": {
+      "surprise": 3.417951722757795e-05,
+      "sad": 0.09434498578047418,
+      "neutral": 0.8904227915575621,
+      "disgust": 4.43388650563396e-07,
+      "happy": 0.000586864728040621,
+      "angry": 0.013091357947465992,
+      "fear": 0.0015193770805789835
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.4890422791557562
+  },
+  {
+    "t": 26.7,
+    "face": {
+      "surprise": 3.883656077684721e-05,
+      "sad": 0.09638781488291527,
+      "neutral": 0.8871813258113106,
+      "disgust": 4.835883542125738e-07,
+      "happy": 0.0006461059398272913,
+      "angry": 0.014052095863132224,
+      "fear": 0.001693337353683472
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 0,
+    "congruence": 0.48871813258113106
+  },
+  {
+    "t": 26.8,
+    "face": {
+      "surprise": 4.349360437493417e-05,
+      "sad": 0.09843064400677047,
+      "neutral": 0.8839398600310804,
+      "disgust": 5.237880582831471e-07,
+      "happy": 0.0007053471522349606,
+      "angry": 0.015012833788869435,
+      "fear": 0.001867297628611508
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 3,
+    "congruence": 0.482393986003108
+  },
+  {
+    "t": 26.9,
+    "face": {
+      "surprise": 4.815064802183882e-05,
+      "sad": 0.10047347315203971,
+      "neutral": 0.8806983942168713,
+      "disgust": 5.639877627751157e-07,
+      "happy": 0.0007645883652636288,
+      "angry": 0.015973571724677633,
+      "fear": 0.002041257905363091
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 3,
+    "congruence": 0.48206983942168713
+  },
+  {
+    "t": 27.0,
+    "face": {
+      "surprise": 5.280769171754992e-05,
+      "sad": 0.10251630231872239,
+      "neutral": 0.8774569283686848,
+      "disgust": 6.041874676883989e-07,
+      "happy": 0.0008238295789131562,
+      "angry": 0.016934309670556296,
+      "fear": 0.002215218183938059
+    },
+    "audio": {},
+    "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right",
+    "spikes": 3,
+    "congruence": 0.48174569283686847
+  },
+  {
+    "t": 27.1,
+    "face": {
+      "surprise": 4.759243733115497e-05,
+      "sad": 0.10401968987905905,
+      "neutral": 0.87547871786666,
+      "disgust": 5.73197493638783e-07,
+      "happy": 0.0007603472759573107,
+      "angry": 0.017446417626658467,
+      "fear": 0.0022466617168403987
+    },
+    "audio": {},
+    "text": " now.",
+    "spikes": 3,
+    "congruence": 0.481547871786666
+  },
+  {
+    "t": 27.2,
+    "face": {
+      "surprise": 4.237718303536098e-05,
+      "sad": 0.1055230774132784,
+      "neutral": 0.8735005073990011,
+      "disgust": 5.422075201275342e-07,
+      "happy": 0.0006968649741042988,
+      "angry": 0.017958525573864143,
+      "fear": 0.0022781052491964915
+    },
+    "audio": {},
+    "text": " now.",
+    "spikes": 0,
+    "congruence": 0.4873500507399001
+  },
+  {
+    "t": 27.3,
+    "face": {
+      "surprise": 3.716192883016794e-05,
+      "sad": 0.10702646492138049,
+      "neutral": 0.8715222969657084,
+      "disgust": 5.112175471546525e-07,
+      "happy": 0.0006333826733541203,
+      "angry": 0.01847063351217333,
+      "fear": 0.002309548781006339
+    },
+    "audio": {},
+    "text": " now.",
+    "spikes": 0,
+    "congruence": 0.4871522296965708
+  },
+  {
+    "t": 27.4,
+    "face": {
+      "surprise": 3.194667471557585e-05,
+      "sad": 0.10852985240336524,
+      "neutral": 0.8695440865667817,
+      "disgust": 4.802275747201378e-07,
+      "happy": 0.0005699003737067753,
+      "angry": 0.018982741441586022,
+      "fear": 0.002340992312269939
+    },
+    "audio": {},
+    "text": " now.",
+    "spikes": 0,
+    "congruence": 0.48695440865667816
+  },
+  {
+    "t": 27.5,
+    "face": {
+      "surprise": 2.673142069158472e-05,
+      "sad": 0.11003323985923272,
+      "neutral": 0.867565876202221,
+      "disgust": 4.492376028239902e-07,
+      "happy": 0.0005064180751622638,
+      "angry": 0.019494849362102225,
+      "fear": 0.0023724358429872932
+    },
+    "audio": {},
+    "text": " now.",
+    "spikes": 0,
+    "congruence": 0.4867565876202221
+  },
+  {
+    "t": 27.6,
+    "face": {
+      "surprise": 2.1516166758194532e-05,
+      "sad": 0.1115366272889829,
+      "neutral": 0.8655876658720265,
+      "disgust": 4.182476314662096e-07,
+      "happy": 0.00044293577772058567,
+      "angry": 0.020006957273721933,
+      "fear": 0.0024038793731584007
+    },
+    "audio": {},
+    "text": " now.",
+    "spikes": 0,
+    "congruence": 0.48655876658720265
+  },
+  {
+    "t": 27.7,
+    "face": {
+      "surprise": 1.630091291540529e-05,
+      "sad": 0.11304001469261578,
+      "neutral": 0.863609455576198,
+      "disgust": 3.87257660646796e-07,
+      "happy": 0.00037945348138174087,
+      "angry": 0.020519065176445157,
+      "fear": 0.002435322902783262
+    },
+    "audio": {},
+    "text": " now.",
+    "spikes": 0,
+    "congruence": 0.4863609455576198
+  },
+  {
+    "t": 27.8,
+    "face": {
+      "surprise": 1.1085659163216992e-05,
+      "sad": 0.1145434020701314,
+      "neutral": 0.8616312453147356,
+      "disgust": 3.562676903657495e-07,
+      "happy": 0.00031597118614572954,
+      "angry": 0.021031173070271882,
+      "fear": 0.0024667664318618774
+    },
+    "audio": {},
+    "text": " now.",
+    "spikes": 3,
+    "congruence": 0.48016312453147353
+  },
+  {
+    "t": 27.9,
+    "face": {
+      "surprise": 5.870405501629632e-06,
+      "sad": 0.11604678942152968,
+      "neutral": 0.8596530350876392,
+      "disgust": 3.2527772062306987e-07,
+      "happy": 0.0002524888920125515,
+      "angry": 0.02154328095520212,
+      "fear": 0.0024982099603942454
+    },
+    "audio": {},
+    "text": " now.",
+    "spikes": 3,
+    "congruence": 0.4799653035087639
+  },
+  {
+    "t": 28.0,
+    "face": {
+      "disgust": 2.9428775141879693e-07,
+      "surprise": 6.551519306498809e-07,
+      "happy": 0.00018900659898228792,
+      "fear": 0.0025296534883803273,
+      "sad": 0.11755017674680877,
+      "neutral": 0.8576748248949113,
+      "angry": 0.02205538883123521
+    },
+    "audio": {},
+    "text": " now.",
+    "spikes": 3,
+    "congruence": 0.4797674824894911
+  }
+]

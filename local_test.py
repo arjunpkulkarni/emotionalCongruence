@@ -110,6 +110,13 @@ def run_local_pipeline(
     transcript_text, transcript_segments = transcribe_audio_with_faster_whisper(
         audio_path=audio_path
     )
+    logger.info(
+        "Transcription completed chars=%d segments=%d",
+        len(transcript_text or ""),
+        len(transcript_segments or []),
+    )
+    if transcript_text:
+        logger.info("Transcript text:\n%s", transcript_text)
 
     # DeepFace facial emotion analysis
     logger.info("Analyzing frames with DeepFace")
@@ -144,19 +151,43 @@ def run_local_pipeline(
         congruence_timeline=congruence_timeline, score_threshold=0.4, max_events=32
     )
 
+    # Build 10Hz congruence signal and session summary
+    from app.services.congruence_engine import (
+        build_congruence_timeline,
+        build_session_summary,
+    )
+    congruence_timeline_10hz = build_congruence_timeline(
+        merged_timeline=merged_timeline,
+        transcript_segments=transcript_segments,
+        spikes=spikes,
+        target_hz=10.0,
+    )
+    session_summary = build_session_summary(
+        congruence_timeline=congruence_timeline_10hz,
+        patient_id=patient_id,
+        session_id=session_ts,
+        transcript_segments=transcript_segments,
+    )
+
     # Save outputs
     timeline_json_path = os.path.join(outputs_dir, "timeline.json")
+    timeline_1hz_path = os.path.join(outputs_dir, "timeline_1hz.json")
     spikes_json_path = os.path.join(outputs_dir, "spikes.json")
     transcript_txt_path = os.path.join(outputs_dir, "transcript.txt")
     transcript_segments_path = os.path.join(outputs_dir, "transcript_segments.json")
     congruence_timeline_path = os.path.join(outputs_dir, "congruence_timeline.json")
     congruence_events_path = os.path.join(outputs_dir, "congruence_events.json")
+    session_summary_path = os.path.join(outputs_dir, "session_summary.json")
 
     logger.info("Writing outputs to %s", outputs_dir)
-    _write_json(timeline_json_path, merged_timeline)
+    # Enriched 10Hz timeline for UI consumption
+    _write_json(timeline_json_path, congruence_timeline_10hz)
+    # Preserve the previous 1Hz merged timeline for debugging
+    _write_json(timeline_1hz_path, merged_timeline)
     _write_json(spikes_json_path, spikes)
     _write_json(congruence_timeline_path, congruence_timeline)
     _write_json(congruence_events_path, congruence_events)
+    _write_json(session_summary_path, session_summary)
     if transcript_text:
         _write_text(transcript_txt_path, transcript_text)
     if transcript_segments:
@@ -182,10 +213,12 @@ def run_local_pipeline(
             "audio_path": audio_path,
         },
         "timeline_count": len(merged_timeline),
+        "timeline_10hz_count": len(congruence_timeline_10hz),
         "spikes_count": len(spikes),
         "transcript_chars": len(transcript_text or ""),
         "transcript_segments_count": len(transcript_segments or []),
         "duration_s": duration,
+        "session_summary": session_summary,
     }
 
 
@@ -233,6 +266,11 @@ if __name__ == "__main__":
         )
         # Print a concise summary
         print(json.dumps(result, indent=2))
+        # Also print the session_summary explicitly for convenience
+        ss = result.get("session_summary")
+        if ss:
+            print("\nSESSION SUMMARY:")
+            print(json.dumps(ss, indent=2))
     except Exception:
         logger.exception("Local pipeline failed")
         sys.exit(1)

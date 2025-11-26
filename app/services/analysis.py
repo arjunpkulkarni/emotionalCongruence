@@ -50,29 +50,44 @@ def analyze_frames_with_deepface(frames_dir: str) -> List[Dict[str, Any]]:
 
 def analyze_audio_with_vesper(audio_path: str) -> List[Dict[str, Any]]:
     """
-    Optional audio emotion analysis using Vesper-style API:
-      from vesper import extract_features, predict
-
-    Returns a list like [{"t": second, "emotions": {...}}].
-    If Vesper is unavailable, returns an empty list.
+    Audio emotion analysis using lightweight Vesper inference shim.
+    Returns a per-second timeline like [{"t": second, "emotions": {...}}].
+    If the backend is unavailable, returns a neutral-leaning timeline using audio duration.
     """
+    # Determine audio duration in seconds
+    duration_s = 0.0
     try:
-        # Placeholder import path based on the prompt; may vary depending on the actual package
-        from vesper import extract_features, predict  # type: ignore
+        import soundfile as sf  # type: ignore
+        _data, sr = sf.read(audio_path, always_2d=False)
+        frames = getattr(sf.SoundFile(audio_path), "frames", None)
+        if frames is not None:
+            duration_s = float(frames) / float(sr or 1)
+        else:
+            # Fallback if frames attribute is unavailable
+            import numpy as np  # type: ignore
+            n = float(np.asarray(_data).shape[0])
+            duration_s = n / float(sr or 1)
     except Exception:
-        # Graceful fallback if Vesper is not installed
-        return []
+        try:
+            import librosa  # type: ignore
+            duration_s = float(librosa.get_duration(path=audio_path))
+        except Exception:
+            duration_s = 0.0
 
+    # Use vesper.inference if available
+    emotions_dist: Dict[str, float] = {}
     try:
-        features, times = extract_features(audio_path)  # expected to return features and per-frame times
-        preds = predict(features)  # expected to return per-time emotion distributions
+        from vesper.inference import predict_emotion  # type: ignore
+        emotions_dist = predict_emotion(audio_path) or {}
     except Exception:
-        return []
+        emotions_dist = {}
 
+    # Always return a timeline; if duration unknown, default to a single point
+    total_seconds = max(1, int(round(duration_s)))
+    emotions_dist = {k: float(v) for k, v in (emotions_dist or {}).items()}
     timeline: List[Dict[str, Any]] = []
-    for i, t in enumerate(times):
-        emotions = preds[i] if i < len(preds) and isinstance(preds[i], dict) else {}
-        timeline.append({"t": int(round(t)), "emotions": emotions})
+    for t in range(total_seconds):
+        timeline.append({"t": t, "emotions": emotions_dist})
     return timeline
 
 

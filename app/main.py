@@ -22,11 +22,16 @@ from app.services.analysis import (
     detect_micro_spikes,
 )
 from app.services.transcription import transcribe_audio_with_faster_whisper
+from app.services.congruence_engine import (
+    build_congruence_timeline,
+    build_session_summary,
+)
 from app.utils.paths import (
     get_workspace_root,
     create_session_directories,
 )
 
+import json
 
 logger = logging.getLogger("emotion_api")
 if not logger.handlers:
@@ -129,6 +134,10 @@ def process_session(payload: ProcessSessionRequest) -> ProcessSessionResponse:
             len(transcript_text or ""),
             len(transcript_segments or []),
         )
+        if transcript_text:
+            logger.info("Transcript text:\n%s", transcript_text)
+        if transcript_segments:
+            logger.debug("Transcript segments: %s", transcript_segments)
     except Exception:
         # Do not fail on transcription
         transcript_text = None
@@ -159,6 +168,43 @@ def process_session(payload: ProcessSessionRequest) -> ProcessSessionResponse:
     spikes = detect_micro_spikes(merged_timeline, threshold=payload.spike_threshold)
     logger.info("Detected spikes=%d", len(spikes))
 
+    # 8) Build 10Hz congruence signal and session summary and write outputs for UI
+    try:
+        def _write_json(path: str, obj: object) -> None:
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(obj, f, ensure_ascii=False, indent=2)
+
+        congruence_timeline_10hz = build_congruence_timeline(
+            merged_timeline=merged_timeline,
+            transcript_segments=transcript_segments,
+            spikes=spikes,
+            target_hz=10.0,
+        )
+        session_summary = build_session_summary(
+            congruence_timeline=congruence_timeline_10hz,
+            patient_id=payload.patient_id,
+            session_id=session_ts,
+            transcript_segments=transcript_segments,
+        )
+        timeline_json_path = os.path.join(outputs_dir, "timeline.json")
+        timeline_1hz_path = os.path.join(outputs_dir, "timeline_1hz.json")
+        spikes_json_path = os.path.join(outputs_dir, "spikes.json")
+        session_summary_path = os.path.join(outputs_dir, "session_summary.json")
+        _write_json(timeline_json_path, congruence_timeline_10hz)
+        _write_json(timeline_1hz_path, merged_timeline)
+        _write_json(spikes_json_path, spikes)
+        _write_json(session_summary_path, session_summary)
+        if transcript_text:
+            transcript_txt_path = os.path.join(outputs_dir, "transcript.txt")
+            with open(transcript_txt_path, "w", encoding="utf-8") as f:
+                f.write(transcript_text)
+        if transcript_segments:
+            transcript_segments_path = os.path.join(outputs_dir, "transcript_segments.json")
+            _write_json(transcript_segments_path, transcript_segments)
+        logger.info("Wrote enriched timeline and session summary to outputs/")
+    except Exception as exc:
+        logger.exception("Failed to write enriched outputs: %s", exc)
+
     resp = ProcessSessionResponse(
         patient_id=payload.patient_id,
         session_timestamp=session_ts,
@@ -171,7 +217,9 @@ def process_session(payload: ProcessSessionRequest) -> ProcessSessionResponse:
         },
         timeline_json=merged_timeline,
         spikes_json=spikes,
-        notes="Audio emotion analysis performed with Vesper.",
+        timeline_10hz=locals().get("congruence_timeline_10hz"),
+        session_summary=locals().get("session_summary"),
+        notes="Audio emotion analysis performed with Vesper. Enriched timeline/session_summary written to outputs/.",
         transcript_text=transcript_text,
         transcript_segments=transcript_segments,
     )

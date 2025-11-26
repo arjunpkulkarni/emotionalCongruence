@@ -14,6 +14,9 @@ class ProcessSessionResponse(BaseModel):
     paths: Dict[str, str]
     timeline_json: List[Dict[str, Any]]
     spikes_json: List[Dict[str, Any]]
+    # Optional enriched outputs for direct API consumption
+    timeline_10hz: Optional[List[Dict[str, Any]]] = None
+    session_summary: Optional[Dict[str, Any]] = None
     notes: Optional[str] = None
     transcript_text: Optional[str] = None
     transcript_segments: Optional[List[Dict[str, Any]]] = None

@@ -1,0 +1,160 @@
+{
+  "patient_id": "testVideo1",
+  "session_id": 1764183187,
+  "duration": 28.0,
+  "overall_congruence": 0.4578,
+  "incongruent_moments": [
+    {
+      "start": 0.9,
+      "end": 1.2,
+      "reason": "negative tone vs verbal content"
+    },
+    {
+      "start": 1.8,
+      "end": 2.1,
+      "reason": "negative tone vs verbal content"
+    },
+    {
+      "start": 2.8,
+      "end": 3.1,
+      "reason": "positive tone vs verbal content"
+    },
+    {
+      "start": 3.8,
+      "end": 4.1,
+      "reason": "positive tone vs verbal content"
+    },
+    {
+      "start": 4.9,
+      "end": 5.2,
+      "reason": "positive tone vs verbal content"
+    },
+    {
+      "start": 5.9,
+      "end": 6.2,
+      "reason": "positive tone vs verbal content"
+    },
+    {
+      "start": 6.9,
+      "end": 7.2,
+      "reason": "positive tone vs verbal content"
+    },
+    {
+      "start": 7.9,
+      "end": 8.2,
+      "reason": "positive tone vs verbal content"
+    },
+    {
+      "start": 8.9,
+      "end": 9.2,
+      "reason": "positive tone vs verbal content"
+    },
+    {
+      "start": 9.9,
+      "end": 10.2,
+      "reason": "positive tone vs verbal content"
+    },
+    {
+      "start": 10.9,
+      "end": 11.2,
+      "reason": "positive tone vs verbal content"
+    },
+    {
+      "start": 11.9,
+      "end": 12.2,
+      "reason": "positive tone vs verbal content"
+    },
+    {
+      "start": 12.9,
+      "end": 13.2,
+      "reason": "positive tone vs verbal content"
+    },
+    {
+      "start": 13.9,
+      "end": 14.2,
+      "reason": "positive tone vs verbal content"
+    },
+    {
+      "start": 14.9,
+      "end": 15.2,
+      "reason": "positive tone vs verbal content"
+    },
+    {
+      "start": 15.9,
+      "end": 16.2,
+      "reason": "positive tone vs verbal content"
+    },
+    {
+      "start": 16.9,
+      "end": 17.2,
+      "reason": "negative tone vs verbal content"
+    },
+    {
+      "start": 17.9,
+      "end": 18.2,
+      "reason": "negative tone vs verbal content"
+    },
+    {
+      "start": 18.9,
+      "end": 19.1,
+      "reason": "negative tone vs verbal content"
+    },
+    {
+      "start": 19.8,
+      "end": 20.1,
+      "reason": "positive tone vs verbal content"
+    },
+    {
+      "start": 20.8,
+      "end": 21.1,
+      "reason": "positive tone vs verbal content"
+    },
+    {
+      "start": 21.8,
+      "end": 22.1,
+      "reason": "negative tone vs verbal content"
+    },
+    {
+      "start": 22.8,
+      "end": 23.1,
+      "reason": "negative tone vs verbal content"
+    },
+    {
+      "start": 23.8,
+      "end": 24.1,
+      "reason": "negative tone vs verbal content"
+    },
+    {
+      "start": 24.8,
+      "end": 25.1,
+      "reason": "negative tone vs verbal content"
+    },
+    {
+      "start": 25.8,
+      "end": 26.1,
+      "reason": "negative tone vs verbal content"
+    },
+    {
+      "start": 26.8,
+      "end": 27.1,
+      "reason": "negative tone vs verbal content"
+    },
+    {
+      "start": 27.8,
+      "end": 28.0,
+      "reason": "negative tone vs verbal content"
+    }
+  ],
+  "emotion_distribution": {
+    "face": {
+      "angry": 0.006411097319775556,
+      "disgust": 2.4863618016406503e-06,
+      "fear": 0.0012251022984744939,
+      "happy": 0.3458155363000969,
+      "sad": 0.03129177514604333,
+      "surprise": 0.007747723356626047,
+      "neutral": 0.607506279217182
+    },
+    "audio": {}
+  }
+}

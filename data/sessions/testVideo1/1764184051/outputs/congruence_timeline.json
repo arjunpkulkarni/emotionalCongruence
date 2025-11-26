@@ -1,0 +1,2861 @@
+[
+  {
+    "t": 0,
+    "face": {
+      "angry": 0.7116864919662476,
+      "disgust": 8.659743798489217e-06,
+      "fear": 0.14905792474746704,
+      "happy": 0.12473524361848831,
+      "sad": 2.265305280685425,
+      "surprise": 0.0008191792294383049,
+      "neutral": 96.74837493896484
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 0.08736762180924416,
+      "angry": 0.3808432459831238,
+      "fear": 0.09952896237373353,
+      "surprise": 0.025409589614719157,
+      "sad": 1.1576526403427123,
+      "neutral": 48.72418746948242,
+      "disgust": 0.02500432987189925
+    },
+    "text": {
+      "text": "Um, my name is, wait, can I give you lies too?",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.84,
+          "text": " Um, my name is, wait, can I give you lies too?"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.07325718389967706,
+      "text_face_valence_gap": 0.021742816100322936,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "neutral",
+        "p": 96.74837493896484
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9683333333333334
+    },
+    "spikes": []
+  },
+  {
+    "t": 1,
+    "face": {
+      "angry": 0.16661059856414795,
+      "disgust": 1.2251244925209903e-06,
+      "fear": 0.21979179978370667,
+      "happy": 0.0498349592089653,
+      "sad": 6.439972400665283,
+      "surprise": 0.13109663128852844,
+      "neutral": 92.9926986694336
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 0.04991747960448266,
+      "angry": 0.10830529928207398,
+      "fear": 0.13489589989185333,
+      "surprise": 0.09054831564426423,
+      "sad": 3.2449862003326415,
+      "neutral": 46.8463493347168,
+      "disgust": 0.025000612562246265
+    },
+    "text": {
+      "text": "Um, my name is, wait, can I give you lies too?",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.84,
+          "text": " Um, my name is, wait, can I give you lies too?"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.04762093797755885,
+      "text_face_valence_gap": 0.04737906202244114,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "neutral",
+        "p": 92.9926986694336
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9683333333333334
+    },
+    "spikes": [
+      {
+        "t": 1,
+        "emotion": "angry",
+        "delta": -0.2725379467010498,
+        "from": 0.3808432459831238,
+        "to": 0.10830529928207398
+      },
+      {
+        "t": 1,
+        "emotion": "sad",
+        "delta": 2.087333559989929,
+        "from": 1.1576526403427123,
+        "to": 3.2449862003326415
+      },
+      {
+        "t": 1,
+        "emotion": "neutral",
+        "delta": -1.877838134765625,
+        "from": 48.72418746948242,
+        "to": 46.8463493347168
+      }
+    ]
+  },
+  {
+    "t": 2,
+    "face": {
+      "angry": 1.065906286239624,
+      "disgust": 6.684130312351044e-06,
+      "fear": 0.036276549100875854,
+      "happy": 0.02147017978131771,
+      "sad": 3.3114166259765625,
+      "surprise": 0.00019427662482485175,
+      "neutral": 95.56472778320312
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 0.035735089890658864,
+      "angry": 0.557953143119812,
+      "fear": 0.043138274550437936,
+      "surprise": 0.02509713831241243,
+      "sad": 1.6807083129882812,
+      "neutral": 48.132363891601564,
+      "disgust": 0.02500334206515618
+    },
+    "text": {
+      "text": "Um, my name is, wait, can I give you lies too?",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.84,
+          "text": " Um, my name is, wait, can I give you lies too?"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.06317491790069583,
+      "text_face_valence_gap": 0.03182508209930415,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "neutral",
+        "p": 95.56472778320312
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9683333333333334
+    },
+    "spikes": [
+      {
+        "t": 2,
+        "emotion": "angry",
+        "delta": 0.44964784383773804,
+        "from": 0.10830529928207398,
+        "to": 0.557953143119812
+      },
+      {
+        "t": 2,
+        "emotion": "sad",
+        "delta": -1.5642778873443604,
+        "from": 3.2449862003326415,
+        "to": 1.6807083129882812
+      },
+      {
+        "t": 2,
+        "emotion": "neutral",
+        "delta": 1.2860145568847656,
+        "from": 46.8463493347168,
+        "to": 48.132363891601564
+      }
+    ]
+  },
+  {
+    "t": 3,
+    "face": {
+      "angry": 2.9851451472495683e-05,
+      "disgust": 1.4380391408913562e-13,
+      "fear": 7.69137784573104e-08,
+      "happy": 97.5460205078125,
+      "sad": 6.693966133752838e-05,
+      "surprise": 0.2211906462907791,
+      "neutral": 2.2326924800872803
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 48.79801025390625,
+      "angry": 0.025014925725736253,
+      "fear": 0.025000038456889234,
+      "surprise": 0.13559532314538955,
+      "sad": 0.02503346983066877,
+      "neutral": 1.4663462400436402,
+      "disgust": 0.025000000000071906
+    },
+    "text": {
+      "text": "Um, my name is, wait, can I give you lies too?",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.84,
+          "text": " Um, my name is, wait, can I give you lies too?"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.8760310240743472,
+      "text_face_valence_gap": 0.7810310240743472,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "happy",
+        "p": 97.5460205078125
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.7079896586418843
+    },
+    "spikes": [
+      {
+        "t": 3,
+        "emotion": "happy",
+        "delta": 48.76227516401559,
+        "from": 0.035735089890658864,
+        "to": 48.79801025390625
+      },
+      {
+        "t": 3,
+        "emotion": "angry",
+        "delta": -0.5329382173940758,
+        "from": 0.557953143119812,
+        "to": 0.025014925725736253
+      },
+      {
+        "t": 3,
+        "emotion": "sad",
+        "delta": -1.6556748431576125,
+        "from": 1.6807083129882812,
+        "to": 0.02503346983066877
+      },
+      {
+        "t": 3,
+        "emotion": "neutral",
+        "delta": -46.66601765155792,
+        "from": 48.132363891601564,
+        "to": 1.4663462400436402
+      }
+    ]
+  },
+  {
+    "t": 4,
+    "face": {
+      "angry": 0.0005195006961002946,
+      "disgust": 4.2836467706308667e-10,
+      "fear": 6.616606356146804e-07,
+      "happy": 98.48455047607422,
+      "sad": 0.0003208827110938728,
+      "surprise": 0.0048903608694672585,
+      "neutral": 1.5097204446792603
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 49.26727523803711,
+      "angry": 0.025259750348050152,
+      "fear": 0.025000330830317812,
+      "surprise": 0.027445180434733634,
+      "sad": 0.02516044135554694,
+      "neutral": 1.1048602223396302,
+      "disgust": 0.025000000214182343
+    },
+    "text": {
+      "text": "Um, my name is, wait, can I give you lies too? Just say anything.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.84,
+          "text": " Um, my name is, wait, can I give you lies too?"
+        },
+        {
+          "start": 4.84,
+          "end": 5.84,
+          "text": " Just say anything."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.8828846490753577,
+      "text_face_valence_gap": 0.7878846490753577,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "happy",
+        "p": 98.48455047607422
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.7057051169748807
+    },
+    "spikes": [
+      {
+        "t": 4,
+        "emotion": "happy",
+        "delta": 0.4692649841308594,
+        "from": 48.79801025390625,
+        "to": 49.26727523803711
+      },
+      {
+        "t": 4,
+        "emotion": "neutral",
+        "delta": -0.36148601770401,
+        "from": 1.4663462400436402,
+        "to": 1.1048602223396302
+      }
+    ]
+  },
+  {
+    "t": 5,
+    "face": {
+      "angry": 0.08254172652959824,
+      "disgust": 8.316974344779737e-06,
+      "fear": 0.4194933772087097,
+      "happy": 82.04882049560547,
+      "sad": 0.21690727770328522,
+      "surprise": 0.05794788897037506,
+      "neutral": 17.17428207397461
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 41.04941024780273,
+      "angry": 0.06627086326479913,
+      "fear": 0.23474668860435485,
+      "surprise": 0.05397394448518754,
+      "sad": 0.1334536388516426,
+      "neutral": 8.937141036987304,
+      "disgust": 0.025004158487172395
+    },
+    "text": {
+      "text": "Just say anything. Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+      "segments": [
+        {
+          "start": 4.84,
+          "end": 5.84,
+          "text": " Just say anything."
+        },
+        {
+          "start": 5.84,
+          "end": 19.240000000000002,
+          "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.7460297101069102,
+      "text_face_valence_gap": 0.6510297101069102,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "happy",
+        "p": 82.04882049560547
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.7513234299643633
+    },
+    "spikes": [
+      {
+        "t": 5,
+        "emotion": "happy",
+        "delta": -8.217864990234375,
+        "from": 49.26727523803711,
+        "to": 41.04941024780273
+      },
+      {
+        "t": 5,
+        "emotion": "fear",
+        "delta": 0.20974635777403705,
+        "from": 0.025000330830317812,
+        "to": 0.23474668860435485
+      },
+      {
+        "t": 5,
+        "emotion": "neutral",
+        "delta": 7.832280814647675,
+        "from": 1.1048602223396302,
+        "to": 8.937141036987304
+      }
+    ]
+  },
+  {
+    "t": 6,
+    "face": {
+      "angry": 0.32981371879577637,
+      "disgust": 0.00014762088540010154,
+      "fear": 0.4733618497848511,
+      "happy": 2.5471384525299072,
+      "sad": 2.9385316371917725,
+      "surprise": 0.054470956325531006,
+      "neutral": 93.65653228759766
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 1.2985692262649535,
+      "angry": 0.18990685939788818,
+      "fear": 0.26168092489242556,
+      "surprise": 0.05223547816276551,
+      "sad": 1.4942658185958861,
+      "neutral": 47.17826614379883,
+      "disgust": 0.025073810442700056
+    },
+    "text": {
+      "text": "Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+      "segments": [
+        {
+          "start": 5.84,
+          "end": 19.240000000000002,
+          "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.0885443609095752,
+      "text_face_valence_gap": 0.0064556390904247874,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "neutral",
+        "p": 93.65653228759766
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9683333333333334
+    },
+    "spikes": [
+      {
+        "t": 6,
+        "emotion": "happy",
+        "delta": -39.75084102153778,
+        "from": 41.04941024780273,
+        "to": 1.2985692262649535
+      },
+      {
+        "t": 6,
+        "emotion": "sad",
+        "delta": 1.3608121797442436,
+        "from": 0.1334536388516426,
+        "to": 1.4942658185958861
+      },
+      {
+        "t": 6,
+        "emotion": "neutral",
+        "delta": 38.24112510681152,
+        "from": 8.937141036987304,
+        "to": 47.17826614379883
+      }
+    ]
+  },
+  {
+    "t": 7,
+    "face": {
+      "angry": 0.015771903097629547,
+      "disgust": 8.823661801216076e-08,
+      "fear": 0.003968614153563976,
+      "happy": 56.51091384887695,
+      "sad": 0.013053948059678078,
+      "surprise": 7.519206523895264,
+      "neutral": 35.93708801269531
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 28.280456924438475,
+      "angry": 0.03288595154881478,
+      "fear": 0.026984307076781993,
+      "surprise": 3.7846032619476317,
+      "sad": 0.03152697402983905,
+      "neutral": 18.318544006347658,
+      "disgust": 0.02500004411830901
+    },
+    "text": {
+      "text": "Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+      "segments": [
+        {
+          "start": 5.84,
+          "end": 19.240000000000002,
+          "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.5693956140280596,
+      "text_face_valence_gap": 0.4743956140280596,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "happy",
+        "p": 56.51091384887695
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.8102014619906468
+    },
+    "spikes": [
+      {
+        "t": 7,
+        "emotion": "happy",
+        "delta": 26.981887698173523,
+        "from": 1.2985692262649535,
+        "to": 28.280456924438475
+      },
+      {
+        "t": 7,
+        "emotion": "fear",
+        "delta": -0.23469661781564358,
+        "from": 0.26168092489242556,
+        "to": 0.026984307076781993
+      },
+      {
+        "t": 7,
+        "emotion": "surprise",
+        "delta": 3.7323677837848663,
+        "from": 0.05223547816276551,
+        "to": 3.7846032619476317
+      },
+      {
+        "t": 7,
+        "emotion": "sad",
+        "delta": -1.4627388445660472,
+        "from": 1.4942658185958861,
+        "to": 0.03152697402983905
+      },
+      {
+        "t": 7,
+        "emotion": "neutral",
+        "delta": -28.859722137451172,
+        "from": 47.17826614379883,
+        "to": 18.318544006347658
+      }
+    ]
+  },
+  {
+    "t": 8,
+    "face": {
+      "angry": 4.785409691976383e-05,
+      "disgust": 4.695944327837154e-11,
+      "fear": 9.62957892625127e-06,
+      "happy": 77.29307556152344,
+      "sad": 0.0004434638540260494,
+      "surprise": 0.0073599121533334255,
+      "neutral": 22.69906234741211
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 38.67153778076172,
+      "angry": 0.025023927048459887,
+      "fear": 0.02500481478946313,
+      "surprise": 0.028679956076666718,
+      "sad": 0.02522173192701303,
+      "neutral": 11.699531173706054,
+      "disgust": 0.025000000023479726
+    },
+    "text": {
+      "text": "Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+      "segments": [
+        {
+          "start": 5.84,
+          "end": 19.240000000000002,
+          "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.7133631277260511,
+      "text_face_valence_gap": 0.6183631277260512,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "happy",
+        "p": 77.29307556152344
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.7622122907579829
+    },
+    "spikes": [
+      {
+        "t": 8,
+        "emotion": "happy",
+        "delta": 10.391080856323242,
+        "from": 28.280456924438475,
+        "to": 38.67153778076172
+      },
+      {
+        "t": 8,
+        "emotion": "surprise",
+        "delta": -3.755923305870965,
+        "from": 3.7846032619476317,
+        "to": 0.028679956076666718
+      },
+      {
+        "t": 8,
+        "emotion": "neutral",
+        "delta": -6.619012832641603,
+        "from": 18.318544006347658,
+        "to": 11.699531173706054
+      }
+    ]
+  },
+  {
+    "t": 9,
+    "face": {
+      "angry": 1.2189952030894347e-05,
+      "disgust": 1.7242530645465715e-13,
+      "fear": 2.8619845124921994e-06,
+      "happy": 99.79402160644531,
+      "sad": 0.0008312198333442211,
+      "surprise": 0.047537580132484436,
+      "neutral": 0.1575966477394104
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 49.922010803222655,
+      "angry": 0.025006094976015452,
+      "fear": 0.02500143099225625,
+      "surprise": 0.048768790066242226,
+      "sad": 0.025415609916672115,
+      "neutral": 0.4287983238697052,
+      "disgust": 0.025000000000086217
+    },
+    "text": {
+      "text": "Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+      "segments": [
+        {
+          "start": 5.84,
+          "end": 19.240000000000002,
+          "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.8934888298207614,
+      "text_face_valence_gap": 0.7984888298207614,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "happy",
+        "p": 99.79402160644531
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.7021703900597462
+    },
+    "spikes": [
+      {
+        "t": 9,
+        "emotion": "happy",
+        "delta": 11.250473022460938,
+        "from": 38.67153778076172,
+        "to": 49.922010803222655
+      },
+      {
+        "t": 9,
+        "emotion": "neutral",
+        "delta": -11.27073284983635,
+        "from": 11.699531173706054,
+        "to": 0.4287983238697052
+      }
+    ]
+  },
+  {
+    "t": 10,
+    "face": {
+      "angry": 1.6736045154175372e-06,
+      "disgust": 1.3538357988927135e-13,
+      "fear": 1.415589334641254e-08,
+      "happy": 96.39141082763672,
+      "sad": 0.00032618085970170796,
+      "surprise": 0.0007321963203139603,
+      "neutral": 3.6075267791748047
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 48.22070541381836,
+      "angry": 0.025000836802257714,
+      "fear": 0.025000007077946678,
+      "surprise": 0.025366098160156985,
+      "sad": 0.02516309042985086,
+      "neutral": 2.1537633895874024,
+      "disgust": 0.025000000000067697
+    },
+    "text": {
+      "text": "Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+      "segments": [
+        {
+          "start": 5.84,
+          "end": 19.240000000000002,
+          "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.8661312043957988,
+      "text_face_valence_gap": 0.7711312043957989,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "happy",
+        "p": 96.39141082763672
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.7112895985347337
+    },
+    "spikes": [
+      {
+        "t": 10,
+        "emotion": "happy",
+        "delta": -1.7013053894042969,
+        "from": 49.922010803222655,
+        "to": 48.22070541381836
+      },
+      {
+        "t": 10,
+        "emotion": "neutral",
+        "delta": 1.7249650657176971,
+        "from": 0.4287983238697052,
+        "to": 2.1537633895874024
+      }
+    ]
+  },
+  {
+    "t": 11,
+    "face": {
+      "angry": 0.0015494811814278364,
+      "disgust": 5.713944872809407e-09,
+      "fear": 0.0015379802789539099,
+      "happy": 55.24079132080078,
+      "sad": 0.003802292514592409,
+      "surprise": 0.694320023059845,
+      "neutral": 44.05799102783203
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 27.64539566040039,
+      "angry": 0.025774740590713923,
+      "fear": 0.02576899013947696,
+      "surprise": 0.3721600115299225,
+      "sad": 0.02690114625729621,
+      "neutral": 22.378995513916017,
+      "disgust": 0.02500000285697244
+    },
+    "text": {
+      "text": "Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+      "segments": [
+        {
+          "start": 5.84,
+          "end": 19.240000000000002,
+          "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.5389580097896648,
+      "text_face_valence_gap": 0.4439580097896648,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "happy",
+        "p": 55.24079132080078
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.8203473300701117
+    },
+    "spikes": [
+      {
+        "t": 11,
+        "emotion": "happy",
+        "delta": -20.57530975341797,
+        "from": 48.22070541381836,
+        "to": 27.64539566040039
+      },
+      {
+        "t": 11,
+        "emotion": "surprise",
+        "delta": 0.3467939133697655,
+        "from": 0.025366098160156985,
+        "to": 0.3721600115299225
+      },
+      {
+        "t": 11,
+        "emotion": "neutral",
+        "delta": 20.225232124328613,
+        "from": 2.1537633895874024,
+        "to": 22.378995513916017
+      }
+    ]
+  },
+  {
+    "t": 12,
+    "face": {
+      "angry": 0.00040816195541992784,
+      "disgust": 6.595960583277716e-11,
+      "fear": 1.150493790191831e-05,
+      "happy": 86.85142517089844,
+      "sad": 0.00014889496378600597,
+      "surprise": 0.08585172146558762,
+      "neutral": 13.062161445617676
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 43.45071258544922,
+      "angry": 0.02520408097770997,
+      "fear": 0.025005752468950964,
+      "surprise": 0.06792586073279382,
+      "sad": 0.025074447481893008,
+      "neutral": 6.8810807228088375,
+      "disgust": 0.025000000032979808
+    },
+    "text": {
+      "text": "Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+      "segments": [
+        {
+          "start": 5.84,
+          "end": 19.240000000000002,
+          "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.7900645089724403,
+      "text_face_valence_gap": 0.6950645089724403,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "happy",
+        "p": 86.85142517089844
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.7366451636758533
+    },
+    "spikes": [
+      {
+        "t": 12,
+        "emotion": "happy",
+        "delta": 15.805316925048828,
+        "from": 27.64539566040039,
+        "to": 43.45071258544922
+      },
+      {
+        "t": 12,
+        "emotion": "surprise",
+        "delta": -0.3042341507971287,
+        "from": 0.3721600115299225,
+        "to": 0.06792586073279382
+      },
+      {
+        "t": 12,
+        "emotion": "neutral",
+        "delta": -15.49791479110718,
+        "from": 22.378995513916017,
+        "to": 6.8810807228088375
+      }
+    ]
+  },
+  {
+    "t": 13,
+    "face": {
+      "angry": 0.0017848049756139517,
+      "disgust": 8.493893801642116e-07,
+      "fear": 0.0005693344864994287,
+      "happy": 84.50733184814453,
+      "sad": 0.042781732976436615,
+      "surprise": 0.19583673775196075,
+      "neutral": 15.251687049865723
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 42.278665924072264,
+      "angry": 0.02589240248780698,
+      "fear": 0.02528466724324972,
+      "surprise": 0.12291836887598039,
+      "sad": 0.046390866488218316,
+      "neutral": 7.975843524932861,
+      "disgust": 0.025000424694690087
+    },
+    "text": {
+      "text": "Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+      "segments": [
+        {
+          "start": 5.84,
+          "end": 19.240000000000002,
+          "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.7713279054939051,
+      "text_face_valence_gap": 0.6763279054939051,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "happy",
+        "p": 84.50733184814453
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.7428906981686982
+    },
+    "spikes": [
+      {
+        "t": 13,
+        "emotion": "happy",
+        "delta": -1.1720466613769531,
+        "from": 43.45071258544922,
+        "to": 42.278665924072264
+      },
+      {
+        "t": 13,
+        "emotion": "neutral",
+        "delta": 1.0947628021240234,
+        "from": 6.8810807228088375,
+        "to": 7.975843524932861
+      }
+    ]
+  },
+  {
+    "t": 14,
+    "face": {
+      "angry": 0.5276290774345398,
+      "disgust": 5.248864454188151e-06,
+      "fear": 0.019142042845487595,
+      "happy": 0.09541062265634537,
+      "sad": 1.746153712272644,
+      "surprise": 0.0008297148160636425,
+      "neutral": 97.61083221435547
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 0.07270531132817269,
+      "angry": 0.2888145387172699,
+      "fear": 0.034571021422743806,
+      "surprise": 0.025414857408031826,
+      "sad": 0.898076856136322,
+      "neutral": 49.155416107177736,
+      "disgust": 0.0250026244322271
+    },
+    "text": {
+      "text": "Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+      "segments": [
+        {
+          "start": 5.84,
+          "end": 19.240000000000002,
+          "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.07916849285238141,
+      "text_face_valence_gap": 0.015831507147618582,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "neutral",
+        "p": 97.61083221435547
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9683333333333334
+    },
+    "spikes": [
+      {
+        "t": 14,
+        "emotion": "happy",
+        "delta": -42.20596061274409,
+        "from": 42.278665924072264,
+        "to": 0.07270531132817269
+      },
+      {
+        "t": 14,
+        "emotion": "angry",
+        "delta": 0.2629221362294629,
+        "from": 0.02589240248780698,
+        "to": 0.2888145387172699
+      },
+      {
+        "t": 14,
+        "emotion": "sad",
+        "delta": 0.8516859896481037,
+        "from": 0.046390866488218316,
+        "to": 0.898076856136322
+      },
+      {
+        "t": 14,
+        "emotion": "neutral",
+        "delta": 41.17957258224487,
+        "from": 7.975843524932861,
+        "to": 49.155416107177736
+      }
+    ]
+  },
+  {
+    "t": 15,
+    "face": {
+      "angry": 0.00511157838627696,
+      "disgust": 1.0443293341211302e-08,
+      "fear": 0.0004434919683262706,
+      "happy": 64.5054702758789,
+      "sad": 0.002521853195503354,
+      "surprise": 0.3010618984699249,
+      "neutral": 35.185394287109375
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 32.27773513793945,
+      "angry": 0.027555789193138485,
+      "fear": 0.02522174598416314,
+      "surprise": 0.17553094923496246,
+      "sad": 0.026260926597751682,
+      "neutral": 17.94269714355469,
+      "disgust": 0.025000005221646675
+    },
+    "text": {
+      "text": "Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+      "segments": [
+        {
+          "start": 5.84,
+          "end": 19.240000000000002,
+          "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.6118848367435582,
+      "text_face_valence_gap": 0.5168848367435582,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "happy",
+        "p": 64.5054702758789
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.7960383877521473
+    },
+    "spikes": [
+      {
+        "t": 15,
+        "emotion": "happy",
+        "delta": 32.20502982661128,
+        "from": 0.07270531132817269,
+        "to": 32.27773513793945
+      },
+      {
+        "t": 15,
+        "emotion": "angry",
+        "delta": -0.2612587495241314,
+        "from": 0.2888145387172699,
+        "to": 0.027555789193138485
+      },
+      {
+        "t": 15,
+        "emotion": "sad",
+        "delta": -0.8718159295385703,
+        "from": 0.898076856136322,
+        "to": 0.026260926597751682
+      },
+      {
+        "t": 15,
+        "emotion": "neutral",
+        "delta": -31.212718963623047,
+        "from": 49.155416107177736,
+        "to": 17.94269714355469
+      }
+    ]
+  },
+  {
+    "t": 16,
+    "face": {
+      "angry": 0.04833392798900604,
+      "disgust": 7.86435975896893e-06,
+      "fear": 0.07678739726543427,
+      "happy": 39.99942398071289,
+      "sad": 0.0971381887793541,
+      "surprise": 1.7174071073532104,
+      "neutral": 58.0609016418457
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 20.024711990356444,
+      "angry": 0.04916696399450303,
+      "fear": 0.06339369863271714,
+      "surprise": 0.8837035536766052,
+      "sad": 0.07356909438967706,
+      "neutral": 29.380450820922853,
+      "disgust": 0.02500393217987949
+    },
+    "text": {
+      "text": "Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+      "segments": [
+        {
+          "start": 5.84,
+          "end": 19.240000000000002,
+          "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.41846661984342176,
+      "text_face_valence_gap": 0.3234666198434218,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "neutral",
+        "p": 58.0609016418457
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.8605111267188594
+    },
+    "spikes": [
+      {
+        "t": 16,
+        "emotion": "happy",
+        "delta": -12.253023147583008,
+        "from": 32.27773513793945,
+        "to": 20.024711990356444
+      },
+      {
+        "t": 16,
+        "emotion": "surprise",
+        "delta": 0.7081726044416428,
+        "from": 0.17553094923496246,
+        "to": 0.8837035536766052
+      },
+      {
+        "t": 16,
+        "emotion": "neutral",
+        "delta": 11.437753677368164,
+        "from": 17.94269714355469,
+        "to": 29.380450820922853
+      }
+    ]
+  },
+  {
+    "t": 17,
+    "face": {
+      "angry": 1.1018357276916504,
+      "disgust": 1.867046557890717e-05,
+      "fear": 0.17888115346431732,
+      "happy": 0.23914900422096252,
+      "sad": 3.961840867996216,
+      "surprise": 0.0019820041488856077,
+      "neutral": 94.51629638671875
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 0.14457450211048126,
+      "angry": 0.5759178638458252,
+      "fear": 0.11444057673215867,
+      "surprise": 0.02599100207444281,
+      "sad": 2.005920433998108,
+      "neutral": 47.608148193359376,
+      "disgust": 0.02500933523278946
+    },
+    "text": {
+      "text": "Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+      "segments": [
+        {
+          "start": 5.84,
+          "end": 19.240000000000002,
+          "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.05894038760330236,
+      "text_face_valence_gap": 0.036059612396697624,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "neutral",
+        "p": 94.51629638671875
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9683333333333334
+    },
+    "spikes": [
+      {
+        "t": 17,
+        "emotion": "happy",
+        "delta": -19.880137488245964,
+        "from": 20.024711990356444,
+        "to": 0.14457450211048126
+      },
+      {
+        "t": 17,
+        "emotion": "angry",
+        "delta": 0.5267508998513222,
+        "from": 0.04916696399450303,
+        "to": 0.5759178638458252
+      },
+      {
+        "t": 17,
+        "emotion": "surprise",
+        "delta": -0.8577125516021624,
+        "from": 0.8837035536766052,
+        "to": 0.02599100207444281
+      },
+      {
+        "t": 17,
+        "emotion": "sad",
+        "delta": 1.9323513396084309,
+        "from": 0.07356909438967706,
+        "to": 2.005920433998108
+      },
+      {
+        "t": 17,
+        "emotion": "neutral",
+        "delta": 18.227697372436523,
+        "from": 29.380450820922853,
+        "to": 47.608148193359376
+      }
+    ]
+  },
+  {
+    "t": 18,
+    "face": {
+      "angry": 0.8974968194961548,
+      "disgust": 2.989133207620398e-08,
+      "fear": 0.028416680172085762,
+      "happy": 3.3210024412255734e-05,
+      "sad": 3.1280922889709473,
+      "surprise": 5.038301651438815e-07,
+      "neutral": 95.94596099853516
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 0.025016605012206133,
+      "angry": 0.4737484097480774,
+      "fear": 0.03920834008604289,
+      "surprise": 0.025000251915082577,
+      "sad": 1.5890461444854735,
+      "neutral": 48.32298049926758,
+      "disgust": 0.025000014945666043
+    },
+    "text": {
+      "text": "Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,",
+      "segments": [
+        {
+          "start": 5.84,
+          "end": 19.240000000000002,
+          "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.06569631311788311,
+      "text_face_valence_gap": 0.029303686882116875,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "neutral",
+        "p": 95.94596099853516
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9683333333333334
+    },
+    "spikes": [
+      {
+        "t": 18,
+        "emotion": "sad",
+        "delta": -0.4168742895126343,
+        "from": 2.005920433998108,
+        "to": 1.5890461444854735
+      },
+      {
+        "t": 18,
+        "emotion": "neutral",
+        "delta": 0.7148323059082031,
+        "from": 47.608148193359376,
+        "to": 48.32298049926758
+      }
+    ]
+  },
+  {
+    "t": 19,
+    "face": {
+      "angry": 0.11620833724737167,
+      "disgust": 3.176510290359147e-07,
+      "fear": 0.006002384703606367,
+      "happy": 0.003812328912317753,
+      "sad": 0.5063191652297974,
+      "surprise": 0.001616990310139954,
+      "neutral": 99.36603546142578
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 0.02690616445615888,
+      "angry": 0.08310416862368585,
+      "fear": 0.02800119235180319,
+      "surprise": 0.025808495155069982,
+      "sad": 0.2781595826148987,
+      "neutral": 50.03301773071289,
+      "disgust": 0.025000158825514523
+    },
+    "text": {
+      "text": "Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um, I drive a red car, um, and uh, I have a million dollars in my bank account right",
+      "segments": [
+        {
+          "start": 5.84,
+          "end": 19.240000000000002,
+          "text": " Alright, my name is Rob Wazowski, um, I'm 21 years old, uh, I was born in 2010, um,"
+        },
+        {
+          "start": 19.240000000000002,
+          "end": 27.080000000000002,
+          "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.09051342722147525,
+      "text_face_valence_gap": 0.004486572778524734,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "neutral",
+        "p": 99.36603546142578
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9683333333333334
+    },
+    "spikes": [
+      {
+        "t": 19,
+        "emotion": "angry",
+        "delta": -0.39064424112439156,
+        "from": 0.4737484097480774,
+        "to": 0.08310416862368585
+      },
+      {
+        "t": 19,
+        "emotion": "sad",
+        "delta": -1.310886561870575,
+        "from": 1.5890461444854735,
+        "to": 0.2781595826148987
+      },
+      {
+        "t": 19,
+        "emotion": "neutral",
+        "delta": 1.7100372314453125,
+        "from": 48.32298049926758,
+        "to": 50.03301773071289
+      }
+    ]
+  },
+  {
+    "t": 20,
+    "face": {
+      "angry": 2.5080440044403076,
+      "disgust": 0.00662129744887352,
+      "fear": 1.201581597328186,
+      "happy": 28.015865325927734,
+      "sad": 6.086413860321045,
+      "surprise": 9.903807640075684,
+      "neutral": 52.277671813964844
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 14.032932662963868,
+      "angry": 1.2790220022201537,
+      "fear": 0.625790798664093,
+      "surprise": 4.976903820037842,
+      "sad": 3.0682069301605224,
+      "neutral": 26.488835906982423,
+      "disgust": 0.028310648724436765
+    },
+    "text": {
+      "text": "I drive a red car, um, and uh, I have a million dollars in my bank account right",
+      "segments": [
+        {
+          "start": 19.240000000000002,
+          "end": 27.080000000000002,
+          "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.27651008455434833,
+      "text_face_valence_gap": 0.18151008455434833,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "neutral",
+        "p": 52.277671813964844
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9078299718152172
+    },
+    "spikes": [
+      {
+        "t": 20,
+        "emotion": "happy",
+        "delta": 14.006026498507708,
+        "from": 0.02690616445615888,
+        "to": 14.032932662963868
+      },
+      {
+        "t": 20,
+        "emotion": "angry",
+        "delta": 1.195917833596468,
+        "from": 0.08310416862368585,
+        "to": 1.2790220022201537
+      },
+      {
+        "t": 20,
+        "emotion": "fear",
+        "delta": 0.5977896063122898,
+        "from": 0.02800119235180319,
+        "to": 0.625790798664093
+      },
+      {
+        "t": 20,
+        "emotion": "surprise",
+        "delta": 4.951095324882772,
+        "from": 0.025808495155069982,
+        "to": 4.976903820037842
+      },
+      {
+        "t": 20,
+        "emotion": "sad",
+        "delta": 2.790047347545624,
+        "from": 0.2781595826148987,
+        "to": 3.0682069301605224
+      },
+      {
+        "t": 20,
+        "emotion": "neutral",
+        "delta": -23.54418182373047,
+        "from": 50.03301773071289,
+        "to": 26.488835906982423
+      }
+    ]
+  },
+  {
+    "t": 21,
+    "face": {
+      "angry": 0.07947902381420135,
+      "disgust": 9.916441740642767e-06,
+      "fear": 0.02925555408000946,
+      "happy": 0.3125655949115753,
+      "sad": 0.644666314125061,
+      "surprise": 0.04011911898851395,
+      "neutral": 98.8938980102539
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 0.18128279745578765,
+      "angry": 0.06473951190710069,
+      "fear": 0.03962777704000474,
+      "surprise": 0.04505955949425698,
+      "sad": 0.34733315706253054,
+      "neutral": 49.796949005126955,
+      "disgust": 0.025004958220870326
+    },
+    "text": {
+      "text": "I drive a red car, um, and uh, I have a million dollars in my bank account right",
+      "segments": [
+        {
+          "start": 19.240000000000002,
+          "end": 27.080000000000002,
+          "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.09223827170052523,
+      "text_face_valence_gap": 0.002761728299474755,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "neutral",
+        "p": 98.8938980102539
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9683333333333334
+    },
+    "spikes": [
+      {
+        "t": 21,
+        "emotion": "happy",
+        "delta": -13.85164986550808,
+        "from": 14.032932662963868,
+        "to": 0.18128279745578765
+      },
+      {
+        "t": 21,
+        "emotion": "angry",
+        "delta": -1.2142824903130531,
+        "from": 1.2790220022201537,
+        "to": 0.06473951190710069
+      },
+      {
+        "t": 21,
+        "emotion": "fear",
+        "delta": -0.5861630216240883,
+        "from": 0.625790798664093,
+        "to": 0.03962777704000474
+      },
+      {
+        "t": 21,
+        "emotion": "surprise",
+        "delta": -4.931844260543585,
+        "from": 4.976903820037842,
+        "to": 0.04505955949425698
+      },
+      {
+        "t": 21,
+        "emotion": "sad",
+        "delta": -2.720873773097992,
+        "from": 3.0682069301605224,
+        "to": 0.34733315706253054
+      },
+      {
+        "t": 21,
+        "emotion": "neutral",
+        "delta": 23.30811309814453,
+        "from": 26.488835906982423,
+        "to": 49.796949005126955
+      }
+    ]
+  },
+  {
+    "t": 22,
+    "face": {
+      "angry": 4.833009243011475,
+      "disgust": 1.8744676708593033e-05,
+      "fear": 0.12190011143684387,
+      "happy": 0.006455418653786182,
+      "sad": 7.691689491271973,
+      "surprise": 2.0837222109548748e-05,
+      "neutral": 87.34690856933594
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 0.028227709326893096,
+      "angry": 2.441504621505737,
+      "fear": 0.08595005571842194,
+      "surprise": 0.02501041861105478,
+      "sad": 3.8708447456359862,
+      "neutral": 44.02345428466797,
+      "disgust": 0.0250093723383543
+    },
+    "text": {
+      "text": "I drive a red car, um, and uh, I have a million dollars in my bank account right",
+      "segments": [
+        {
+          "start": 19.240000000000002,
+          "end": 27.080000000000002,
+          "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.0015704756305611467,
+      "text_face_valence_gap": 0.09342952436943884,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "neutral",
+        "p": 87.34690856933594
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9683333333333334
+    },
+    "spikes": [
+      {
+        "t": 22,
+        "emotion": "angry",
+        "delta": 2.3767651095986366,
+        "from": 0.06473951190710069,
+        "to": 2.441504621505737
+      },
+      {
+        "t": 22,
+        "emotion": "sad",
+        "delta": 3.523511588573456,
+        "from": 0.34733315706253054,
+        "to": 3.8708447456359862
+      },
+      {
+        "t": 22,
+        "emotion": "neutral",
+        "delta": -5.773494720458984,
+        "from": 49.796949005126955,
+        "to": 44.02345428466797
+      }
+    ]
+  },
+  {
+    "t": 23,
+    "face": {
+      "angry": 0.7023100852966309,
+      "disgust": 8.337261903079707e-08,
+      "fear": 0.013990539126098156,
+      "happy": 0.0008238063892349601,
+      "sad": 3.892691135406494,
+      "surprise": 4.429180648912734e-07,
+      "neutral": 95.39018249511719
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 0.025411903194617485,
+      "angry": 0.37615504264831545,
+      "fear": 0.031995269563049086,
+      "surprise": 0.02500022145903245,
+      "sad": 1.971345567703247,
+      "neutral": 48.045091247558595,
+      "disgust": 0.02500004168630952
+    },
+    "text": {
+      "text": "I drive a red car, um, and uh, I have a million dollars in my bank account right",
+      "segments": [
+        {
+          "start": 19.240000000000002,
+          "end": 27.080000000000002,
+          "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.06202734778733538,
+      "text_face_valence_gap": 0.032972652212664606,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "neutral",
+        "p": 95.39018249511719
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9683333333333334
+    },
+    "spikes": [
+      {
+        "t": 23,
+        "emotion": "angry",
+        "delta": -2.065349578857422,
+        "from": 2.441504621505737,
+        "to": 0.37615504264831545
+      },
+      {
+        "t": 23,
+        "emotion": "sad",
+        "delta": -1.8994991779327393,
+        "from": 3.8708447456359862,
+        "to": 1.971345567703247
+      },
+      {
+        "t": 23,
+        "emotion": "neutral",
+        "delta": 4.021636962890625,
+        "from": 44.02345428466797,
+        "to": 48.045091247558595
+      }
+    ]
+  },
+  {
+    "t": 24,
+    "face": {
+      "angry": 0.3005342185497284,
+      "disgust": 3.753428973141126e-05,
+      "fear": 0.10086026787757874,
+      "happy": 1.0907894372940063,
+      "sad": 2.118264675140381,
+      "surprise": 0.7772289514541626,
+      "neutral": 95.61228942871094
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 0.5703947186470032,
+      "angry": 0.1752671092748642,
+      "fear": 0.07543013393878938,
+      "surprise": 0.4136144757270813,
+      "sad": 1.0841323375701903,
+      "neutral": 48.15614471435547,
+      "disgust": 0.02501876714486571
+    },
+    "text": {
+      "text": "I drive a red car, um, and uh, I have a million dollars in my bank account right",
+      "segments": [
+        {
+          "start": 19.240000000000002,
+          "end": 27.080000000000002,
+          "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.08801873131037204,
+      "text_face_valence_gap": 0.006981268689627948,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "neutral",
+        "p": 95.61228942871094
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9683333333333334
+    },
+    "spikes": [
+      {
+        "t": 24,
+        "emotion": "happy",
+        "delta": 0.5449828154523857,
+        "from": 0.025411903194617485,
+        "to": 0.5703947186470032
+      },
+      {
+        "t": 24,
+        "emotion": "angry",
+        "delta": -0.20088793337345126,
+        "from": 0.37615504264831545,
+        "to": 0.1752671092748642
+      },
+      {
+        "t": 24,
+        "emotion": "surprise",
+        "delta": 0.38861425426804885,
+        "from": 0.02500022145903245,
+        "to": 0.4136144757270813
+      },
+      {
+        "t": 24,
+        "emotion": "sad",
+        "delta": -0.8872132301330566,
+        "from": 1.971345567703247,
+        "to": 1.0841323375701903
+      }
+    ]
+  },
+  {
+    "t": 25,
+    "face": {
+      "angry": 1.1995958089828491,
+      "disgust": 5.814055157316034e-07,
+      "fear": 0.020055843517184258,
+      "happy": 0.0005291635752655566,
+      "sad": 18.91388511657715,
+      "surprise": 1.1826380159618566e-06,
+      "neutral": 79.86593627929688
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 0.025264581787632783,
+      "angry": 0.6247979044914246,
+      "fear": 0.03502792175859214,
+      "surprise": 0.025000591319007986,
+      "sad": 9.481942558288575,
+      "neutral": 40.28296813964844,
+      "disgust": 0.02500029070275787
+    },
+    "text": {
+      "text": "I drive a red car, um, and uh, I have a million dollars in my bank account right",
+      "segments": [
+        {
+          "start": 19.240000000000002,
+          "end": 27.080000000000002,
+          "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.047150170597482124,
+      "text_face_valence_gap": 0.1421501705974821,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "neutral",
+        "p": 79.86593627929688
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9526166098008393
+    },
+    "spikes": [
+      {
+        "t": 25,
+        "emotion": "happy",
+        "delta": -0.5451301368593704,
+        "from": 0.5703947186470032,
+        "to": 0.025264581787632783
+      },
+      {
+        "t": 25,
+        "emotion": "angry",
+        "delta": 0.44953079521656036,
+        "from": 0.1752671092748642,
+        "to": 0.6247979044914246
+      },
+      {
+        "t": 25,
+        "emotion": "surprise",
+        "delta": -0.3886138844080733,
+        "from": 0.4136144757270813,
+        "to": 0.025000591319007986
+      },
+      {
+        "t": 25,
+        "emotion": "sad",
+        "delta": 8.397810220718384,
+        "from": 1.0841323375701903,
+        "to": 9.481942558288575
+      },
+      {
+        "t": 25,
+        "emotion": "neutral",
+        "delta": -7.873176574707031,
+        "from": 48.15614471435547,
+        "to": 40.28296813964844
+      }
+    ]
+  },
+  {
+    "t": 26,
+    "face": {
+      "angry": 0.732693076133728,
+      "disgust": 2.02190440177219e-05,
+      "fear": 0.04756154865026474,
+      "happy": 0.02314174734055996,
+      "sad": 8.20880126953125,
+      "surprise": 0.0006237257039174438,
+      "neutral": 90.9871597290039
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 0.03657087367027999,
+      "angry": 0.39134653806686404,
+      "fear": 0.04878077432513238,
+      "surprise": 0.025311862851958727,
+      "sad": 4.129400634765625,
+      "neutral": 45.843579864501955,
+      "disgust": 0.025010109522008866
+    },
+    "text": {
+      "text": "I drive a red car, um, and uh, I have a million dollars in my bank account right",
+      "segments": [
+        {
+          "start": 19.240000000000002,
+          "end": 27.080000000000002,
+          "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.03148321857304201,
+      "text_face_valence_gap": 0.06351678142695798,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "neutral",
+        "p": 90.9871597290039
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9683333333333334
+    },
+    "spikes": [
+      {
+        "t": 26,
+        "emotion": "angry",
+        "delta": -0.23345136642456055,
+        "from": 0.6247979044914246,
+        "to": 0.39134653806686404
+      },
+      {
+        "t": 26,
+        "emotion": "sad",
+        "delta": -5.352541923522949,
+        "from": 9.481942558288575,
+        "to": 4.129400634765625
+      },
+      {
+        "t": 26,
+        "emotion": "neutral",
+        "delta": 5.560611724853516,
+        "from": 40.28296813964844,
+        "to": 45.843579864501955
+      }
+    ]
+  },
+  {
+    "t": 27,
+    "face": {
+      "angry": 1.6934309005737305,
+      "disgust": 6.0418744396883994e-05,
+      "fear": 0.22152180969715118,
+      "happy": 0.08238295465707779,
+      "sad": 10.251629829406738,
+      "surprise": 0.0052807689644396305,
+      "neutral": 87.74568939208984
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 0.0661914773285389,
+      "angry": 0.8717154502868653,
+      "fear": 0.1357609048485756,
+      "surprise": 0.02764038448221982,
+      "sad": 5.1508149147033695,
+      "neutral": 44.22284469604492,
+      "disgust": 0.025030209372198447
+    },
+    "text": {
+      "text": "I drive a red car, um, and uh, I have a million dollars in my bank account right now.",
+      "segments": [
+        {
+          "start": 19.240000000000002,
+          "end": 27.080000000000002,
+          "text": " I drive a red car, um, and uh, I have a million dollars in my bank account right"
+        },
+        {
+          "start": 27.080000000000002,
+          "end": 28.080000000000002,
+          "text": " now."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.008593449132718992,
+      "text_face_valence_gap": 0.086406550867281,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "neutral",
+        "p": 87.74568939208984
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9683333333333334
+    },
+    "spikes": [
+      {
+        "t": 27,
+        "emotion": "angry",
+        "delta": 0.4803689122200012,
+        "from": 0.39134653806686404,
+        "to": 0.8717154502868653
+      },
+      {
+        "t": 27,
+        "emotion": "sad",
+        "delta": 1.0214142799377441,
+        "from": 4.129400634765625,
+        "to": 5.1508149147033695
+      },
+      {
+        "t": 27,
+        "emotion": "neutral",
+        "delta": -1.6207351684570312,
+        "from": 45.843579864501955,
+        "to": 44.22284469604492
+      }
+    ]
+  },
+  {
+    "t": 28,
+    "face": {
+      "angry": 2.2055389881134033,
+      "disgust": 2.942877654277254e-05,
+      "fear": 0.25296536087989807,
+      "happy": 0.018900660797953606,
+      "sad": 11.75501823425293,
+      "surprise": 6.551519618369639e-05,
+      "neutral": 85.76748657226562
+    },
+    "audio": {
+      "neutral": 0.7,
+      "happy": 0.05000000000000001,
+      "sad": 0.05000000000000001,
+      "angry": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001
+    },
+    "combined": {
+      "happy": 0.03445033039897681,
+      "angry": 1.1277694940567016,
+      "fear": 0.15148268043994903,
+      "surprise": 0.025032757598091853,
+      "sad": 5.902509117126465,
+      "neutral": 43.233743286132814,
+      "disgust": 0.02501471438827139
+    },
+    "text": {
+      "text": "now.",
+      "segments": [
+        {
+          "start": 27.080000000000002,
+          "end": 28.080000000000002,
+          "text": " now."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.006801961755119532,
+      "text_face_valence_gap": 0.10180196175511952,
+      "text_audio_valence_gap": 0.09499999999999999,
+      "face_top": {
+        "label": "neutral",
+        "p": 85.76748657226562
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9660660127482935
+    },
+    "spikes": [
+      {
+        "t": 28,
+        "emotion": "angry",
+        "delta": 0.2560540437698363,
+        "from": 0.8717154502868653,
+        "to": 1.1277694940567016
+      },
+      {
+        "t": 28,
+        "emotion": "sad",
+        "delta": 0.7516942024230957,
+        "from": 5.1508149147033695,
+        "to": 5.902509117126465
+      },
+      {
+        "t": 28,
+        "emotion": "neutral",
+        "delta": -0.9891014099121094,
+        "from": 44.22284469604492,
+        "to": 43.233743286132814
+      }
+    ]
+  }
+]

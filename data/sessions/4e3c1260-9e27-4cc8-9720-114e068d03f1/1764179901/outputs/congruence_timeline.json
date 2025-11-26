@@ -1,0 +1,1504 @@
+[
+  {
+    "t": 0,
+    "face": {
+      "angry": 0.10566683113574982,
+      "disgust": 0.000253065227298066,
+      "fear": 0.6627607345581055,
+      "happy": 0.9735180735588074,
+      "sad": 1.0203229188919067,
+      "surprise": 0.006695483811199665,
+      "neutral": 97.23078155517578
+    },
+    "audio": {},
+    "combined": {
+      "happy": 0.9735180735588074,
+      "sad": 1.0203229188919067,
+      "fear": 0.6627607345581055,
+      "surprise": 0.006695483811199665,
+      "disgust": 0.000253065227298066,
+      "angry": 0.10566683113574982,
+      "neutral": 97.23078155517578
+    },
+    "text": {
+      "text": "Hello.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 7.0,
+          "text": " Hello."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.005483221447827044,
+      "text_face_valence_gap": 0.005483221447827044,
+      "text_audio_valence_gap": 0.0,
+      "face_top": {
+        "label": "neutral",
+        "p": 97.23078155517578
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.998172259517391
+    },
+    "spikes": []
+  },
+  {
+    "t": 1,
+    "face": {
+      "angry": 0.05477428063750267,
+      "disgust": 5.4230935347732157e-05,
+      "fear": 0.4319387376308441,
+      "happy": 0.7197825908660889,
+      "sad": 0.8641119003295898,
+      "surprise": 0.004923037253320217,
+      "neutral": 97.9244155883789
+    },
+    "audio": {},
+    "combined": {
+      "happy": 0.7197825908660889,
+      "sad": 0.8641119003295898,
+      "fear": 0.4319387376308441,
+      "surprise": 0.004923037253320217,
+      "disgust": 5.4230935347732157e-05,
+      "angry": 0.05477428063750267,
+      "neutral": 97.9244155883789
+    },
+    "text": {
+      "text": "Hello.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 7.0,
+          "text": " Hello."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.004169837211049743,
+      "text_face_valence_gap": 0.004169837211049743,
+      "text_audio_valence_gap": 0.0,
+      "face_top": {
+        "label": "neutral",
+        "p": 97.9244155883789
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9986100542629834
+    },
+    "spikes": [
+      {
+        "t": 1,
+        "emotion": "happy",
+        "delta": -0.2537354826927185,
+        "from": 0.9735180735588074,
+        "to": 0.7197825908660889
+      },
+      {
+        "t": 1,
+        "emotion": "fear",
+        "delta": -0.23082199692726135,
+        "from": 0.6627607345581055,
+        "to": 0.4319387376308441
+      },
+      {
+        "t": 1,
+        "emotion": "neutral",
+        "delta": 0.693634033203125,
+        "from": 97.23078155517578,
+        "to": 97.9244155883789
+      }
+    ]
+  },
+  {
+    "t": 2,
+    "face": {
+      "angry": 0.11485198885202408,
+      "disgust": 3.753552846319508e-06,
+      "fear": 0.2682575285434723,
+      "happy": 0.04588724300265312,
+      "sad": 2.210357427597046,
+      "surprise": 0.0009141000919044018,
+      "neutral": 97.3597183227539
+    },
+    "audio": {},
+    "combined": {
+      "happy": 0.04588724300265312,
+      "sad": 2.210357427597046,
+      "fear": 0.2682575285434723,
+      "surprise": 0.0009141000919044018,
+      "disgust": 3.753552846319508e-06,
+      "angry": 0.11485198885202408,
+      "neutral": 97.3597183227539
+    },
+    "text": {
+      "text": "Hello.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 7.0,
+          "text": " Hello."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.018167565913471375,
+      "text_face_valence_gap": 0.018167565913471375,
+      "text_audio_valence_gap": 0.0,
+      "face_top": {
+        "label": "neutral",
+        "p": 97.3597183227539
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9939441446955095
+    },
+    "spikes": [
+      {
+        "t": 2,
+        "emotion": "happy",
+        "delta": -0.6738953478634357,
+        "from": 0.7197825908660889,
+        "to": 0.04588724300265312
+      },
+      {
+        "t": 2,
+        "emotion": "sad",
+        "delta": 1.346245527267456,
+        "from": 0.8641119003295898,
+        "to": 2.210357427597046
+      },
+      {
+        "t": 2,
+        "emotion": "neutral",
+        "delta": -0.564697265625,
+        "from": 97.9244155883789,
+        "to": 97.3597183227539
+      }
+    ]
+  },
+  {
+    "t": 3,
+    "face": {
+      "angry": 0.14466555416584015,
+      "disgust": 0.00018358022498432547,
+      "fear": 0.3391410708427429,
+      "happy": 1.4623979330062866,
+      "sad": 2.2385013103485107,
+      "surprise": 0.005564816761761904,
+      "neutral": 95.8095474243164
+    },
+    "audio": {},
+    "combined": {
+      "happy": 1.4623979330062866,
+      "sad": 2.2385013103485107,
+      "fear": 0.3391410708427429,
+      "surprise": 0.005564816761761904,
+      "disgust": 0.00018358022498432547,
+      "angry": 0.14466555416584015,
+      "neutral": 95.8095474243164
+    },
+    "text": {
+      "text": "Hello.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 7.0,
+          "text": " Hello."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.007825369187524906,
+      "text_face_valence_gap": 0.007825369187524906,
+      "text_audio_valence_gap": 0.0,
+      "face_top": {
+        "label": "neutral",
+        "p": 95.8095474243164
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9973915436041584
+    },
+    "spikes": [
+      {
+        "t": 3,
+        "emotion": "happy",
+        "delta": 1.4165106900036335,
+        "from": 0.04588724300265312,
+        "to": 1.4623979330062866
+      },
+      {
+        "t": 3,
+        "emotion": "neutral",
+        "delta": -1.5501708984375,
+        "from": 97.3597183227539,
+        "to": 95.8095474243164
+      }
+    ]
+  },
+  {
+    "t": 4,
+    "face": {
+      "angry": 0.5249842405319214,
+      "disgust": 0.00526656536385417,
+      "fear": 8.520149230957031,
+      "happy": 0.5154754519462585,
+      "sad": 9.468802452087402,
+      "surprise": 0.0005165240145288408,
+      "neutral": 80.96480560302734
+    },
+    "audio": {},
+    "combined": {
+      "happy": 0.5154754519462585,
+      "sad": 9.468802452087402,
+      "fear": 8.520149230957031,
+      "surprise": 0.0005165240145288408,
+      "disgust": 0.00526656536385417,
+      "angry": 0.5249842405319214,
+      "neutral": 80.96480560302734
+    },
+    "text": {
+      "text": "Hello.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 7.0,
+          "text": " Hello."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.13455419761505633,
+      "text_face_valence_gap": 0.13455419761505633,
+      "text_audio_valence_gap": 0.0,
+      "face_top": {
+        "label": "neutral",
+        "p": 80.96480560302734
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9551486007949812
+    },
+    "spikes": [
+      {
+        "t": 4,
+        "emotion": "happy",
+        "delta": -0.9469224810600281,
+        "from": 1.4623979330062866,
+        "to": 0.5154754519462585
+      },
+      {
+        "t": 4,
+        "emotion": "sad",
+        "delta": 7.230301141738892,
+        "from": 2.2385013103485107,
+        "to": 9.468802452087402
+      },
+      {
+        "t": 4,
+        "emotion": "angry",
+        "delta": 0.38031868636608124,
+        "from": 0.14466555416584015,
+        "to": 0.5249842405319214
+      },
+      {
+        "t": 4,
+        "emotion": "fear",
+        "delta": 8.181008160114288,
+        "from": 0.3391410708427429,
+        "to": 8.520149230957031
+      },
+      {
+        "t": 4,
+        "emotion": "neutral",
+        "delta": -14.844741821289062,
+        "from": 95.8095474243164,
+        "to": 80.96480560302734
+      }
+    ]
+  },
+  {
+    "t": 5,
+    "face": {
+      "angry": 0.00037351291393861175,
+      "disgust": 1.3916040542127917e-09,
+      "fear": 0.00294153462164104,
+      "happy": 0.002450645435601473,
+      "sad": 0.02424725703895092,
+      "surprise": 1.2308153145568212e-06,
+      "neutral": 99.96998596191406
+    },
+    "audio": {},
+    "combined": {
+      "happy": 0.002450645435601473,
+      "sad": 0.02424725703895092,
+      "fear": 0.00294153462164104,
+      "surprise": 1.2308153145568212e-06,
+      "disgust": 1.3916040542127917e-09,
+      "angry": 0.00037351291393861175,
+      "neutral": 99.96998596191406
+    },
+    "text": {
+      "text": "Hello.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 7.0,
+          "text": " Hello."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.00017664233311317002,
+      "text_face_valence_gap": 0.00017664233311317002,
+      "text_audio_valence_gap": 0.0,
+      "face_top": {
+        "label": "neutral",
+        "p": 99.96998596191406
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9999411192222956
+    },
+    "spikes": [
+      {
+        "t": 5,
+        "emotion": "happy",
+        "delta": -0.5130248065106571,
+        "from": 0.5154754519462585,
+        "to": 0.002450645435601473
+      },
+      {
+        "t": 5,
+        "emotion": "sad",
+        "delta": -9.444555195048451,
+        "from": 9.468802452087402,
+        "to": 0.02424725703895092
+      },
+      {
+        "t": 5,
+        "emotion": "angry",
+        "delta": -0.5246107276179828,
+        "from": 0.5249842405319214,
+        "to": 0.00037351291393861175
+      },
+      {
+        "t": 5,
+        "emotion": "fear",
+        "delta": -8.51720769633539,
+        "from": 8.520149230957031,
+        "to": 0.00294153462164104
+      },
+      {
+        "t": 5,
+        "emotion": "neutral",
+        "delta": 19.00518035888672,
+        "from": 80.96480560302734,
+        "to": 99.96998596191406
+      }
+    ]
+  },
+  {
+    "t": 6,
+    "face": {
+      "angry": 5.1702704429626465,
+      "disgust": 64.56234741210938,
+      "fear": 17.54932403564453,
+      "happy": 0.9137900471687317,
+      "sad": 6.365357398986816,
+      "surprise": 1.974034070968628,
+      "neutral": 3.464876413345337
+    },
+    "audio": {},
+    "combined": {
+      "happy": 0.9137900471687317,
+      "sad": 6.365357398986816,
+      "fear": 17.54932403564453,
+      "surprise": 1.974034070968628,
+      "disgust": 64.56234741210938,
+      "angry": 5.1702704429626465,
+      "neutral": 3.464876413345337
+    },
+    "text": {
+      "text": "Hello.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 7.0,
+          "text": " Hello."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.6650182681054203,
+      "text_face_valence_gap": 0.6650182681054203,
+      "text_audio_valence_gap": 0.0,
+      "face_top": {
+        "label": "disgust",
+        "p": 64.56234741210938
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.7783272439648599
+    },
+    "spikes": [
+      {
+        "t": 6,
+        "emotion": "happy",
+        "delta": 0.9113394017331302,
+        "from": 0.002450645435601473,
+        "to": 0.9137900471687317
+      },
+      {
+        "t": 6,
+        "emotion": "sad",
+        "delta": 6.3411101419478655,
+        "from": 0.02424725703895092,
+        "to": 6.365357398986816
+      },
+      {
+        "t": 6,
+        "emotion": "surprise",
+        "delta": 1.9740328401533134,
+        "from": 1.2308153145568212e-06,
+        "to": 1.974034070968628
+      },
+      {
+        "t": 6,
+        "emotion": "angry",
+        "delta": 5.169896930048708,
+        "from": 0.00037351291393861175,
+        "to": 5.1702704429626465
+      },
+      {
+        "t": 6,
+        "emotion": "disgust",
+        "delta": 64.56234741071778,
+        "from": 1.3916040542127917e-09,
+        "to": 64.56234741210938
+      },
+      {
+        "t": 6,
+        "emotion": "fear",
+        "delta": 17.54638250102289,
+        "from": 0.00294153462164104,
+        "to": 17.54932403564453
+      },
+      {
+        "t": 6,
+        "emotion": "neutral",
+        "delta": -96.50510954856873,
+        "from": 99.96998596191406,
+        "to": 3.464876413345337
+      }
+    ]
+  },
+  {
+    "t": 7,
+    "face": {
+      "angry": 0.0009882166050374508,
+      "disgust": 1.165387092383341e-10,
+      "fear": 0.0008223593467846513,
+      "happy": 0.00024520730949006975,
+      "sad": 0.06425274163484573,
+      "surprise": 8.095241355476901e-06,
+      "neutral": 99.93368530273438
+    },
+    "audio": {},
+    "combined": {
+      "happy": 0.00024520730949006975,
+      "sad": 0.06425274163484573,
+      "fear": 0.0008223593467846513,
+      "surprise": 8.095241355476901e-06,
+      "disgust": 1.165387092383341e-10,
+      "angry": 0.0009882166050374508,
+      "neutral": 99.93368530273438
+    },
+    "text": {
+      "text": "I am lying.",
+      "segments": [
+        {
+          "start": 7.0,
+          "end": 8.0,
+          "text": " I am lying."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotions": {
+          "neutral": 1.0,
+          "happy": 0.0,
+          "sad": 0.0,
+          "angry": 0.0,
+          "fear": 0.0,
+          "disgust": 0.0,
+          "surprise": 0.0
+        },
+        "rationale": "Heuristic estimate based on word list.",
+        "source": "heuristic"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.0004622678467849237,
+      "text_face_valence_gap": 0.0004622678467849237,
+      "text_audio_valence_gap": 0.0,
+      "face_top": {
+        "label": "neutral",
+        "p": 99.93368530273438
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 1.0
+      },
+      "congruence_score": 0.9998459107177383
+    },
+    "spikes": [
+      {
+        "t": 7,
+        "emotion": "happy",
+        "delta": -0.9135448398592416,
+        "from": 0.9137900471687317,
+        "to": 0.00024520730949006975
+      },
+      {
+        "t": 7,
+        "emotion": "sad",
+        "delta": -6.301104657351971,
+        "from": 6.365357398986816,
+        "to": 0.06425274163484573
+      },
+      {
+        "t": 7,
+        "emotion": "surprise",
+        "delta": -1.9740259757272725,
+        "from": 1.974034070968628,
+        "to": 8.095241355476901e-06
+      },
+      {
+        "t": 7,
+        "emotion": "angry",
+        "delta": -5.169282226357609,
+        "from": 5.1702704429626465,
+        "to": 0.0009882166050374508
+      },
+      {
+        "t": 7,
+        "emotion": "disgust",
+        "delta": -64.56234741199283,
+        "from": 64.56234741210938,
+        "to": 1.165387092383341e-10
+      },
+      {
+        "t": 7,
+        "emotion": "fear",
+        "delta": -17.548501676297747,
+        "from": 17.54932403564453,
+        "to": 0.0008223593467846513
+      },
+      {
+        "t": 7,
+        "emotion": "neutral",
+        "delta": 96.46880888938904,
+        "from": 3.464876413345337,
+        "to": 99.93368530273438
+      }
+    ]
+  },
+  {
+    "t": 8,
+    "face": {
+      "angry": 3.2407387884347827e-10,
+      "disgust": 1.9536184787219847e-31,
+      "fear": 77.72956848144531,
+      "happy": 1.8999559259214038e-08,
+      "sad": 21.684446334838867,
+      "surprise": 0.5483225584030151,
+      "neutral": 0.037666987627744675
+    },
+    "audio": {},
+    "combined": {
+      "happy": 1.8999559259214038e-08,
+      "sad": 21.684446334838867,
+      "fear": 77.72956848144531,
+      "surprise": 0.5483225584030151,
+      "disgust": 1.9536184787219847e-31,
+      "angry": 3.2407387884347827e-10,
+      "neutral": 0.037666987627744675
+    },
+    "text": {
+      "text": "",
+      "segments": [],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotions": {},
+        "rationale": "",
+        "source": "none"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.7719826705453311,
+      "text_face_valence_gap": 0.7719826705453311,
+      "text_audio_valence_gap": 0.0,
+      "face_top": {
+        "label": "fear",
+        "p": 77.72956848144531
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.6140086647273344
+    },
+    "spikes": [
+      {
+        "t": 8,
+        "emotion": "sad",
+        "delta": 21.62019359320402,
+        "from": 0.06425274163484573,
+        "to": 21.684446334838867
+      },
+      {
+        "t": 8,
+        "emotion": "surprise",
+        "delta": 0.5483144631616597,
+        "from": 8.095241355476901e-06,
+        "to": 0.5483225584030151
+      },
+      {
+        "t": 8,
+        "emotion": "fear",
+        "delta": 77.72874612209853,
+        "from": 0.0008223593467846513,
+        "to": 77.72956848144531
+      },
+      {
+        "t": 8,
+        "emotion": "neutral",
+        "delta": -99.89601831510663,
+        "from": 99.93368530273438,
+        "to": 0.037666987627744675
+      }
+    ]
+  },
+  {
+    "t": 9,
+    "face": {
+      "angry": 9.94667126441584e-10,
+      "disgust": 3.072467286568375e-25,
+      "fear": 0.006355409510433674,
+      "happy": 0.01202289666980505,
+      "sad": 0.00973487738519907,
+      "surprise": 2.7659172701532952e-05,
+      "neutral": 99.97186279296875
+    },
+    "audio": {},
+    "combined": {
+      "happy": 0.01202289666980505,
+      "sad": 0.00973487738519907,
+      "fear": 0.006355409510433674,
+      "surprise": 2.7659172701532952e-05,
+      "disgust": 3.072467286568375e-25,
+      "angry": 9.94667126441584e-10,
+      "neutral": 99.97186279296875
+    },
+    "text": {
+      "text": "",
+      "segments": [],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotions": {},
+        "rationale": "",
+        "source": "none"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 2.272127403434996e-05,
+      "text_face_valence_gap": 2.272127403434996e-05,
+      "text_audio_valence_gap": 0.0,
+      "face_top": {
+        "label": "neutral",
+        "p": 99.97186279296875
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9999886393629829
+    },
+    "spikes": [
+      {
+        "t": 9,
+        "emotion": "sad",
+        "delta": -21.674711457453668,
+        "from": 21.684446334838867,
+        "to": 0.00973487738519907
+      },
+      {
+        "t": 9,
+        "emotion": "surprise",
+        "delta": -0.5482948992303136,
+        "from": 0.5483225584030151,
+        "to": 2.7659172701532952e-05
+      },
+      {
+        "t": 9,
+        "emotion": "fear",
+        "delta": -77.72321307193488,
+        "from": 77.72956848144531,
+        "to": 0.006355409510433674
+      },
+      {
+        "t": 9,
+        "emotion": "neutral",
+        "delta": 99.934195805341,
+        "from": 0.037666987627744675,
+        "to": 99.97186279296875
+      }
+    ]
+  },
+  {
+    "t": 10,
+    "face": {
+      "angry": 1.3767074346542358,
+      "disgust": 0.41194069385528564,
+      "fear": 9.349702835083008,
+      "happy": 2.0599844455718994,
+      "sad": 3.281604528427124,
+      "surprise": 0.0112806037068367,
+      "neutral": 83.50877380371094
+    },
+    "audio": {},
+    "combined": {
+      "happy": 2.0599844455718994,
+      "sad": 3.281604528427124,
+      "fear": 9.349702835083008,
+      "surprise": 0.0112806037068367,
+      "disgust": 0.41194069385528564,
+      "angry": 1.3767074346542358,
+      "neutral": 83.50877380371094
+    },
+    "text": {
+      "text": "",
+      "segments": [],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotions": {},
+        "rationale": "",
+        "source": "none"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.0951523867190377,
+      "text_face_valence_gap": 0.0951523867190377,
+      "text_audio_valence_gap": 0.0,
+      "face_top": {
+        "label": "neutral",
+        "p": 83.50877380371094
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9524238066404811
+    },
+    "spikes": [
+      {
+        "t": 10,
+        "emotion": "happy",
+        "delta": 2.0479615489020944,
+        "from": 0.01202289666980505,
+        "to": 2.0599844455718994
+      },
+      {
+        "t": 10,
+        "emotion": "sad",
+        "delta": 3.271869651041925,
+        "from": 0.00973487738519907,
+        "to": 3.281604528427124
+      },
+      {
+        "t": 10,
+        "emotion": "angry",
+        "delta": 1.3767074336595688,
+        "from": 9.94667126441584e-10,
+        "to": 1.3767074346542358
+      },
+      {
+        "t": 10,
+        "emotion": "disgust",
+        "delta": 0.41194069385528564,
+        "from": 3.072467286568375e-25,
+        "to": 0.41194069385528564
+      },
+      {
+        "t": 10,
+        "emotion": "fear",
+        "delta": 9.343347425572574,
+        "from": 0.006355409510433674,
+        "to": 9.349702835083008
+      },
+      {
+        "t": 10,
+        "emotion": "neutral",
+        "delta": -16.463088989257812,
+        "from": 99.97186279296875,
+        "to": 83.50877380371094
+      }
+    ]
+  },
+  {
+    "t": 11,
+    "face": {
+      "angry": 0.003294933820143342,
+      "disgust": 9.726892130856868e-06,
+      "fear": 0.057299479842185974,
+      "happy": 82.40238189697266,
+      "sad": 0.01779419369995594,
+      "surprise": 0.9708307981491089,
+      "neutral": 16.548391342163086
+    },
+    "audio": {},
+    "combined": {
+      "happy": 82.40238189697266,
+      "sad": 0.01779419369995594,
+      "fear": 0.057299479842185974,
+      "surprise": 0.9708307981491089,
+      "disgust": 9.726892130856868e-06,
+      "angry": 0.003294933820143342,
+      "neutral": 16.548391342163086
+    },
+    "text": {
+      "text": "",
+      "segments": [],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotions": {},
+        "rationale": "",
+        "source": "none"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.6615221491285278,
+      "text_face_valence_gap": 0.6615221491285278,
+      "text_audio_valence_gap": 0.0,
+      "face_top": {
+        "label": "happy",
+        "p": 82.40238189697266
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.669238925435736
+    },
+    "spikes": [
+      {
+        "t": 11,
+        "emotion": "happy",
+        "delta": 80.34239745140076,
+        "from": 2.0599844455718994,
+        "to": 82.40238189697266
+      },
+      {
+        "t": 11,
+        "emotion": "sad",
+        "delta": -3.263810334727168,
+        "from": 3.281604528427124,
+        "to": 0.01779419369995594
+      },
+      {
+        "t": 11,
+        "emotion": "surprise",
+        "delta": 0.9595501944422722,
+        "from": 0.0112806037068367,
+        "to": 0.9708307981491089
+      },
+      {
+        "t": 11,
+        "emotion": "angry",
+        "delta": -1.3734125008340925,
+        "from": 1.3767074346542358,
+        "to": 0.003294933820143342
+      },
+      {
+        "t": 11,
+        "emotion": "disgust",
+        "delta": -0.4119309669631548,
+        "from": 0.41194069385528564,
+        "to": 9.726892130856868e-06
+      },
+      {
+        "t": 11,
+        "emotion": "fear",
+        "delta": -9.292403355240822,
+        "from": 9.349702835083008,
+        "to": 0.057299479842185974
+      },
+      {
+        "t": 11,
+        "emotion": "neutral",
+        "delta": -66.96038246154785,
+        "from": 83.50877380371094,
+        "to": 16.548391342163086
+      }
+    ]
+  },
+  {
+    "t": 12,
+    "face": {
+      "angry": 0.019217338413000107,
+      "disgust": 3.0090055588516407e-05,
+      "fear": 0.011703901924192905,
+      "happy": 0.04208966717123985,
+      "sad": 0.18027736246585846,
+      "surprise": 0.00031074378057383,
+      "neutral": 99.74636840820312
+    },
+    "audio": {},
+    "combined": {
+      "happy": 0.04208966717123985,
+      "sad": 0.18027736246585846,
+      "fear": 0.011703901924192905,
+      "surprise": 0.00031074378057383,
+      "disgust": 3.0090055588516407e-05,
+      "angry": 0.019217338413000107,
+      "neutral": 99.74636840820312
+    },
+    "text": {
+      "text": "",
+      "segments": [],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotions": {},
+        "rationale": "",
+        "source": "none"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.0011718725507920624,
+      "text_face_valence_gap": 0.0011718725507920624,
+      "text_audio_valence_gap": 0.0,
+      "face_top": {
+        "label": "neutral",
+        "p": 99.74636840820312
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.999414063724604
+    },
+    "spikes": [
+      {
+        "t": 12,
+        "emotion": "happy",
+        "delta": -82.36029222980142,
+        "from": 82.40238189697266,
+        "to": 0.04208966717123985
+      },
+      {
+        "t": 12,
+        "emotion": "surprise",
+        "delta": -0.9705200543685351,
+        "from": 0.9708307981491089,
+        "to": 0.00031074378057383
+      },
+      {
+        "t": 12,
+        "emotion": "neutral",
+        "delta": 83.19797706604004,
+        "from": 16.548391342163086,
+        "to": 99.74636840820312
+      }
+    ]
+  },
+  {
+    "t": 13,
+    "face": {
+      "angry": 0.06902308017015457,
+      "disgust": 0.0005909340688958764,
+      "fear": 1.0213420391082764,
+      "happy": 0.8538618683815002,
+      "sad": 0.4079288840293884,
+      "surprise": 0.0033066007308661938,
+      "neutral": 97.64395141601562
+    },
+    "audio": {},
+    "combined": {
+      "happy": 0.8538618683815002,
+      "sad": 0.4079288840293884,
+      "fear": 1.0213420391082764,
+      "surprise": 0.0033066007308661938,
+      "disgust": 0.0005909340688958764,
+      "angry": 0.06902308017015457,
+      "neutral": 97.64395141601562
+    },
+    "text": {
+      "text": "",
+      "segments": [],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotions": {},
+        "rationale": "",
+        "source": "none"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.004741744702999976,
+      "text_face_valence_gap": 0.004741744702999976,
+      "text_audio_valence_gap": 0.0,
+      "face_top": {
+        "label": "neutral",
+        "p": 97.64395141601562
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9976291276485
+    },
+    "spikes": [
+      {
+        "t": 13,
+        "emotion": "happy",
+        "delta": 0.8117722012102604,
+        "from": 0.04208966717123985,
+        "to": 0.8538618683815002
+      },
+      {
+        "t": 13,
+        "emotion": "sad",
+        "delta": 0.22765152156352997,
+        "from": 0.18027736246585846,
+        "to": 0.4079288840293884
+      },
+      {
+        "t": 13,
+        "emotion": "fear",
+        "delta": 1.0096381371840835,
+        "from": 0.011703901924192905,
+        "to": 1.0213420391082764
+      },
+      {
+        "t": 13,
+        "emotion": "neutral",
+        "delta": -2.1024169921875,
+        "from": 99.74636840820312,
+        "to": 97.64395141601562
+      }
+    ]
+  },
+  {
+    "t": 14,
+    "face": {
+      "angry": 0.0026617294643074274,
+      "disgust": 5.389981794223786e-08,
+      "fear": 0.004629882983863354,
+      "happy": 0.012848219834268093,
+      "sad": 0.07615307718515396,
+      "surprise": 2.3054795747157186e-05,
+      "neutral": 99.90367889404297
+    },
+    "audio": {},
+    "combined": {
+      "happy": 0.012848219834268093,
+      "sad": 0.07615307718515396,
+      "fear": 0.004629882983863354,
+      "surprise": 2.3054795747157186e-05,
+      "disgust": 5.389981794223786e-08,
+      "angry": 0.0026617294643074274,
+      "neutral": 99.90367889404297
+    },
+    "text": {
+      "text": "",
+      "segments": [],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotions": {},
+        "rationale": "",
+        "source": "none"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.0004885499189751962,
+      "text_face_valence_gap": 0.0004885499189751962,
+      "text_audio_valence_gap": 0.0,
+      "face_top": {
+        "label": "neutral",
+        "p": 99.90367889404297
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9997557250405124
+    },
+    "spikes": [
+      {
+        "t": 14,
+        "emotion": "happy",
+        "delta": -0.8410136485472322,
+        "from": 0.8538618683815002,
+        "to": 0.012848219834268093
+      },
+      {
+        "t": 14,
+        "emotion": "sad",
+        "delta": -0.33177580684423447,
+        "from": 0.4079288840293884,
+        "to": 0.07615307718515396
+      },
+      {
+        "t": 14,
+        "emotion": "fear",
+        "delta": -1.016712156124413,
+        "from": 1.0213420391082764,
+        "to": 0.004629882983863354
+      },
+      {
+        "t": 14,
+        "emotion": "neutral",
+        "delta": 2.2597274780273438,
+        "from": 97.64395141601562,
+        "to": 99.90367889404297
+      }
+    ]
+  },
+  {
+    "t": 15,
+    "face": {
+      "angry": 0.08295388519763947,
+      "disgust": 0.00013969253632239997,
+      "fear": 0.19793486595153809,
+      "happy": 0.0596005879342556,
+      "sad": 0.7185460925102234,
+      "surprise": 0.002726472681388259,
+      "neutral": 98.93809509277344
+    },
+    "audio": {},
+    "combined": {
+      "happy": 0.0596005879342556,
+      "sad": 0.7185460925102234,
+      "fear": 0.19793486595153809,
+      "surprise": 0.002726472681388259,
+      "disgust": 0.00013969253632239997,
+      "angry": 0.08295388519763947,
+      "neutral": 98.93809509277344
+    },
+    "text": {
+      "text": "",
+      "segments": [],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotions": {},
+        "rationale": "",
+        "source": "none"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.006792926607875106,
+      "text_face_valence_gap": 0.006792926607875106,
+      "text_audio_valence_gap": 0.0,
+      "face_top": {
+        "label": "neutral",
+        "p": 98.93809509277344
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9966035366960625
+    },
+    "spikes": [
+      {
+        "t": 15,
+        "emotion": "sad",
+        "delta": 0.6423930153250694,
+        "from": 0.07615307718515396,
+        "to": 0.7185460925102234
+      },
+      {
+        "t": 15,
+        "emotion": "neutral",
+        "delta": -0.9655838012695312,
+        "from": 99.90367889404297,
+        "to": 98.93809509277344
+      }
+    ]
+  },
+  {
+    "t": 16,
+    "face": {
+      "angry": 0.13758453726768494,
+      "disgust": 8.565937605453655e-06,
+      "fear": 0.5790117383003235,
+      "happy": 0.3749302625656128,
+      "sad": 1.2165403366088867,
+      "surprise": 0.0006884519243612885,
+      "neutral": 97.69123840332031
+    },
+    "audio": {},
+    "combined": {
+      "happy": 0.3749302625656128,
+      "sad": 1.2165403366088867,
+      "fear": 0.5790117383003235,
+      "surprise": 0.0006884519243612885,
+      "disgust": 8.565937605453655e-06,
+      "angry": 0.13758453726768494,
+      "neutral": 97.69123840332031
+    },
+    "text": {
+      "text": "",
+      "segments": [],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotions": {},
+        "rationale": "",
+        "source": "none"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.011247104807846459,
+      "text_face_valence_gap": 0.011247104807846459,
+      "text_audio_valence_gap": 0.0,
+      "face_top": {
+        "label": "neutral",
+        "p": 97.69123840332031
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9943764475960768
+    },
+    "spikes": [
+      {
+        "t": 16,
+        "emotion": "happy",
+        "delta": 0.3153296746313572,
+        "from": 0.0596005879342556,
+        "to": 0.3749302625656128
+      },
+      {
+        "t": 16,
+        "emotion": "sad",
+        "delta": 0.49799424409866333,
+        "from": 0.7185460925102234,
+        "to": 1.2165403366088867
+      },
+      {
+        "t": 16,
+        "emotion": "fear",
+        "delta": 0.3810768723487854,
+        "from": 0.19793486595153809,
+        "to": 0.5790117383003235
+      },
+      {
+        "t": 16,
+        "emotion": "neutral",
+        "delta": -1.246856689453125,
+        "from": 98.93809509277344,
+        "to": 97.69123840332031
+      }
+    ]
+  }
+]
