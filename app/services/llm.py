@@ -2,7 +2,7 @@ import os
 from typing import Any, Dict, Optional
 
 
-_DEFAULT_OPENAI_KEY = "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"
+_DEFAULT_OPENAI_KEY = "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"  # Optionally place a local dev key here; prefer env var OPENAI_API_KEY
 _DEFAULT_MODEL = "gpt-4o-mini"
 
 
@@ -11,7 +11,7 @@ def _get_openai_client():
     Lazily import and initialize the OpenAI client if available and key is present.
     Returns (client, model) or (None, None) when unavailable.
     """
-    api_key = os.getenv("OPENAI_API_KEY") or _DEFAULT_OPENAI_KEY
+    api_key = _DEFAULT_OPENAI_KEY.strip()
     if not api_key:
         return None, None
     try:
@@ -19,7 +19,8 @@ def _get_openai_client():
     except Exception:
         return None, None
     client = OpenAI(api_key=api_key)
-    return client, _DEFAULT_MODEL
+    model = (os.getenv("OPENAI_MODEL") or _DEFAULT_MODEL).strip() or _DEFAULT_MODEL
+    return client, model
 
 
 def analyze_text_emotion_with_llm(
@@ -36,21 +37,41 @@ def analyze_text_emotion_with_llm(
         model = default_model
 
     if client is None or model is None or not text.strip():
-        return _heuristic_text_emotion(text)
+        return None
 
-    sys_msg = (
-        "You are an affect analysis assistant. Given a short text excerpt, estimate:\n"
-        "1) valence in [-1,1] negative to positive,\n"
-        "2) arousal in [0,1] calm to excited,\n"
-        "3) probabilities for basic emotions: neutral, happy, sad, angry, fear, disgust, surprise,\n"
-        "4) conversational style: one of 'serious' | 'joking' | 'sarcastic' | 'uncertain'.\n"
-        "Return a strict JSON object with keys:\n"
-        "- valence (number)\n"
-        "- arousal (number)\n"
-        "- emotion_distribution (object mapping emotion -> probability)\n"
-        "- style (string)\n"
-        "- rationale (string)"
-    )
+    sys_msg = """
+        You are an affective computing engine that analyzes the emotional content of spoken language.
+First words should be "Hello, I am an affective computing engine that analyzes the emotional content of spoken language."
+Your task:
+- Input: a short transcript segment from a therapy or conversation session.
+- Output: a JSON object that gives a probability distribution over exactly 7 basic emotions:
+  ["neutral", "happy", "sad", "angry", "fear", "disgust", "surprise"].
+
+Rules:
+- Always return valid JSON. No extra text, no explanations.
+- The JSON must have a single key "emotion_distribution" whose value is an object mapping each emotion to a float between 0 and 1.
+- The probabilities must sum to 1 (within normal floating-point rounding error).
+
+Guidelines:
+- Focus on the *felt* emotion implied by what is said, not just explicit emotion words.
+- Consider context, word choice, intensity, and any self-descriptions.
+- If the transcript is emotionally flat or unclear, assign higher probability to "neutral".
+- If multiple emotions are present, distribute probability across them instead of forcing a single label.
+
+Output format example (structure only):
+{
+  "emotion_distribution": {
+    "neutral": 0.50,
+    "happy": 0.10,
+    "sad": 0.20,
+    "angry": 0.05,
+    "fear": 0.10,
+    "disgust": 0.02,
+    "surprise": 0.03
+  }
+}
+
+        """
     if instruction:
         sys_msg += f" Additional instruction: {instruction}"
 
@@ -72,7 +93,9 @@ def analyze_text_emotion_with_llm(
         valence = float(parsed.get("valence", 0.0))
         arousal = float(parsed.get("arousal", 0.0))
         # Accept either 'emotion_distribution' or legacy 'emotions'
-        emotions = parsed.get("emotion_distribution", {}) or parsed.get("emotions", {}) or {}
+        emotions = (
+            parsed.get("emotion_distribution", {}) or parsed.get("emotions", {}) or {}
+        )
         style = str(parsed.get("style", "") or "").strip().lower()
         if style not in {"serious", "joking", "sarcastic", "uncertain"}:
             style = "uncertain"
@@ -88,82 +111,7 @@ def analyze_text_emotion_with_llm(
             "source": "llm",
         }
     except Exception:
-        return _heuristic_text_emotion(text)
-
-
-_POSITIVE_WORDS = {
-    "good",
-    "great",
-    "happy",
-    "glad",
-    "love",
-    "excited",
-    "relieved",
-    "calm",
-    "fine",
-    "okay",
-    "ok",
-}
-_NEGATIVE_WORDS = {
-    "bad",
-    "sad",
-    "angry",
-    "mad",
-    "upset",
-    "anxious",
-    "nervous",
-    "scared",
-    "afraid",
-    "disgusted",
-    "worried",
-}
-
-
-def _heuristic_text_emotion(text: str) -> Dict[str, Any]:
-    """
-    Lightweight fallback if LLM isn't available: bag-of-words valence, basic arousal,
-    neutral-leaning emotion distribution, and simple style inference.
-    """
-    words = {w.strip(".,!?;:").lower() for w in text.split()} if text else set()
-    pos_hits = len(words & _POSITIVE_WORDS)
-    neg_hits = len(words & _NEGATIVE_WORDS)
-    total = pos_hits + neg_hits
-    if total == 0:
-        valence = 0.0
-    else:
-        valence = (pos_hits - neg_hits) / total
-        valence = max(-1.0, min(1.0, valence))
-    emotions = {
-        "neutral": 0.7 if total == 0 else max(0.0, 0.7 - 0.1 * total),
-        "happy": max(0.0, 0.2 * pos_hits),
-        "sad": max(0.0, 0.2 * neg_hits),
-        "angry": 0.0,
-        "fear": 0.0,
-        "disgust": 0.0,
-        "surprise": 0.0,
-    }
-    # Normalize
-    s = sum(emotions.values()) or 1.0
-    emotions = {k: float(v) / s for k, v in emotions.items()}
-    # Naive style inference
-    lower_text = (text or "").lower()
-    style = "serious"
-    if any(tok in lower_text for tok in ["lol", "haha", "joke", "joking", "kidding", "jk"]):
-        style = "joking"
-    elif any(tok in lower_text for tok in ["sarcasm", "sarcastic", "yeah right"]):
-        style = "sarcastic"
-    elif len(words) == 0:
-        style = "uncertain"
-    return {
-        "valence": float(valence),
-        "arousal": 0.3 if total == 0 else min(1.0, 0.3 + 0.1 * total),
-        # Keep both keys for compatibility
-        "emotion_distribution": emotions,
-        "emotions": emotions,
-        "style": style,
-        "rationale": "Heuristic estimate based on word list.",
-        "source": "heuristic",
-    }
+        return None
 
 
 def generate_incongruence_reason(
@@ -206,6 +154,7 @@ def generate_incongruence_reason(
 
     try:
         import json
+
         sys_msg = (
             "You are assisting with psychotherapy session analysis.\n"
             "Given a transcript snippet and affect metrics, produce one concise reason (<= 24 words)\n"
@@ -232,5 +181,3 @@ def generate_incongruence_reason(
         return reason or _fallback_reason()
     except Exception:
         return _fallback_reason()
-
-

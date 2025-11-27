@@ -33,6 +33,14 @@ VALENCE_THRESHOLD_BASE: float = 0.4
 VALENCE_THRESHOLD_TEXT_RELAXED: float = 0.6
 AROUSAL_THRESHOLD_BASE: float = 0.3
 
+# Instruction appended to the LLM system prompt to enforce a strict 7-emotion distribution
+LLM_TEXT_EMOTION_INSTRUCTION: str = (
+    "Return an emotion_distribution over EXACTLY these 7 emotions with probabilities that sum to 1.0: "
+    "['happy','neutral','sad','angry','fear','disgust','surprise']. "
+    "Do not include any other labels. Base your judgment ONLY on the semantic content of the transcript text "
+    "(ignore acoustic or facial cues). Ensure emotion_distribution values are numbers in [0,1] and total to 1.0."
+)
+
 
 def _normalize_distribution(d: Dict[str, float]) -> Dict[str, float]:
     if not d:
@@ -124,7 +132,7 @@ def _analyze_transcript_segments(segments: Optional[List[Dict[str, Any]]]) -> Li
     analyzed: List[Dict[str, Any]] = []
     for seg in segments:
         txt = str(seg.get("text", "")).strip()
-        analysis = analyze_text_emotion_with_llm(txt) if txt else {
+        analysis = analyze_text_emotion_with_llm(txt, instruction=LLM_TEXT_EMOTION_INSTRUCTION) if txt else {
             "valence": 0.0,
             "arousal": 0.0,
             "emotion_distribution": {"neutral": 1.0},
@@ -246,7 +254,7 @@ def build_congruence_timeline(
             congruent = None
 
         entry: Dict[str, Any] = {
-            "t": tt,
+                "t": tt,
             "face": face_probs,
             "audio": audio_probs,
             "face_valence": round(face_val, 4),

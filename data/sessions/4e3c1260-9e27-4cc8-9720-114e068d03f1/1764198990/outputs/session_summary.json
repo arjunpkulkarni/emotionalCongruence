@@ -1,0 +1,47 @@
+{
+  "patient_id": "4e3c1260-9e27-4cc8-9720-114e068d03f1",
+  "session_id": 1764198990,
+  "duration": 16.0,
+  "overall_congruence": 0.8765,
+  "incongruent_moments": [
+    {
+      "start": 5.7,
+      "end": 6.3,
+      "reason": "Valence/arousal misalignment across modalities."
+    },
+    {
+      "start": 7.6,
+      "end": 8.0,
+      "reason": "Valence/arousal misalignment across modalities."
+    }
+  ],
+  "emotion_distribution": {
+    "face": {
+      "happy": 0.005179585253280529,
+      "neutral": 0.7764502312576976,
+      "sad": 0.04163364597306491,
+      "angry": 0.007492623471654401,
+      "fear": 0.08670167128662742,
+      "disgust": 0.0797135738827304,
+      "surprise": 0.0028286688749447303
+    },
+    "audio": {
+      "happy": 0.049999999999999906,
+      "neutral": 0.7000000000000006,
+      "sad": 0.049999999999999906,
+      "angry": 0.049999999999999906,
+      "fear": 0.049999999999999906,
+      "disgust": 0.049999999999999906,
+      "surprise": 0.049999999999999906
+    },
+    "text": {
+      "happy": 0.0,
+      "neutral": 1.0,
+      "sad": 0.0,
+      "angry": 0.0,
+      "fear": 0.0,
+      "disgust": 0.0,
+      "surprise": 0.0
+    }
+  }
+}
