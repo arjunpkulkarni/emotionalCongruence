@@ -164,8 +164,9 @@ def process_session(payload: ProcessSessionRequest) -> ProcessSessionResponse:
     merged_timeline = merge_timelines(facial_timeline=facial_timeline, audio_timeline=audio_timeline)
     logger.info("Merged timeline entries=%d", len(merged_timeline))
 
-    # 7) Detect micro-spikes on merged timeline
-    spikes = detect_micro_spikes(merged_timeline, threshold=payload.spike_threshold)
+    # 7) Detect micro-spikes on merged timeline (visual-only) and derive spikes list
+    merged_timeline = detect_micro_spikes(merged_timeline, threshold=payload.spike_threshold)
+    spikes = [e for e in merged_timeline if e.get("micro_spike")]
     logger.info("Detected spikes=%d", len(spikes))
 
     # 8) Build 10Hz congruence signal and session summary and write outputs for UI

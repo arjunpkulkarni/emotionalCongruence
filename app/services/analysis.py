@@ -1,6 +1,47 @@
 import glob
 import os
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional
+
+
+CANONICAL_EMOTIONS: List[str] = [
+    "joy",
+    "sadness",
+    "anger",
+    "fear",
+    "disgust",
+    "surprise",
+    "neutral",
+]
+
+
+def _normalize_emotion_dict(raw: Dict[str, Any]) -> Dict[str, float]:
+    """
+    Map backend-specific keys into our canonical 7-emotion space and
+    soft-normalize to sum to 1. Missing emotions -> 0.
+    """
+    mapped: Dict[str, float] = {e: 0.0 for e in CANONICAL_EMOTIONS}
+    # Example mappings – adjust to actual DeepFace/Vesper labels if needed
+    mapping_table: Dict[str, str] = {
+        "happy": "joy",
+        "sad": "sadness",
+        "angry": "anger",
+        "fear": "fear",
+        "disgust": "disgust",
+        "surprise": "surprise",
+        "neutral": "neutral",
+        # Also accept canonical keys directly
+        "joy": "joy",
+        "sadness": "sadness",
+        "anger": "anger",
+    }
+    for k, v in (raw or {}).items():
+        canonical = mapping_table.get(str(k).lower())
+        if canonical is not None:
+            mapped[canonical] += float(v)
+    s = sum(mapped.values()) or 1.0
+    for k in mapped:
+        mapped[k] /= s
+    return mapped
 
 
 def _sorted_frame_paths(frames_dir: str) -> List[str]:
@@ -39,9 +80,10 @@ def analyze_frames_with_deepface(frames_dir: str) -> List[Dict[str, Any]]:
         else:
             emotions = {}
 
+        norm = _normalize_emotion_dict(emotions)
         entry = {
             "t": idx,  # seconds, aligned to 1 FPS frames
-            "emotions": emotions,
+            "emotions": norm,
             "frame_path": frame_path,
         }
         timeline.append(entry)
@@ -85,9 +127,10 @@ def analyze_audio_with_vesper(audio_path: str) -> List[Dict[str, Any]]:
     # Always return a timeline; if duration unknown, default to a single point
     total_seconds = max(1, int(round(duration_s)))
     emotions_dist = {k: float(v) for k, v in (emotions_dist or {}).items()}
+    norm = _normalize_emotion_dict(emotions_dist)
     timeline: List[Dict[str, Any]] = []
     for t in range(total_seconds):
-        timeline.append({"t": t, "emotions": emotions_dist})
+        timeline.append({"t": t, "emotions": norm})
     return timeline
 
 
@@ -119,7 +162,8 @@ def merge_timelines(
         "t": second,
         "face": {...},
         "audio": {...},
-        "combined": {...}
+        "combined": {...},
+        "micro_spike": False
       }
     """
     face_by_t = {e["t"]: e.get("emotions", {}) for e in facial_timeline}
@@ -136,6 +180,7 @@ def merge_timelines(
                 "face": face_em,
                 "audio": aud_em,
                 "combined": combined,
+                "micro_spike": False,
             }
         )
     return merged
@@ -146,32 +191,23 @@ def detect_micro_spikes(
     threshold: float = 0.2,
 ) -> List[Dict[str, Any]]:
     """
-    For each emotion dimension, compare value vs previous frame.
-    If abs(delta) > threshold -> mark as spike.
-    Returns:
-      [{"t": second, "emotion": name, "delta": value, "from": prev, "to": curr}]
+    Mark visual micro-spikes only.
+    For each second, compare face distribution vs previous second on the canonical 7D space.
+    entry['micro_spike'] = True if any dimension jump exceeds threshold, else False.
+    Returns the annotated merged timeline (same list, mutated).
     """
-    spikes: List[Dict[str, Any]] = []
-    prev: Optional[Dict[str, float]] = None
+    prev_face: Optional[Dict[str, float]] = None
     for entry in sorted(merged_timeline, key=lambda e: e["t"]):
-        current = entry.get("combined") or entry.get("face") or {}
-        if prev is not None:
-            keys = set(prev.keys()) | set(current.keys())
-            for k in keys:
-                v_prev = float(prev.get(k, 0.0))
-                v_curr = float(current.get(k, 0.0))
-                delta = v_curr - v_prev
-                if abs(delta) > threshold:
-                    spikes.append(
-                        {
-                            "t": entry["t"],
-                            "emotion": k,
-                            "delta": delta,
-                            "from": v_prev,
-                            "to": v_curr,
-                        }
-                    )
-        prev = current
-    return spikes
+        face = entry.get("face") or {}
+        if prev_face is not None and face:
+            deltas = [
+                abs(float(face.get(e, 0.0)) - float(prev_face.get(e, 0.0)))
+                for e in CANONICAL_EMOTIONS
+            ]
+            entry["micro_spike"] = any(d > threshold for d in deltas)
+        else:
+            entry["micro_spike"] = False
+        prev_face = face
+    return merged_timeline
 
 

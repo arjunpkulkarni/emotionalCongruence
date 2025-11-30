@@ -4,9 +4,20 @@ import math
 from .llm import analyze_text_emotion_with_llm, generate_incongruence_reason
 
 
-# Supported emotions and canonical order
-EMOTION_ORDER: List[str] = ["happy", "neutral", "sad", "angry", "fear", "disgust", "surprise"]
+# Supported emotions and canonical order (canonical 7D for TECS)
+EMOTION_ORDER: List[str] = ["joy", "sadness", "anger", "fear", "disgust", "surprise", "neutral"]
 EMOTION_KEYS: List[str] = EMOTION_ORDER[:]
+
+# Canonical 7-emotion basis for TECS/MSW-TECS
+CANONICAL_EMOTIONS: List[str] = [
+    "joy",
+    "sadness",
+    "anger",
+    "fear",
+    "disgust",
+    "surprise",
+    "neutral",
+]
 
 # Fixed valence/arousal lookup as specified
 VALENCE_TABLE: Dict[str, float] = {
@@ -32,15 +43,6 @@ AROUSAL_TABLE: Dict[str, float] = {
 VALENCE_THRESHOLD_BASE: float = 0.4
 VALENCE_THRESHOLD_TEXT_RELAXED: float = 0.6
 AROUSAL_THRESHOLD_BASE: float = 0.3
-
-# Instruction appended to the LLM system prompt to enforce a strict 7-emotion distribution
-LLM_TEXT_EMOTION_INSTRUCTION: str = (
-    "Return an emotion_distribution over EXACTLY these 7 emotions with probabilities that sum to 1.0: "
-    "['happy','neutral','sad','angry','fear','disgust','surprise']. "
-    "Do not include any other labels. Base your judgment ONLY on the semantic content of the transcript text "
-    "(ignore acoustic or facial cues). Ensure emotion_distribution values are numbers in [0,1] and total to 1.0."
-)
-
 
 def _normalize_distribution(d: Dict[str, float]) -> Dict[str, float]:
     if not d:
@@ -114,16 +116,15 @@ def _active_segment_at_t(segments: List[Dict[str, Any]], t: float) -> Optional[D
     return None
 
 
-def _count_spikes_near_t(spikes: List[Dict[str, Any]], t: float, window: float = 0.2) -> int:
-    count = 0
-    for s in spikes:
-        try:
-            ts = float(s.get("t", 0.0))
-        except Exception:
-            continue
-        if abs(ts - t) <= window:
-            count += 1
-    return count
+def _count_spikes_near_t_1hz(merged_timeline: List[Dict[str, Any]], t: float) -> int:
+    """
+    Count visual micro-spikes around second t using the annotated 1Hz merged timeline.
+    """
+    sec = int(math.floor(t))
+    for e in merged_timeline:
+        if int(e.get("t", -1)) == sec:
+            return 1 if bool(e.get("micro_spike", False)) else 0
+    return 0
 
 
 def _analyze_transcript_segments(segments: Optional[List[Dict[str, Any]]]) -> List[Dict[str, Any]]:
@@ -132,22 +133,103 @@ def _analyze_transcript_segments(segments: Optional[List[Dict[str, Any]]]) -> Li
     analyzed: List[Dict[str, Any]] = []
     for seg in segments:
         txt = str(seg.get("text", "")).strip()
-        analysis = analyze_text_emotion_with_llm(txt, instruction=LLM_TEXT_EMOTION_INSTRUCTION) if txt else {
-            "valence": 0.0,
-            "arousal": 0.0,
-            "emotion_distribution": {"neutral": 1.0},
-            "style": "uncertain",
-        }
-        new_seg = dict(seg)
-        new_seg["analysis"] = analysis
-        analyzed.append(new_seg)
+        analysis = analyze_text_emotion_with_llm(txt) if txt else None
+        if not analysis or "emotion_distribution" not in analysis:
+            dist = {"neutral": 1.0}
+            val = 0.0
+            aro = 0.0
+            style = "uncertain"
+        else:
+            dist = analysis.get("emotion_distribution", {}) or {}
+            val = float(analysis.get("valence", 0.0) or 0.0)
+            aro = float(analysis.get("arousal", 0.0) or 0.0)
+            style = str(analysis.get("style", "uncertain") or "uncertain")
+        analyzed.append(
+            {
+                **seg,
+                "emotion_distribution": dist,
+                "valence": val,
+                "arousal": aro,
+                "style": style,
+            }
+        )
     return analyzed
 
 
-def _compute_valence_arousal_from_probs(probs: Dict[str, float]) -> Tuple[float, float]:
-    v = sum(VALENCE_TABLE.get(k, 0.0) * float(p) for k, p in probs.items())
-    a = sum(AROUSAL_TABLE.get(k, 0.0) * float(p) for k, p in probs.items())
-    return float(v), float(a)
+def _cosine(a: Dict[str, float], b: Dict[str, float]) -> float:
+    num = 0.0
+    na = 0.0
+    nb = 0.0
+    for e in CANONICAL_EMOTIONS:
+        va = float(a.get(e, 0.0))
+        vb = float(b.get(e, 0.0))
+        num += va * vb
+        na += va * va
+        nb += vb * vb
+    denom = math.sqrt(na) * math.sqrt(nb) + 1e-8
+    return num / denom
+
+
+def _valence(vec: Dict[str, float], alpha: float = 0.5) -> float:
+    joy = float(vec.get("joy", 0.0))
+    surprise = float(vec.get("surprise", 0.0))
+    sadness = float(vec.get("sadness", 0.0))
+    anger = float(vec.get("anger", 0.0))
+    fear = float(vec.get("fear", 0.0))
+    disgust = float(vec.get("disgust", 0.0))
+    positive = joy + alpha * surprise
+    negative = sadness + anger + fear + disgust
+    return positive - negative
+
+
+def _intensity(vec: Dict[str, float]) -> float:
+    return 1.0 - float(vec.get("neutral", 0.0))
+
+
+def _interp_face_audio_to_10hz(
+    merged_timeline: List[Dict[str, Any]],
+    target_hz: float,
+) -> List[Dict[str, Any]]:
+    face_by_t = _build_lookup_by_second(merged_timeline, "face")
+    audio_by_t = _build_lookup_by_second(merged_timeline, "audio")
+    if not merged_timeline:
+        return []
+    max_t = max(int(e.get("t", 0)) for e in merged_timeline)
+    duration = float(max_t)
+    step = 1.0 / max(target_hz, 1.0)
+    out: List[Dict[str, Any]] = []
+    t = 0.0
+    while t <= duration + 1e-9:
+        tt = round(t, 2)
+        face_probs, audio_probs = _sample_emotions_at_time(face_by_t, audio_by_t, t)
+        out.append({"t": tt, "face": face_probs, "audio": audio_probs})
+        t += step
+    return out
+
+
+def _attach_text_to_timeline(
+    timeline_10hz: List[Dict[str, Any]],
+    analyzed_segments: List[Dict[str, Any]],
+) -> None:
+    for step in timeline_10hz:
+        seg = _active_segment_at_t(analyzed_segments, float(step.get("t", 0.0)))
+        if seg:
+            step["text"] = {
+                "emotion_distribution": dict(seg.get("emotion_distribution", {})),
+                "style": seg.get("style", "uncertain"),
+            }
+            step["client_speaking"] = True
+        else:
+            step["text"] = None
+            step["client_speaking"] = False
+
+
+def _attach_spikes_to_10hz(
+    timeline_10hz: List[Dict[str, Any]],
+    merged_timeline_1hz: List[Dict[str, Any]],
+) -> None:
+    for step in timeline_10hz:
+        step["micro_spike"] = bool(_count_spikes_near_t_1hz(merged_timeline_1hz, float(step.get("t", 0.0))))
 
 
 def _majority_smooth_bool(seq: List[Optional[bool]], window_radius: int = 3) -> List[Optional[bool]]:
@@ -176,155 +258,64 @@ def build_congruence_timeline(
     target_hz: float = 10.0,
 ) -> List[Dict[str, Any]]:
     """
-    Construct a 10Hz timeline with tri-modal congruence:
-    - face/audio: emotion distributions per 10Hz via interpolation
-    - text: segment-level emotion distribution/valence/arousal/style attached to active time
-    - per-step pairwise distances and congruence decision (with style-aware relaxation)
+    Construct a 10Hz timeline with Tri-Modal Emotional Congruence Score (TECS)
+    and flags for incongruent moments.
     """
     if not merged_timeline:
         return []
-    face_by_t = _build_lookup_by_second(merged_timeline, "face")
-    audio_by_t = _build_lookup_by_second(merged_timeline, "audio")
-    max_t = max(int(e.get("t", 0)) for e in merged_timeline)
-    duration = float(max_t)
-    step = 1.0 / max(target_hz, 1.0)
+    # 1) Interpolate face/audio to 10Hz
+    timeline_10hz = _interp_face_audio_to_10hz(merged_timeline, target_hz)
+    # 2) Attach text distribution and speaking flag
     analyzed_segments = _analyze_transcript_segments(transcript_segments or [])
-    spikes_list = spikes or []
+    _attach_text_to_timeline(timeline_10hz, analyzed_segments)
+    # 3) Propagate micro_spike to 10Hz
+    _attach_spikes_to_10hz(timeline_10hz, merged_timeline)
 
-    # Build timeline
-    out: List[Dict[str, Any]] = []
-    t = 0.0
-    while t <= duration + 1e-9:
-        tt = round(t, 2)
-        face_probs, audio_probs = _sample_emotions_at_time(face_by_t, audio_by_t, t)
-        face_probs = _ensure_full_probs(face_probs)
-        audio_probs = _ensure_full_probs(audio_probs)
-        face_val, face_aro = _compute_valence_arousal_from_probs(face_probs)
-        audio_val, audio_aro = _compute_valence_arousal_from_probs(audio_probs)
+    # 4) Compute TECS, valence, intensity, incongruence
+    for step in timeline_10hz:
+        face = (step.get("face") or {"neutral": 1.0})
+        audio = (step.get("audio") or {"neutral": 1.0})
+        text_field = step.get("text") if isinstance(step.get("text"), dict) else None
+        text_dist = text_field.get("emotion_distribution") if text_field else None
+        text = (text_dist or {"neutral": 1.0})
 
-        seg = _active_segment_at_t(analyzed_segments, t)
-        text_probs: Optional[Dict[str, float]] = None
-        text_val: Optional[float] = None
-        text_aro: Optional[float] = None
-        text_style: Optional[str] = None
-        if seg and isinstance(seg.get("analysis"), dict):
-            analysis = seg["analysis"]
-            ed = analysis.get("emotion_distribution") or analysis.get("emotions") or {}
-            text_probs = _ensure_full_probs({k: float(v) for k, v in (ed or {}).items()})
-            # For consistency, recompute valence/arousal from distribution
-            text_val, text_aro = _compute_valence_arousal_from_probs(text_probs)
-            text_style = str(analysis.get("style", "") or "uncertain").lower()
-            if text_style not in {"serious", "joking", "sarcastic", "uncertain"}:
-                text_style = "uncertain"
+        s_ta = _cosine(text, audio)
+        s_tv = _cosine(text, face)
+        s_av = _cosine(audio, face)
+        tecs = (s_ta + s_tv + s_av) / 3.0
+        step["tecs"] = float(tecs)
 
-        valid = text_probs is not None
+        v_text = _valence(text)
+        v_audio = _valence(audio)
+        v_face = _valence(face)
+        step["valence"] = {"text": v_text, "audio": v_audio, "face": v_face}
 
-        # Pairwise distances and congruence decision
-        dv_ft = abs(face_val - text_val) if valid else None
-        dv_at = abs(audio_val - text_val) if valid else None
-        dv_fa = abs(face_val - audio_val)
-        da_ft = abs(face_aro - text_aro) if valid else None
-        da_at = abs(audio_aro - text_aro) if valid else None
-        da_fa = abs(face_aro - audio_aro)
+        I_text = _intensity(text)
+        I_audio = _intensity(audio)
+        I_face = _intensity(face)
+        I_base = max(I_text, I_audio, I_face)
+        step["intensity"] = float(I_base)
 
-        m_ft = 0.7 * dv_ft + 0.3 * da_ft if valid and dv_ft is not None and da_ft is not None else None
-        m_at = 0.7 * dv_at + 0.3 * da_at if valid and dv_at is not None and da_at is not None else None
-        m_fa = 0.7 * dv_fa + 0.3 * da_fa
-        mismatch_score = (
-            (m_ft if m_ft is not None else 0.0)
-            + (m_at if m_at is not None else 0.0)
-            + (m_fa if m_fa is not None else 0.0)
+        client_speaking = bool(step.get("client_speaking", False))
+        # Incongruence rule
+        def _sign(x: float) -> int:
+            return 1 if x > 1e-6 else (-1 if x < -1e-6 else 0)
+
+        valence_disagree = (
+            (_sign(v_text) != _sign(v_audio))
+            or (_sign(v_text) != _sign(v_face))
+            or (_sign(v_audio) != _sign(v_face))
         )
-        denom = 3 if valid else 1  # only face-audio if text missing
-        mismatch_score = float(mismatch_score / max(1, denom))
+        low_sim = tecs < 0.6
+        high_intensity = I_base > 0.2
+        step["is_incongruent"] = bool((valence_disagree or low_sim) and high_intensity and client_speaking)
 
-        # Threshold logic
-        if valid:
-            vt_face_text = VALENCE_THRESHOLD_TEXT_RELAXED if text_style in {"joking", "sarcastic"} else VALENCE_THRESHOLD_BASE
-            pair_ft = (dv_ft is not None and dv_ft <= vt_face_text) and (da_ft is not None and da_ft <= AROUSAL_THRESHOLD_BASE)
-            pair_at = (dv_at is not None and dv_at <= vt_face_text) and (da_at is not None and da_at <= AROUSAL_THRESHOLD_BASE)
-            pair_fa = (dv_fa <= VALENCE_THRESHOLD_BASE) and (da_fa <= AROUSAL_THRESHOLD_BASE)
-            num_congruent = sum(1 for p in [pair_ft, pair_at, pair_fa] if p)
-            congruent = True if num_congruent >= 2 else False
-        else:
-            # If text is missing at this step, the sample is not valid for tri-modal congruence
-            pair_ft = None
-            pair_at = None
-            pair_fa = (dv_fa <= VALENCE_THRESHOLD_BASE) and (da_fa <= AROUSAL_THRESHOLD_BASE)
-            congruent = None
-
-        entry: Dict[str, Any] = {
-                "t": tt,
-            "face": face_probs,
-            "audio": audio_probs,
-            "face_valence": round(face_val, 4),
-            "face_arousal": round(face_aro, 4),
-            "audio_valence": round(audio_val, 4),
-            "audio_arousal": round(audio_aro, 4),
-            "text": {
-                "emotion_distribution": text_probs if text_probs is not None else None,
-                "style": text_style,
-            }
-            if valid or text_style is not None
-            else None,
-            "text_valence": round(text_val, 4) if text_val is not None else None,
-            "text_arousal": round(text_aro, 4) if text_aro is not None else None,
-            "metrics": {
-                "dv_face_text": dv_ft,
-                "dv_audio_text": dv_at,
-                "dv_face_audio": dv_fa,
-                "da_face_text": da_ft,
-                "da_audio_text": da_at,
-                "da_face_audio": da_fa,
-                "mismatch_score": round(mismatch_score, 4),
-                "pair_congruent": {
-                    "face_text": pair_ft,
-                    "audio_text": pair_at,
-                    "face_audio": pair_fa,
-                },
-            },
-            "spikes": _count_spikes_near_t(spikes_list, tt, window=0.2),
-            "congruent": congruent,
-            "valid": bool(valid),
-        }
-        out.append(entry)
-        t += step
-
-    # Majority smoothing on congruent over ±3 frames for valid steps
-    raw_flags: List[Optional[bool]] = [e["congruent"] if e.get("valid") else None for e in out]
+    # Optional smoothing over 'is_incongruent'
+    raw_flags: List[Optional[bool]] = [bool(e.get("is_incongruent")) for e in timeline_10hz]
     smoothed = _majority_smooth_bool(raw_flags, window_radius=3)
-    for e, sm in zip(out, smoothed):
-        e["congruent_smooth"] = sm
-    return out
-
-
-def _assign_reason(
-    mean_text_val: float,
-    mean_nontext_val: float,
-    mean_face_val: float,
-    mean_audio_val: float,
-    mean_text_aro: float,
-    mean_nontext_aro: float,
-) -> str:
-    # Heuristics per spec
-    strongly_pos = 0.5
-    strongly_neg = -0.5
-    near_neutral = 0.2
-    high_arousal = 0.7
-    # text positive vs nontext negative
-    if mean_text_val >= strongly_pos and mean_nontext_val <= strongly_neg:
-        return "negative tone vs verbal content"
-    # text negative vs nontext positive
-    if mean_text_val <= strongly_neg and mean_nontext_val >= strongly_pos:
-        return "positive tone vs verbal content"
-    # text near-neutral but nontext high arousal
-    if abs(mean_text_val) <= near_neutral and mean_nontext_aro >= high_arousal:
-        return "high arousal vs neutral content"
-    # face vs audio disagree strongly
-    if abs(mean_face_val - mean_audio_val) >= 0.6:
-        return "face vs audio mismatch"
-    # default
-    return "valence/arousal mismatch"
+    for e, sm in zip(timeline_10hz, smoothed):
+        e["is_incongruent_smooth"] = sm
+    return timeline_10hz
 
 
 def build_session_summary(
@@ -333,6 +324,9 @@ def build_session_summary(
     session_id: int,
     transcript_segments: Optional[List[Dict[str, Any]]] = None,
 ) -> Dict[str, Any]:
+    """
+    Compute MSW-TECS overall_congruence, list of incongruent intervals, and aggregate emotion distributions.
+    """
     if not congruence_timeline:
         return {
             "patient_id": patient_id,
@@ -341,67 +335,62 @@ def build_session_summary(
             "overall_congruence": 0.0,
             "incongruent_moments": [],
             "emotion_distribution": {"face": {}, "audio": {}, "text": {}},
+            "metrics": {"avg_tecs": 0.0},
         }
 
-    duration = float(congruence_timeline[-1].get("t", 0.0))
-    dt = 0.1
+    dt = 1.0 / 10.0
 
-    # Accumulate distributions and identify incongruent intervals over valid steps
-    face_acc: Dict[str, float] = {}
-    audio_acc: Dict[str, float] = {}
-    text_acc: Dict[str, float] = {}
-    valid_entries: List[Dict[str, Any]] = [e for e in congruence_timeline if e.get("valid")]
+    # 1) MSW-TECS
+    num = 0.0
+    den = 0.0
+    for step in congruence_timeline:
+        tecs = float(step.get("tecs", 0.0))
+        intensity = float(step.get("intensity", 0.0))
+        micro_spike = 1.0 if step.get("micro_spike") else 0.0
+        client_speaking = 1.0 if step.get("client_speaking") else 0.0
+        w = intensity * (1.0 + 0.3 * micro_spike) * client_speaking
+        num += w * tecs
+        den += w
+    overall_congruence = float(num / (den + 1e-8))
 
-    # Interval extraction over smoothed flags
+    # 2) Incongruent intervals
     moments: List[Dict[str, Any]] = []
     in_run = False
     start_idx = 0
-    for i, e in enumerate(valid_entries):
-        sm = e.get("congruent_smooth")
-        if sm is False and not in_run:
+    for i, e in enumerate(congruence_timeline):
+        flag = bool(e.get("is_incongruent_smooth", e.get("is_incongruent", False)))
+        if flag and not in_run:
             in_run = True
             start_idx = i
-        elif (sm is True or sm is None) and in_run:
+        elif not flag and in_run:
             in_run = False
             end_idx = i - 1
             if end_idx >= start_idx:
-                start_t = float(valid_entries[start_idx]["t"])
-                end_t = float(valid_entries[end_idx]["t"])
+                start_t = float(congruence_timeline[start_idx].get("t", 0.0))
+                end_t = float(congruence_timeline[end_idx].get("t", 0.0))
                 if (end_t - start_t) >= 0.3:
-                    # Compute means for reason assignment
-                    seg_entries = valid_entries[start_idx : end_idx + 1]
-                    face_vals = [float(x.get("face_valence", 0.0) or 0.0) for x in seg_entries]
-                    audio_vals = [float(x.get("audio_valence", 0.0) or 0.0) for x in seg_entries]
-                    text_vals = [float(x.get("text_valence", 0.0) or 0.0) for x in seg_entries]
-                    face_aros = [float(x.get("face_arousal", 0.0) or 0.0) for x in seg_entries]
-                    audio_aros = [float(x.get("audio_arousal", 0.0) or 0.0) for x in seg_entries]
-                    text_aros = [float(x.get("text_arousal", 0.0) or 0.0) for x in seg_entries]
+                    seg_entries = congruence_timeline[start_idx : end_idx + 1]
+                    face_vals = [float((x.get("valence") or {}).get("face", 0.0)) for x in seg_entries]
+                    audio_vals = [float((x.get("valence") or {}).get("audio", 0.0)) for x in seg_entries]
+                    text_vals = [float((x.get("valence") or {}).get("text", 0.0)) for x in seg_entries]
                     mean_face_val = sum(face_vals) / max(1, len(face_vals))
                     mean_audio_val = sum(audio_vals) / max(1, len(audio_vals))
                     mean_text_val = sum(text_vals) / max(1, len(text_vals))
                     mean_nontext_val = 0.5 * (mean_face_val + mean_audio_val)
-                    mean_text_aro = sum(text_aros) / max(1, len(text_aros))
-                    mean_nontext_aro = 0.5 * (
-                        (sum(face_aros) / max(1, len(face_aros)))
-                        + (sum(audio_aros) / max(1, len(audio_aros)))
-                    )
-                    # Build text snippet from overlapping transcript segments, if available
+                    # Build text snippet for reason
                     snippet = ""
                     if transcript_segments:
                         parts: List[str] = []
                         for seg in transcript_segments:
                             try:
                                 s = float(seg.get("start", 0.0))
-                                e = float(seg.get("end", 0.0))
+                                e2 = float(seg.get("end", 0.0))
                                 txt = str(seg.get("text", "")).strip()
                             except Exception:
                                 continue
-                            if not txt:
-                                continue
-                            if not (e <= start_t or s >= end_t):
+                            if txt and not (e2 <= start_t or s >= end_t):
                                 parts.append(txt)
                         snippet = " ".join(parts)[:400].strip()
-                    # LLM-crafted reason with heuristic fallback
                     reason_llm = generate_incongruence_reason(
                         text_snippet=snippet,
                         metrics={
@@ -409,52 +398,35 @@ def build_session_summary(
                             "mean_nontext_valence": mean_nontext_val,
                             "mean_face_valence": mean_face_val,
                             "mean_audio_valence": mean_audio_val,
-                            "mean_text_arousal": mean_text_aro,
-                            "mean_nontext_arousal": mean_nontext_aro,
+                            "mean_text_arousal": 0.0,
+                            "mean_nontext_arousal": 0.0,
                         },
                     )
-                    reason = reason_llm or _assign_reason(
-                        mean_text_val=mean_text_val,
-                        mean_nontext_val=mean_nontext_val,
-                        mean_face_val=mean_face_val,
-                        mean_audio_val=mean_audio_val,
-                        mean_text_aro=mean_text_aro,
-                        mean_nontext_aro=mean_nontext_aro,
-                    )
+                    reason = reason_llm or "valence/arousal mismatch"
                     moments.append({"start": round(start_t, 2), "end": round(end_t, 2), "reason": reason})
-    # If run goes till end
-    if in_run and valid_entries:
-        start_t = float(valid_entries[start_idx]["t"])
-        end_t = float(valid_entries[-1]["t"])
+    if in_run and congruence_timeline:
+        start_t = float(congruence_timeline[start_idx].get("t", 0.0))
+        end_t = float(congruence_timeline[-1].get("t", 0.0))
         if (end_t - start_t) >= 0.3:
-            seg_entries = valid_entries[start_idx:]
-            face_vals = [float(x.get("face_valence", 0.0) or 0.0) for x in seg_entries]
-            audio_vals = [float(x.get("audio_valence", 0.0) or 0.0) for x in seg_entries]
-            text_vals = [float(x.get("text_valence", 0.0) or 0.0) for x in seg_entries]
-            face_aros = [float(x.get("face_arousal", 0.0) or 0.0) for x in seg_entries]
-            audio_aros = [float(x.get("audio_arousal", 0.0) or 0.0) for x in seg_entries]
-            text_aros = [float(x.get("text_arousal", 0.0) or 0.0) for x in seg_entries]
+            seg_entries = congruence_timeline[start_idx:]
+            face_vals = [float((x.get("valence") or {}).get("face", 0.0)) for x in seg_entries]
+            audio_vals = [float((x.get("valence") or {}).get("audio", 0.0)) for x in seg_entries]
+            text_vals = [float((x.get("valence") or {}).get("text", 0.0)) for x in seg_entries]
             mean_face_val = sum(face_vals) / max(1, len(face_vals))
             mean_audio_val = sum(audio_vals) / max(1, len(audio_vals))
             mean_text_val = sum(text_vals) / max(1, len(text_vals))
             mean_nontext_val = 0.5 * (mean_face_val + mean_audio_val)
-            mean_text_aro = sum(text_aros) / max(1, len(text_aros))
-            mean_nontext_aro = 0.5 * (
-                (sum(face_aros) / max(1, len(face_aros))) + (sum(audio_aros) / max(1, len(audio_aros)))
-            )
             snippet = ""
             if transcript_segments:
                 parts = []
                 for seg in transcript_segments:
                     try:
                         s = float(seg.get("start", 0.0))
-                        e = float(seg.get("end", 0.0))
+                        e2 = float(seg.get("end", 0.0))
                         txt = str(seg.get("text", "")).strip()
                     except Exception:
                         continue
-                    if not txt:
-                        continue
-                    if not (e <= start_t or s >= end_t):
+                    if txt and not (e2 <= start_t or s >= end_t):
                         parts.append(txt)
                 snippet = " ".join(parts)[:400].strip()
             reason_llm = generate_incongruence_reason(
@@ -464,22 +436,18 @@ def build_session_summary(
                     "mean_nontext_valence": mean_nontext_val,
                     "mean_face_valence": mean_face_val,
                     "mean_audio_valence": mean_audio_val,
-                    "mean_text_arousal": mean_text_aro,
-                    "mean_nontext_arousal": mean_nontext_aro,
+                    "mean_text_arousal": 0.0,
+                    "mean_nontext_arousal": 0.0,
                 },
             )
-            reason = reason_llm or _assign_reason(
-                mean_text_val=mean_text_val,
-                mean_nontext_val=mean_nontext_val,
-                mean_face_val=mean_face_val,
-                mean_audio_val=mean_audio_val,
-                mean_text_aro=mean_text_aro,
-                mean_nontext_aro=mean_nontext_aro,
-            )
+            reason = reason_llm or "valence/arousal mismatch"
             moments.append({"start": round(start_t, 2), "end": round(end_t, 2), "reason": reason})
 
-    # Distributions and totals over valid steps
-    for e in valid_entries:
+    # 3) Aggregate distributions
+    face_acc: Dict[str, float] = {}
+    audio_acc: Dict[str, float] = {}
+    text_acc: Dict[str, float] = {}
+    for e in congruence_timeline:
         for k, v in (e.get("face", {}) or {}).items():
             face_acc[k] = face_acc.get(k, 0.0) + float(v)
         for k, v in (e.get("audio", {}) or {}).items():
@@ -489,31 +457,34 @@ def build_session_summary(
         if tdist:
             for k, v in tdist.items():
                 text_acc[k] = text_acc.get(k, 0.0) + float(v)
-
     face_dist = _normalize_distribution(face_acc)
     audio_dist = _normalize_distribution(audio_acc)
     text_dist = _normalize_distribution(text_acc)
 
-    T_total = len(valid_entries) * dt
-    T_incongruent = sum(max(0.0, float(m.get("end", 0.0)) - float(m.get("start", 0.0))) for m in moments)
-    if T_total <= 0.0:
-        overall = 1.0
-    else:
-        overall = max(0.0, min(1.0, 1.0 - (T_incongruent / T_total)))
+    duration = len(congruence_timeline) * dt
+    # Legacy duration-based congruence for back-compat
+    total_incong = 0.0
+    for m in moments:
+        total_incong += max(0.0, float(m.get("end", 0.0)) - float(m.get("start", 0.0)))
+    legacy_congruence = float(max(0.0, min(1.0, 1.0 - (total_incong / (duration + 1e-8))))) if duration > 0 else 1.0
 
     return {
         "patient_id": patient_id,
         "session_id": session_id,
         "duration": round(duration, 2),
-        "overall_congruence": round(float(overall), 4),
+        "overall_congruence": round(overall_congruence, 4),
+        "legacy_congruence": round(legacy_congruence, 4),
         "incongruent_moments": moments,
         "emotion_distribution": {
             "face": face_dist,
             "audio": audio_dist,
             "text": text_dist,
         },
+        "metrics": {
+            "avg_tecs": round(overall_congruence, 4),
+            "num_incongruent_segments": len(moments),
+        },
     }
-
 
 def compute_emotional_congruence(
     merged_timeline: List[Dict[str, Any]],

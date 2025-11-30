@@ -1,0 +1,41 @@
+{
+  "patient_id": "dev",
+  "session_id": 1764521234,
+  "duration": 28.1,
+  "overall_congruence": 0.9943,
+  "legacy_congruence": 1.0,
+  "incongruent_moments": [],
+  "emotion_distribution": {
+    "face": {
+      "joy": 0.0,
+      "sadness": 0.0,
+      "anger": 0.0,
+      "fear": 0.0022431287741456365,
+      "disgust": 3.874620735329734e-06,
+      "surprise": 0.026356732000678854,
+      "neutral": 0.9713962646044402
+    },
+    "audio": {
+      "joy": 0.0,
+      "sadness": 0.0,
+      "anger": 0.0,
+      "fear": 0.05882352941176478,
+      "disgust": 0.05882352941176478,
+      "surprise": 0.05882352941176478,
+      "neutral": 0.8235294117647057
+    },
+    "text": {
+      "joy": 0.0,
+      "sadness": 0.0,
+      "anger": 0.0,
+      "fear": 0.0,
+      "disgust": 0.0,
+      "surprise": 0.0,
+      "neutral": 1.0
+    }
+  },
+  "metrics": {
+    "avg_tecs": 0.9943,
+    "num_incongruent_segments": 0
+  }
+}

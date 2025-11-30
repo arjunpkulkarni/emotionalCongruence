@@ -1,0 +1,52 @@
+{
+  "patient_id": "dev",
+  "session_id": 1764523013,
+  "duration": 28.1,
+  "overall_congruence": 0.7048,
+  "legacy_congruence": 0.1601,
+  "incongruent_moments": [
+    {
+      "start": 2.1,
+      "end": 16.8,
+      "reason": "The speaker's verbal content, which includes uncertainty and potential dishonesty, reflects a negative text valence, while their non-verbal signals, such as facial expressions, indicate a more positive emotional state. This discrepancy suggests a conflict between what is being said and the emotional cues being displayed."
+    },
+    {
+      "start": 19.1,
+      "end": 28.0,
+      "reason": "The speaker's verbal content suggests a confident and positive self-presentation, claiming wealth and personal details, while the non-verbal signals indicate negative valence and a lack of arousal, suggesting discomfort or insincerity in the delivery. This incongruence may imply that the speaker is not fully aligned with the positive assertions being made."
+    }
+  ],
+  "emotion_distribution": {
+    "face": {
+      "joy": 0.3458155354658977,
+      "sadness": 0.03129177495634386,
+      "anger": 0.0064110972603004,
+      "fear": 0.0012251022822620974,
+      "disgust": 2.4863617150740766e-06,
+      "surprise": 0.007747723190241523,
+      "neutral": 0.6075062804832393
+    },
+    "audio": {
+      "joy": 0.050000000000000294,
+      "sadness": 0.050000000000000294,
+      "anger": 0.050000000000000294,
+      "fear": 0.050000000000000294,
+      "disgust": 0.050000000000000294,
+      "surprise": 0.050000000000000294,
+      "neutral": 0.6999999999999982
+    },
+    "text": {
+      "joy": 0.07589391628537513,
+      "sadness": 0.04813590916793777,
+      "anger": 0.03457719030672744,
+      "fear": 0.05685477037790233,
+      "disgust": 0.01749533977291976,
+      "surprise": 0.07863412980850688,
+      "neutral": 0.6884087442806307
+    }
+  },
+  "metrics": {
+    "avg_tecs": 0.7048,
+    "num_incongruent_segments": 2
+  }
+}
