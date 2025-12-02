@@ -1,0 +1,47 @@
+{
+  "patient_id": "testVideo1",
+  "session_id": 1764691978,
+  "duration": 28.1,
+  "overall_congruence": 0.6988,
+  "legacy_congruence": 0.0783,
+  "incongruent_moments": [
+    {
+      "start": 2.1,
+      "end": 28.0,
+      "reason": "The speaker's verbal content, stating \"I have a million dollars in my bank account,\" carries a neutral valence (text_v: +0.005) that contrasts sharply with the negative audio valence (audio_v: -0.125), suggesting a lack of confidence or sincerity in the delivery. Additionally, the face valence (face_v: +0.340) indicates a more positive emotional expression, further highlighting the incongruence between the spoken words and the non-verbal signals. [t: 2.1–28.0 s; text_v: 0.005; face_v: 0.340; audio_v: -0.125]"
+    }
+  ],
+  "emotion_distribution": {
+    "face": {
+      "joy": 0.3458155354658977,
+      "sadness": 0.03129177495634386,
+      "anger": 0.0064110972603004,
+      "fear": 0.0012251022822620974,
+      "disgust": 2.4863617150740766e-06,
+      "surprise": 0.007747723190241523,
+      "neutral": 0.6075062804832393
+    },
+    "audio": {
+      "joy": 0.050000000000000294,
+      "sadness": 0.050000000000000294,
+      "anger": 0.050000000000000294,
+      "fear": 0.050000000000000294,
+      "disgust": 0.050000000000000294,
+      "surprise": 0.050000000000000294,
+      "neutral": 0.6999999999999982
+    },
+    "text": {
+      "joy": 0.0777580071174375,
+      "sadness": 0.04441281138790026,
+      "anger": 0.015587188612099536,
+      "fear": 0.05135231316725972,
+      "disgust": 0.014555160142348578,
+      "surprise": 0.08743772241992896,
+      "neutral": 0.7088967971530256
+    }
+  },
+  "metrics": {
+    "avg_tecs": 0.6988,
+    "num_incongruent_segments": 1
+  }
+}

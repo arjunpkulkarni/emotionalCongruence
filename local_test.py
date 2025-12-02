@@ -61,6 +61,7 @@ def run_local_pipeline(
     input_video_path: str,
     patient_id: str,
     spike_threshold: float = 0.2,
+    fast_mode: bool = True,
 ) -> Dict[str, Any]:
     """
     Local runner that mirrors the FastAPI /process_session pipeline:
@@ -106,9 +107,10 @@ def run_local_pipeline(
     )
 
     # Transcription (best-effort)
-    logger.info("Transcribing audio (best-effort)")
+    logger.info("Transcribing audio (best-effort, fast_mode=%s)", fast_mode)
     transcript_text, transcript_segments = transcribe_audio_with_faster_whisper(
-        audio_path=audio_path
+        audio_path=audio_path,
+        fast_mode=fast_mode,
     )
     logger.info(
         "Transcription completed chars=%d segments=%d",
@@ -119,8 +121,14 @@ def run_local_pipeline(
         logger.info("Transcript text:\n%s", transcript_text)
 
     # DeepFace facial emotion analysis
-    logger.info("Analyzing frames with DeepFace")
-    facial_timeline = analyze_frames_with_deepface(frames_dir=frames_dir)
+    logger.info("Analyzing frames with DeepFace (fast_mode=%s)", fast_mode)
+    # For 2-hour videos (~7200 frames), limit to 1800 frames for 4x speedup
+    max_frames = 1800 if fast_mode else None
+    facial_timeline = analyze_frames_with_deepface(
+        frames_dir=frames_dir,
+        max_frames=max_frames,
+        silent=True,
+    )
 
     # Audio emotion analysis (Vesper required)
     logger.info("Analyzing audio emotions (Vesper)")
@@ -253,6 +261,18 @@ def parse_args() -> argparse.Namespace:
         default=0.2,
         help="Delta threshold for spike detection (0.0 - 1.0)",
     )
+    parser.add_argument(
+        "--fast-mode",
+        action="store_true",
+        default=True,
+        help="Enable fast mode for 2-hour video scale (parallel LLM, faster models, frame sampling)",
+    )
+    parser.add_argument(
+        "--no-fast-mode",
+        dest="fast_mode",
+        action="store_false",
+        help="Disable fast mode (slower but higher quality)",
+    )
     return parser.parse_args()
 
 
@@ -263,6 +283,7 @@ if __name__ == "__main__":
             input_video_path=args.video,
             patient_id=args.patient_id,
             spike_threshold=args.spike_threshold,
+            fast_mode=args.fast_mode,
         )
         # Print a concise summary
         print(json.dumps(result, indent=2))

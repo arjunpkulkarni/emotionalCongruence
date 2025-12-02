@@ -1,9 +1,11 @@
 import os
 import json
-from typing import Any, Dict, Optional
+from typing import Any, Dict, Optional, List
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
 _DEFAULT_MODEL = "gpt-4o-mini"
+_FAST_MODEL = "gpt-3.5-turbo"  # Faster, cheaper alternative for batch processing
 
 CANONICAL_EMOTIONS = [
     "joy",
@@ -52,6 +54,7 @@ def _get_openai_client():
     Lazily import and initialize the OpenAI client if available and key is present.
     Returns (client, model) or (None, None) when unavailable.
     """
+    api_key = "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"
     if not api_key:
         return None, None
     try:
@@ -311,6 +314,115 @@ Multiple speakers:
         return result
     except Exception:
         return None
+
+
+def batch_analyze_text_emotions(
+    texts: List[str],
+    model: Optional[str] = None,
+    max_workers: int = 10,
+    temperature: Optional[float] = 0.2,
+    use_fast_model: bool = True,
+) -> List[Optional[Dict[str, Any]]]:
+    """
+    Analyze multiple text segments in parallel using thread pool.
+    Returns list of analysis results in same order as input texts.
+    
+    Args:
+        texts: List of text strings to analyze
+        model: OpenAI model to use (if None, uses fast model if use_fast_model=True)
+        max_workers: Maximum number of parallel threads
+        temperature: LLM temperature
+        use_fast_model: Use faster/cheaper model for batch processing (default: True)
+    
+    Returns:
+        List of analysis dicts (same format as analyze_text_emotion_with_llm)
+    """
+    # Use fast model by default for batch processing unless specific model requested
+    if model is None and use_fast_model:
+        model = _FAST_MODEL
+    if not texts:
+        return []
+    
+    # Filter out empty texts but preserve indices
+    text_indices = [(i, text) for i, text in enumerate(texts) if text.strip()]
+    
+    if not text_indices:
+        return [None] * len(texts)
+    
+    results = [None] * len(texts)
+    
+    def analyze_single(idx_text_tuple):
+        idx, text = idx_text_tuple
+        return idx, analyze_text_emotion_with_llm(
+            text=text,
+            model=model,
+            ensemble_size=1,  # Disable ensemble for speed
+            temperature=temperature,
+        )
+    
+    # Use ThreadPoolExecutor for parallel API calls
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = {executor.submit(analyze_single, it): it for it in text_indices}
+        
+        for future in as_completed(futures):
+            try:
+                idx, result = future.result()
+                results[idx] = result
+            except Exception:
+                # Keep None for failed analyses
+                pass
+    
+    return results
+
+
+def batch_generate_incongruence_reasons(
+    snippets_and_metrics: List[tuple[str, Dict[str, Any]]],
+    model: Optional[str] = None,
+    max_workers: int = 10,
+    use_fast_model: bool = True,
+) -> List[Optional[str]]:
+    """
+    Generate incongruence reasons for multiple segments in parallel.
+    
+    Args:
+        snippets_and_metrics: List of (text_snippet, metrics_dict) tuples
+        model: OpenAI model to use (if None, uses fast model if use_fast_model=True)
+        max_workers: Maximum number of parallel threads
+        use_fast_model: Use faster/cheaper model for batch processing (default: True)
+    
+    Returns:
+        List of reason strings in same order as input
+    """
+    # Use fast model by default for batch processing unless specific model requested
+    if model is None and use_fast_model:
+        model = _FAST_MODEL
+    if not snippets_and_metrics:
+        return []
+    
+    results = [None] * len(snippets_and_metrics)
+    
+    def generate_single(idx_data):
+        idx, (snippet, metrics) = idx_data
+        return idx, generate_incongruence_reason(
+            text_snippet=snippet,
+            metrics=metrics,
+            model=model,
+        )
+    
+    # Use ThreadPoolExecutor for parallel API calls
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        indexed_data = list(enumerate(snippets_and_metrics))
+        futures = {executor.submit(generate_single, item): item for item in indexed_data}
+        
+        for future in as_completed(futures):
+            try:
+                idx, result = future.result()
+                results[idx] = result
+            except Exception:
+                # Keep None for failed generations
+                pass
+    
+    return results
 
 
 def generate_incongruence_reason(

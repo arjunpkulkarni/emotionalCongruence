@@ -49,10 +49,22 @@ def _sorted_frame_paths(frames_dir: str) -> List[str]:
     return paths
 
 
-def analyze_frames_with_deepface(frames_dir: str) -> List[Dict[str, Any]]:
+def analyze_frames_with_deepface(
+    frames_dir: str, 
+    max_frames: Optional[int] = None,
+    silent: bool = True,
+) -> List[Dict[str, Any]]:
     """
     For each frame, run DeepFace.analyze(..., actions=['emotion']) and return
     a list of entries: {"t": second_index, "emotions": {emotion: score, ...}}
+    
+    Args:
+        frames_dir: Directory containing frame images
+        max_frames: Optional limit on number of frames to process (for faster processing)
+        silent: Suppress DeepFace logging
+    
+    Returns:
+        List of timeline entries with emotion analysis
     """
     try:
         from deepface import DeepFace  # type: ignore
@@ -63,13 +75,23 @@ def analyze_frames_with_deepface(frames_dir: str) -> List[Dict[str, Any]]:
 
     timeline: List[Dict[str, Any]] = []
     frame_paths = _sorted_frame_paths(frames_dir)
+    
+    # For very long videos, optionally sample frames to reduce processing time
+    if max_frames and len(frame_paths) > max_frames:
+        # Sample frames evenly throughout the video
+        step = len(frame_paths) / max_frames
+        sampled_indices = [int(i * step) for i in range(max_frames)]
+        sampled_paths = [(frame_paths[i], i) for i in sampled_indices]
+    else:
+        sampled_paths = [(path, idx) for idx, path in enumerate(frame_paths)]
 
-    for idx, frame_path in enumerate(frame_paths):
+    for frame_path, original_idx in sampled_paths:
         # Guard against frames without detectable faces by disabling strict enforcement
         analysis_obj = DeepFace.analyze(
             img_path=frame_path,
             actions=["emotion"],
             enforce_detection=False,
+            silent=silent,
         )
         # DeepFace may return dict or list depending on detection results
         if isinstance(analysis_obj, list) and analysis_obj:
@@ -82,11 +104,14 @@ def analyze_frames_with_deepface(frames_dir: str) -> List[Dict[str, Any]]:
 
         norm = _normalize_emotion_dict(emotions)
         entry = {
-            "t": idx,  # seconds, aligned to 1 FPS frames
+            "t": original_idx,  # seconds, aligned to 1 FPS frames
             "emotions": norm,
             "frame_path": frame_path,
         }
         timeline.append(entry)
+    
+    # Sort by time to ensure proper ordering
+    timeline.sort(key=lambda x: x["t"])
     return timeline
 
 

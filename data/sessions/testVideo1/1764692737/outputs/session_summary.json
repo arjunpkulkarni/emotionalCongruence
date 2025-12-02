@@ -1,0 +1,52 @@
+{
+  "patient_id": "testVideo1",
+  "session_id": 1764692737,
+  "duration": 28.1,
+  "overall_congruence": 0.7076,
+  "legacy_congruence": 0.1032,
+  "incongruent_moments": [
+    {
+      "start": 2.1,
+      "end": 16.8,
+      "reason": "The speaker's verbal content suggests confusion and deception (\"wait can I give it lies to? Just say anything\"), while their facial expression conveys a significantly positive affect (face_v: 0.632). This incongruence may indicate a mismatch between their words and their true emotional state. [t: 2.1–16.8 s; text_v: -0.144; face_v: 0.632; audio_v: -0.125]"
+    },
+    {
+      "start": 17.5,
+      "end": 28.0,
+      "reason": "The speaker's verbal content conveys confidence and assertiveness (\"I drive a red car and I have a million dollars\"), while their face and audio show slight negativity and lack of enthusiasm (face_v: -0.047, audio_v: -0.125). This incongruence suggests a possible discrepancy between their words and true feelings. [t: 17.5–28.0 s; text_v: 0.095; face_v: -0.047; audio_v: -0.125]"
+    }
+  ],
+  "emotion_distribution": {
+    "face": {
+      "joy": 0.3458155354658977,
+      "sadness": 0.03129177495634386,
+      "anger": 0.0064110972603004,
+      "fear": 0.0012251022822620974,
+      "disgust": 2.4863617150740766e-06,
+      "surprise": 0.007747723190241523,
+      "neutral": 0.6075062804832393
+    },
+    "audio": {
+      "joy": 0.050000000000000294,
+      "sadness": 0.050000000000000294,
+      "anger": 0.050000000000000294,
+      "fear": 0.050000000000000294,
+      "disgust": 0.050000000000000294,
+      "surprise": 0.050000000000000294,
+      "neutral": 0.6999999999999982
+    },
+    "text": {
+      "joy": 0.15513468013468,
+      "sadness": 0.09439393939393981,
+      "anger": 0.0566161616161619,
+      "fear": 0.06487542087542124,
+      "disgust": 0.04302356902356863,
+      "surprise": 0.10050505050504999,
+      "neutral": 0.48545117845117847
+    }
+  },
+  "metrics": {
+    "avg_tecs": 0.7076,
+    "num_incongruent_segments": 2
+  }
+}

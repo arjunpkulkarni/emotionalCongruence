@@ -1,0 +1,3084 @@
+[
+  {
+    "t": 0,
+    "face": {
+      "joy": 0.001247352589372807,
+      "sadness": 0.02265305558888604,
+      "anger": 0.007116865793687916,
+      "fear": 0.0014905794305333905,
+      "disgust": 8.659744861996319e-08,
+      "surprise": 8.191793300420812e-06,
+      "neutral": 0.9674838682067708
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.8337419341033854,
+      "joy": 0.02562367629468641,
+      "surprise": 0.025004095896650216,
+      "disgust": 0.025000043298724316,
+      "sadness": 0.03632652779444302,
+      "fear": 0.0257452897152667,
+      "anger": 0.028558432896843962
+    },
+    "text": {
+      "text": "",
+      "segments": [],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotions": {},
+        "rationale": "",
+        "source": "none"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.06936007446866228,
+      "text_face_valence_gap": 0.0012281608254553823,
+      "text_audio_valence_gap": 0.07058823529411766,
+      "face_top": {
+        "label": "neutral",
+        "p": 0.9674838682067708
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9653199627656689
+    },
+    "spikes": [
+      {
+        "t": 0,
+        "face": {
+          "joy": 0.001247352589372807,
+          "sadness": 0.02265305558888604,
+          "anger": 0.007116865793687916,
+          "fear": 0.0014905794305333905,
+          "disgust": 8.659744861996319e-08,
+          "surprise": 8.191793300420812e-06,
+          "neutral": 0.9674838682067708
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.8337419341033854,
+          "joy": 0.02562367629468641,
+          "surprise": 0.025004095896650216,
+          "disgust": 0.025000043298724316,
+          "sadness": 0.03632652779444302,
+          "fear": 0.0257452897152667,
+          "anger": 0.028558432896843962
+        },
+        "micro_spike": false
+      }
+    ]
+  },
+  {
+    "t": 1,
+    "face": {
+      "joy": 0.0004983495607730242,
+      "sadness": 0.06439971995973018,
+      "anger": 0.001666105880942241,
+      "fear": 0.002197917859718398,
+      "disgust": 1.22512441553333e-08,
+      "surprise": 0.0013109662305032656,
+      "neutral": 0.9299269282570888
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.8149634641285444,
+      "joy": 0.02524917478038652,
+      "surprise": 0.025655483115251638,
+      "disgust": 0.025000006125622084,
+      "sadness": 0.0571998599798651,
+      "fear": 0.026098958929859202,
+      "anger": 0.025833052940471127
+    },
+    "text": {
+      "text": "My name is, wait can I give it lies to?",
+      "segments": [
+        {
+          "start": 1.07,
+          "end": 4.51,
+          "text": " My name is, wait can I give it lies to?"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotion_distribution": {
+          "joy": 0.05,
+          "sadness": 0.1,
+          "anger": 0.02,
+          "fear": 0.15,
+          "disgust": 0.03,
+          "surprise": 0.2,
+          "neutral": 0.45
+        },
+        "style": "uncertain",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.0691258391030547,
+      "text_face_valence_gap": 0.0014623961910629688,
+      "text_audio_valence_gap": 0.07058823529411766,
+      "face_top": {
+        "label": "neutral",
+        "p": 0.9299269282570888
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9764705882352941
+    },
+    "spikes": [
+      {
+        "t": 1,
+        "face": {
+          "joy": 0.0004983495607730242,
+          "sadness": 0.06439971995973018,
+          "anger": 0.001666105880942241,
+          "fear": 0.002197917859718398,
+          "disgust": 1.22512441553333e-08,
+          "surprise": 0.0013109662305032656,
+          "neutral": 0.9299269282570888
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.8149634641285444,
+          "joy": 0.02524917478038652,
+          "surprise": 0.025655483115251638,
+          "disgust": 0.025000006125622084,
+          "sadness": 0.0571998599798651,
+          "fear": 0.026098958929859202,
+          "anger": 0.025833052940471127
+        },
+        "micro_spike": false
+      }
+    ]
+  },
+  {
+    "t": 2,
+    "face": {
+      "joy": 0.00021470180128048958,
+      "sadness": 0.03311416679454066,
+      "anger": 0.01065906303453407,
+      "fear": 0.00036276549686721586,
+      "disgust": 6.684130420295964e-08,
+      "surprise": 1.9427662796230927e-06,
+      "neutral": 0.9556472932651937
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.8278236466325968,
+      "joy": 0.02510735090064025,
+      "surprise": 0.025000971383139815,
+      "disgust": 0.025000033420652105,
+      "sadness": 0.041557083397270336,
+      "fear": 0.025181382748433612,
+      "anger": 0.03032953151726704
+    },
+    "text": {
+      "text": "My name is, wait can I give it lies to?",
+      "segments": [
+        {
+          "start": 1.07,
+          "end": 4.51,
+          "text": " My name is, wait can I give it lies to?"
+        }
+      ],
+      "analysis": {
+        "valence": -0.1,
+        "arousal": 0.5,
+        "emotion_distribution": {
+          "joy": 0.05,
+          "sadness": 0.1,
+          "anger": 0.02,
+          "fear": 0.15,
+          "disgust": 0.03,
+          "surprise": 0.25,
+          "neutral": 0.4
+        },
+        "style": "uncertain",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.07028523037806379,
+      "text_face_valence_gap": 0.09969699508394614,
+      "text_audio_valence_gap": 0.029411764705882346,
+      "face_top": {
+        "label": "neutral",
+        "p": 0.9556472932651937
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9667676683053513
+    },
+    "spikes": [
+      {
+        "t": 2,
+        "face": {
+          "joy": 0.00021470180128048958,
+          "sadness": 0.03311416679454066,
+          "anger": 0.01065906303453407,
+          "fear": 0.00036276549686721586,
+          "disgust": 6.684130420295964e-08,
+          "surprise": 1.9427662796230927e-06,
+          "neutral": 0.9556472932651937
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.8278236466325968,
+          "joy": 0.02510735090064025,
+          "surprise": 0.025000971383139815,
+          "disgust": 0.025000033420652105,
+          "sadness": 0.041557083397270336,
+          "fear": 0.025181382748433612,
+          "anger": 0.03032953151726704
+        },
+        "micro_spike": false
+      }
+    ]
+  },
+  {
+    "t": 3,
+    "face": {
+      "joy": 0.9754602001791952,
+      "sadness": 6.693966100134583e-07,
+      "anger": 2.985145132257653e-07,
+      "fear": 7.691377807103611e-10,
+      "disgust": 1.438039133669275e-15,
+      "surprise": 0.0022119064517992144,
+      "neutral": 0.022326924688743126
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.3611634623443715,
+      "joy": 0.5127301000895976,
+      "surprise": 0.026105953225899613,
+      "disgust": 0.025000000000000723,
+      "sadness": 0.02500033469830501,
+      "fear": 0.025000000384568895,
+      "anger": 0.025000149257256618
+    },
+    "text": {
+      "text": "My name is, wait can I give it lies to?",
+      "segments": [
+        {
+          "start": 1.07,
+          "end": 4.51,
+          "text": " My name is, wait can I give it lies to?"
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.3,
+        "emotion_distribution": {
+          "joy": 0.05,
+          "sadness": 0.05,
+          "anger": 0.02,
+          "fear": 0.1,
+          "disgust": 0.02,
+          "surprise": 0.15,
+          "neutral": 0.61
+        },
+        "style": "uncertain",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.09762991856049708,
+      "text_face_valence_gap": 0.027041683266379415,
+      "text_audio_valence_gap": 0.07058823529411766,
+      "face_top": {
+        "label": "joy",
+        "p": 0.9754602001791952
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9674566938131677
+    },
+    "spikes": [
+      {
+        "t": 3,
+        "face": {
+          "joy": 0.9754602001791952,
+          "sadness": 6.693966100134583e-07,
+          "anger": 2.985145132257653e-07,
+          "fear": 7.691377807103611e-10,
+          "disgust": 1.438039133669275e-15,
+          "surprise": 0.0022119064517992144,
+          "neutral": 0.022326924688743126
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.3611634623443715,
+          "joy": 0.5127301000895976,
+          "surprise": 0.026105953225899613,
+          "disgust": 0.025000000000000723,
+          "sadness": 0.02500033469830501,
+          "fear": 0.025000000384568895,
+          "anger": 0.025000149257256618
+        },
+        "micro_spike": true
+      }
+    ]
+  },
+  {
+    "t": 4,
+    "face": {
+      "joy": 0.9848454818422145,
+      "sadness": 3.2088270362655e-06,
+      "anger": 5.1950068401089476e-06,
+      "fear": 6.616606202170495e-09,
+      "disgust": 4.2836466709453056e-12,
+      "surprise": 4.890360755662738e-05,
+      "neutral": 0.015097204095462677
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.3575486020477313,
+      "joy": 0.5174227409211073,
+      "surprise": 0.025024451803778318,
+      "disgust": 0.02500000000214183,
+      "sadness": 0.025001604413518137,
+      "fear": 0.025000003308303105,
+      "anger": 0.02500259750342006
+    },
+    "text": {
+      "text": "My name is, wait can I give it lies to? Just say anything.",
+      "segments": [
+        {
+          "start": 1.07,
+          "end": 4.51,
+          "text": " My name is, wait can I give it lies to?"
+        },
+        {
+          "start": 4.51,
+          "end": 6.11,
+          "text": " Just say anything."
+        }
+      ],
+      "analysis": {
+        "valence": 0.1,
+        "arousal": 0.5,
+        "emotion_distribution": {
+          "joy": 0.15,
+          "sadness": 0.05,
+          "anger": 0.02,
+          "fear": 0.1,
+          "disgust": 0.01,
+          "surprise": 0.2,
+          "neutral": 0.47
+        },
+        "style": "uncertain",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.07155652231941252,
+      "text_face_valence_gap": 0.09903171297470514,
+      "text_audio_valence_gap": 0.17058823529411765,
+      "face_top": {
+        "label": "joy",
+        "p": 0.9848454818422145
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9431372549019608
+    },
+    "spikes": [
+      {
+        "t": 4,
+        "face": {
+          "joy": 0.9848454818422145,
+          "sadness": 3.2088270362655e-06,
+          "anger": 5.1950068401089476e-06,
+          "fear": 6.616606202170495e-09,
+          "disgust": 4.2836466709453056e-12,
+          "surprise": 4.890360755662738e-05,
+          "neutral": 0.015097204095462677
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.3575486020477313,
+          "joy": 0.5174227409211073,
+          "surprise": 0.025024451803778318,
+          "disgust": 0.02500000000214183,
+          "sadness": 0.025001604413518137,
+          "fear": 0.025000003308303105,
+          "anger": 0.02500259750342006
+        },
+        "micro_spike": false
+      }
+    ]
+  },
+  {
+    "t": 5,
+    "face": {
+      "joy": 0.820488195463282,
+      "sadness": 0.0021690727519374092,
+      "anger": 0.0008254172557461821,
+      "fear": 0.004194933723553124,
+      "disgust": 8.31697424855514e-08,
+      "surprise": 0.0005794788829993747,
+      "neutral": 0.1717428187527394
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.4358714093763697,
+      "joy": 0.435244097731641,
+      "surprise": 0.025289739441499693,
+      "disgust": 0.02500004158487125,
+      "sadness": 0.02608453637596871,
+      "fear": 0.027097466861776567,
+      "anger": 0.025412708627873096
+    },
+    "text": {
+      "text": "Just say anything.",
+      "segments": [
+        {
+          "start": 4.51,
+          "end": 6.11,
+          "text": " Just say anything."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotion_distribution": {
+          "joy": 0.1,
+          "sadness": 0.1,
+          "anger": 0.05,
+          "fear": 0.05,
+          "disgust": 0.05,
+          "surprise": 0.05,
+          "neutral": 0.6
+        },
+        "style": "uncertain"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.052560759965407,
+      "text_face_valence_gap": 0.01802747532871066,
+      "text_audio_valence_gap": 0.07058823529411766,
+      "face_top": {
+        "label": "joy",
+        "p": 0.820488195463282
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9764705882352941
+    },
+    "spikes": [
+      {
+        "t": 5,
+        "face": {
+          "joy": 0.820488195463282,
+          "sadness": 0.0021690727519374092,
+          "anger": 0.0008254172557461821,
+          "fear": 0.004194933723553124,
+          "disgust": 8.31697424855514e-08,
+          "surprise": 0.0005794788829993747,
+          "neutral": 0.1717428187527394
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.4358714093763697,
+          "joy": 0.435244097731641,
+          "surprise": 0.025289739441499693,
+          "disgust": 0.02500004158487125,
+          "sadness": 0.02608453637596871,
+          "fear": 0.027097466861776567,
+          "anger": 0.025412708627873096
+        },
+        "micro_spike": false
+      }
+    ]
+  },
+  {
+    "t": 6,
+    "face": {
+      "joy": 0.025471385410910898,
+      "sadness": 0.029385317393612623,
+      "anger": 0.00329813730263034,
+      "fear": 0.004733618662431182,
+      "disgust": 1.476208905327162e-06,
+      "surprise": 0.0005447095821942582,
+      "neutral": 0.9365653554393154
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.8182826777196577,
+      "joy": 0.03773569270545545,
+      "surprise": 0.025272354791097133,
+      "disgust": 0.025000738104452667,
+      "sadness": 0.03969265869680631,
+      "fear": 0.027366809331215596,
+      "anger": 0.026649068651315173
+    },
+    "text": {
+      "text": "Just say anything. Alright, my name is Rob Wazowski.",
+      "segments": [
+        {
+          "start": 4.51,
+          "end": 6.11,
+          "text": " Just say anything."
+        },
+        {
+          "start": 6.11,
+          "end": 9.39,
+          "text": " Alright, my name is Rob Wazowski."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotion_distribution": {
+          "joy": 0.15,
+          "sadness": 0.05,
+          "anger": 0.02,
+          "fear": 0.03,
+          "disgust": 0.01,
+          "surprise": 0.1,
+          "neutral": 0.64
+        },
+        "style": "uncertain",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.06673992183892853,
+      "text_face_valence_gap": 0.0038483134551891302,
+      "text_audio_valence_gap": 0.07058823529411766,
+      "face_top": {
+        "label": "neutral",
+        "p": 0.9365653554393154
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9764705882352941
+    },
+    "spikes": [
+      {
+        "t": 6,
+        "face": {
+          "joy": 0.025471385410910898,
+          "sadness": 0.029385317393612623,
+          "anger": 0.00329813730263034,
+          "fear": 0.004733618662431182,
+          "disgust": 1.476208905327162e-06,
+          "surprise": 0.0005447095821942582,
+          "neutral": 0.9365653554393154
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.8182826777196577,
+          "joy": 0.03773569270545545,
+          "surprise": 0.025272354791097133,
+          "disgust": 0.025000738104452667,
+          "sadness": 0.03969265869680631,
+          "fear": 0.027366809331215596,
+          "anger": 0.026649068651315173
+        },
+        "micro_spike": true
+      }
+    ]
+  },
+  {
+    "t": 7,
+    "face": {
+      "joy": 0.5651091218801275,
+      "sadness": 0.00013053947676020596,
+      "anger": 0.0001577190263409096,
+      "fear": 3.9686140369258134e-05,
+      "disgust": 8.823661541887338e-10,
+      "surprise": 0.07519206302904662,
+      "neutral": 0.3593708695649893
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.5296854347824946,
+      "joy": 0.3075545609400638,
+      "surprise": 0.06259603151452331,
+      "disgust": 0.02500000044118308,
+      "sadness": 0.025065269738380108,
+      "fear": 0.025019843070184632,
+      "anger": 0.02507885951317046
+    },
+    "text": {
+      "text": "Alright, my name is Rob Wazowski.",
+      "segments": [
+        {
+          "start": 6.11,
+          "end": 9.39,
+          "text": " Alright, my name is Rob Wazowski."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotion_distribution": {
+          "joy": 0.05,
+          "sadness": 0.02,
+          "anger": 0.01,
+          "fear": 0.01,
+          "disgust": 0.01,
+          "surprise": 0.02,
+          "neutral": 0.88
+        },
+        "style": "uncertain",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.12241919157925321,
+      "text_face_valence_gap": 0.05183095628513555,
+      "text_audio_valence_gap": 0.07058823529411766,
+      "face_top": {
+        "label": "joy",
+        "p": 0.5651091218801275
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9591936028069156
+    },
+    "spikes": [
+      {
+        "t": 7,
+        "face": {
+          "joy": 0.5651091218801275,
+          "sadness": 0.00013053947676020596,
+          "anger": 0.0001577190263409096,
+          "fear": 3.9686140369258134e-05,
+          "disgust": 8.823661541887338e-10,
+          "surprise": 0.07519206302904662,
+          "neutral": 0.3593708695649893
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.5296854347824946,
+          "joy": 0.3075545609400638,
+          "surprise": 0.06259603151452331,
+          "disgust": 0.02500000044118308,
+          "sadness": 0.025065269738380108,
+          "fear": 0.025019843070184632,
+          "anger": 0.02507885951317046
+        },
+        "micro_spike": true
+      }
+    ]
+  },
+  {
+    "t": 8,
+    "face": {
+      "joy": 0.772930765132596,
+      "sadness": 4.434638594865719e-06,
+      "anger": 4.785409750900774e-07,
+      "fear": 9.629579044823579e-08,
+      "disgust": 4.695944385659927e-13,
+      "surprise": 7.359912243958549e-05,
+      "neutral": 0.22699062626913452
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.46349531313456727,
+      "joy": 0.411465382566298,
+      "surprise": 0.0250367995612198,
+      "disgust": 0.025000000000234803,
+      "sadness": 0.02500221731929744,
+      "fear": 0.025000048147895228,
+      "anger": 0.02500023927048755
+    },
+    "text": {
+      "text": "Alright, my name is Rob Wazowski.",
+      "segments": [
+        {
+          "start": 6.11,
+          "end": 9.39,
+          "text": " Alright, my name is Rob Wazowski."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotion_distribution": {
+          "joy": 0.05,
+          "sadness": 0.02,
+          "anger": 0.01,
+          "fear": 0.01,
+          "disgust": 0.01,
+          "surprise": 0.02,
+          "neutral": 0.88
+        },
+        "style": "uncertain",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.07068513602958877,
+      "text_face_valence_gap": 9.690073547111489e-05,
+      "text_audio_valence_gap": 0.07058823529411766,
+      "face_top": {
+        "label": "joy",
+        "p": 0.772930765132596
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9764382879901371
+    },
+    "spikes": [
+      {
+        "t": 8,
+        "face": {
+          "joy": 0.772930765132596,
+          "sadness": 4.434638594865719e-06,
+          "anger": 4.785409750900774e-07,
+          "fear": 9.629579044823579e-08,
+          "disgust": 4.695944385659927e-13,
+          "surprise": 7.359912243958549e-05,
+          "neutral": 0.22699062626913452
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.46349531313456727,
+          "joy": 0.411465382566298,
+          "surprise": 0.0250367995612198,
+          "disgust": 0.025000000000234803,
+          "sadness": 0.02500221731929744,
+          "fear": 0.025000048147895228,
+          "anger": 0.02500023927048755
+        },
+        "micro_spike": true
+      }
+    ]
+  },
+  {
+    "t": 9,
+    "face": {
+      "joy": 0.9979401950469617,
+      "sadness": 8.312198158380065e-06,
+      "anger": 1.2189951774163324e-07,
+      "fear": 2.8619844522163093e-08,
+      "disgust": 1.724253028232298e-15,
+      "surprise": 0.0004753757913130154,
+      "neutral": 0.0015759664442028755
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.3507879832221014,
+      "joy": 0.5239700975234809,
+      "surprise": 0.025237687895656512,
+      "disgust": 0.025000000000000865,
+      "sadness": 0.025004156099079196,
+      "fear": 0.025000014309922266,
+      "anger": 0.025000060949758877
+    },
+    "text": {
+      "text": "Alright, my name is Rob Wazowski. I'm 21 years old.",
+      "segments": [
+        {
+          "start": 6.11,
+          "end": 9.39,
+          "text": " Alright, my name is Rob Wazowski."
+        },
+        {
+          "start": 9.39,
+          "end": 13.39,
+          "text": " I'm 21 years old."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotion_distribution": {
+          "joy": 0.05,
+          "sadness": 0.02,
+          "anger": 0.01,
+          "fear": 0.01,
+          "disgust": 0.01,
+          "surprise": 0.02,
+          "neutral": 0.88
+        },
+        "style": "uncertain",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.14009777382751362,
+      "text_face_valence_gap": 0.06950953853339596,
+      "text_audio_valence_gap": 0.07058823529411766,
+      "face_top": {
+        "label": "joy",
+        "p": 0.9979401950469617
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9533007420574955
+    },
+    "spikes": [
+      {
+        "t": 9,
+        "face": {
+          "joy": 0.9979401950469617,
+          "sadness": 8.312198158380065e-06,
+          "anger": 1.2189951774163324e-07,
+          "fear": 2.8619844522163093e-08,
+          "disgust": 1.724253028232298e-15,
+          "surprise": 0.0004753757913130154,
+          "neutral": 0.0015759664442028755
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.3507879832221014,
+          "joy": 0.5239700975234809,
+          "surprise": 0.025237687895656512,
+          "disgust": 0.025000000000000865,
+          "sadness": 0.025004156099079196,
+          "fear": 0.025000014309922266,
+          "anger": 0.025000060949758877
+        },
+        "micro_spike": true
+      }
+    ]
+  },
+  {
+    "t": 10,
+    "face": {
+      "joy": 0.9639141307186778,
+      "sadness": 3.261808672960072e-06,
+      "anger": 1.6736045543832004e-08,
+      "fear": 1.415589367599684e-10,
+      "disgust": 1.3538358304133681e-15,
+      "surprise": 7.3219633736130625e-06,
+      "neutral": 0.03607526863166974
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.36803763431583486,
+      "joy": 0.5069570653593389,
+      "surprise": 0.025003660981686812,
+      "disgust": 0.02500000000000068,
+      "sadness": 0.025001630904336485,
+      "fear": 0.025000000070779474,
+      "anger": 0.025000008368022776
+    },
+    "text": {
+      "text": "I'm 21 years old.",
+      "segments": [
+        {
+          "start": 9.39,
+          "end": 13.39,
+          "text": " I'm 21 years old."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotion_distribution": {
+          "joy": 0.05,
+          "sadness": 0.02,
+          "anger": 0.01,
+          "fear": 0.01,
+          "disgust": 0.01,
+          "surprise": 0.02,
+          "neutral": 0.88
+        },
+        "style": "uncertain",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.07064910885444543,
+      "text_face_valence_gap": 6.087356032776858e-05,
+      "text_audio_valence_gap": 0.07058823529411766,
+      "face_top": {
+        "label": "joy",
+        "p": 0.9639141307186778
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9764502970485182
+    },
+    "spikes": [
+      {
+        "t": 10,
+        "face": {
+          "joy": 0.9639141307186778,
+          "sadness": 3.261808672960072e-06,
+          "anger": 1.6736045543832004e-08,
+          "fear": 1.415589367599684e-10,
+          "disgust": 1.3538358304133681e-15,
+          "surprise": 7.3219633736130625e-06,
+          "neutral": 0.03607526863166974
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.36803763431583486,
+          "joy": 0.5069570653593389,
+          "surprise": 0.025003660981686812,
+          "disgust": 0.02500000000000068,
+          "sadness": 0.025001630904336485,
+          "fear": 0.025000000070779474,
+          "anger": 0.025000008368022776
+        },
+        "micro_spike": false
+      }
+    ]
+  },
+  {
+    "t": 11,
+    "face": {
+      "joy": 0.5524079566748821,
+      "sadness": 3.802292813780322e-05,
+      "anger": 1.5494813033506077e-05,
+      "fear": 1.537980399971719e-05,
+      "disgust": 5.713945322417961e-11,
+      "surprise": 0.006943200776932426,
+      "neutral": 0.44057994494587505
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.5702899724729376,
+      "joy": 0.30120397833744106,
+      "surprise": 0.028471600388466217,
+      "disgust": 0.02500000002856973,
+      "sadness": 0.025019011464068906,
+      "fear": 0.025007689901999863,
+      "anger": 0.025007747406516758
+    },
+    "text": {
+      "text": "I'm 21 years old.",
+      "segments": [
+        {
+          "start": 9.39,
+          "end": 13.39,
+          "text": " I'm 21 years old."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotion_distribution": {
+          "joy": 0.05,
+          "sadness": 0.02,
+          "anger": 0.01,
+          "fear": 0.01,
+          "disgust": 0.01,
+          "surprise": 0.02,
+          "neutral": 0.88
+        },
+        "style": "uncertain",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.07521500200024771,
+      "text_face_valence_gap": 0.004626766706130051,
+      "text_audio_valence_gap": 0.07058823529411766,
+      "face_top": {
+        "label": "joy",
+        "p": 0.5524079566748821
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9749283326665841
+    },
+    "spikes": [
+      {
+        "t": 11,
+        "face": {
+          "joy": 0.5524079566748821,
+          "sadness": 3.802292813780322e-05,
+          "anger": 1.5494813033506077e-05,
+          "fear": 1.537980399971719e-05,
+          "disgust": 5.713945322417961e-11,
+          "surprise": 0.006943200776932426,
+          "neutral": 0.44057994494587505
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.5702899724729376,
+          "joy": 0.30120397833744106,
+          "surprise": 0.028471600388466217,
+          "disgust": 0.02500000002856973,
+          "sadness": 0.025019011464068906,
+          "fear": 0.025007689901999863,
+          "anger": 0.025007747406516758
+        },
+        "micro_spike": true
+      }
+    ]
+  },
+  {
+    "t": 12,
+    "face": {
+      "joy": 0.8685141917823324,
+      "sadness": 1.48894953512396e-06,
+      "anger": 4.081619272571436e-06,
+      "fear": 1.1504937108088607e-07,
+      "disgust": 6.595960128162749e-13,
+      "surprise": 0.0008585171554190101,
+      "neutral": 0.1306216054434104
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.4153108027217052,
+      "joy": 0.4592570958911662,
+      "surprise": 0.02542925857770951,
+      "disgust": 0.025000000000329804,
+      "sadness": 0.025000744474767567,
+      "fear": 0.025000057524685544,
+      "anger": 0.02500204080963629
+    },
+    "text": {
+      "text": "I'm 21 years old.",
+      "segments": [
+        {
+          "start": 9.39,
+          "end": 13.39,
+          "text": " I'm 21 years old."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotion_distribution": {
+          "joy": 0.05,
+          "sadness": 0.02,
+          "anger": 0.01,
+          "fear": 0.02,
+          "disgust": 0.01,
+          "surprise": 0.03,
+          "neutral": 0.86
+        },
+        "style": "uncertain",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.07254642392589303,
+      "text_face_valence_gap": 0.001958188631775365,
+      "text_audio_valence_gap": 0.07058823529411766,
+      "face_top": {
+        "label": "joy",
+        "p": 0.8685141917823324
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.975817858691369
+    },
+    "spikes": [
+      {
+        "t": 12,
+        "face": {
+          "joy": 0.8685141917823324,
+          "sadness": 1.48894953512396e-06,
+          "anger": 4.081619272571436e-06,
+          "fear": 1.1504937108088607e-07,
+          "disgust": 6.595960128162749e-13,
+          "surprise": 0.0008585171554190101,
+          "neutral": 0.1306216054434104
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.4153108027217052,
+          "joy": 0.4592570958911662,
+          "surprise": 0.02542925857770951,
+          "disgust": 0.025000000000329804,
+          "sadness": 0.025000744474767567,
+          "fear": 0.025000057524685544,
+          "anger": 0.02500204080963629
+        },
+        "micro_spike": true
+      }
+    ]
+  },
+  {
+    "t": 13,
+    "face": {
+      "joy": 0.8450733830654168,
+      "sadness": 0.0004278173624599224,
+      "anger": 1.7848051120160733e-05,
+      "fear": 5.69334530010307e-06,
+      "disgust": 8.493894450780342e-09,
+      "surprise": 0.0019583675271860803,
+      "neutral": 0.15251688215462245
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.4262584410773112,
+      "joy": 0.4475366915327084,
+      "surprise": 0.025979183763593046,
+      "disgust": 0.02500000424694723,
+      "sadness": 0.025213908681229965,
+      "fear": 0.025002846672650056,
+      "anger": 0.025008924025560084
+    },
+    "text": {
+      "text": "I'm 21 years old. I was born in 2010.",
+      "segments": [
+        {
+          "start": 9.39,
+          "end": 13.39,
+          "text": " I'm 21 years old."
+        },
+        {
+          "start": 13.39,
+          "end": 17.47,
+          "text": " I was born in 2010."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.1,
+        "emotion_distribution": {
+          "joy": 0.05,
+          "sadness": 0.02,
+          "anger": 0.01,
+          "fear": 0.01,
+          "disgust": 0.01,
+          "surprise": 0.05,
+          "neutral": 0.85
+        },
+        "style": "uncertain",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.07436183734958124,
+      "text_face_valence_gap": 0.0037736020554635747,
+      "text_audio_valence_gap": 0.07058823529411766,
+      "face_top": {
+        "label": "joy",
+        "p": 0.8450733830654168
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9752127208834729
+    },
+    "spikes": [
+      {
+        "t": 13,
+        "face": {
+          "joy": 0.8450733830654168,
+          "sadness": 0.0004278173624599224,
+          "anger": 1.7848051120160733e-05,
+          "fear": 5.69334530010307e-06,
+          "disgust": 8.493894450780342e-09,
+          "surprise": 0.0019583675271860803,
+          "neutral": 0.15251688215462245
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.4262584410773112,
+          "joy": 0.4475366915327084,
+          "surprise": 0.025979183763593046,
+          "disgust": 0.02500000424694723,
+          "sadness": 0.025213908681229965,
+          "fear": 0.025002846672650056,
+          "anger": 0.025008924025560084
+        },
+        "micro_spike": false
+      }
+    ]
+  },
+  {
+    "t": 14,
+    "face": {
+      "joy": 0.0009541062014394998,
+      "sadness": 0.017461536662921398,
+      "anger": 0.005276290635407738,
+      "fear": 0.0001914204234143072,
+      "disgust": 5.248864315972694e-08,
+      "surprise": 8.297147942152192e-06,
+      "neutral": 0.9761082964402318
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.8380541482201158,
+      "joy": 0.025477053100719755,
+      "surprise": 0.02500414857397108,
+      "disgust": 0.025000026244321585,
+      "sadness": 0.0337307683314607,
+      "fear": 0.02509571021170716,
+      "anger": 0.027638145317703873
+    },
+    "text": {
+      "text": "I was born in 2010.",
+      "segments": [
+        {
+          "start": 13.39,
+          "end": 17.47,
+          "text": " I was born in 2010."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotion_distribution": {
+          "joy": 0.05,
+          "sadness": 0.02,
+          "anger": 0.01,
+          "fear": 0.01,
+          "disgust": 0.01,
+          "surprise": 0.03,
+          "neutral": 0.87
+        },
+        "style": "uncertain",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.07043389473136971,
+      "text_face_valence_gap": 0.00015434056274795331,
+      "text_audio_valence_gap": 0.07058823529411766,
+      "face_top": {
+        "label": "neutral",
+        "p": 0.9761082964402318
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9764705882352941
+    },
+    "spikes": [
+      {
+        "t": 14,
+        "face": {
+          "joy": 0.0009541062014394998,
+          "sadness": 0.017461536662921398,
+          "anger": 0.005276290635407738,
+          "fear": 0.0001914204234143072,
+          "disgust": 5.248864315972694e-08,
+          "surprise": 8.297147942152192e-06,
+          "neutral": 0.9761082964402318
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.8380541482201158,
+          "joy": 0.025477053100719755,
+          "surprise": 0.02500414857397108,
+          "disgust": 0.025000026244321585,
+          "sadness": 0.0337307683314607,
+          "fear": 0.02509571021170716,
+          "anger": 0.027638145317703873
+        },
+        "micro_spike": true
+      }
+    ]
+  },
+  {
+    "t": 15,
+    "face": {
+      "joy": 0.6450546808562696,
+      "sadness": 2.5218531098750524e-05,
+      "anger": 5.111578212715796e-05,
+      "fear": 4.4349195326771594e-06,
+      "disgust": 1.0443292986614343e-10,
+      "surprise": 0.003010618882475142,
+      "neutral": 0.3518539309240638
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.5259269654620319,
+      "joy": 0.3475273404281348,
+      "surprise": 0.026505309441237575,
+      "disgust": 0.02500000005221647,
+      "sadness": 0.02501260926554938,
+      "fear": 0.025002217459766343,
+      "anger": 0.025025557891063584
+    },
+    "text": {
+      "text": "I was born in 2010.",
+      "segments": [
+        {
+          "start": 13.39,
+          "end": 17.47,
+          "text": " I was born in 2010."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotion_distribution": {
+          "joy": 0.05,
+          "sadness": 0.02,
+          "anger": 0.01,
+          "fear": 0.01,
+          "disgust": 0.01,
+          "surprise": 0.02,
+          "neutral": 0.88
+        },
+        "style": "uncertain",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.07312336148003397,
+      "text_face_valence_gap": 0.0025351261859163105,
+      "text_audio_valence_gap": 0.07058823529411766,
+      "face_top": {
+        "label": "joy",
+        "p": 0.6450546808562696
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.975625546173322
+    },
+    "spikes": [
+      {
+        "t": 15,
+        "face": {
+          "joy": 0.6450546808562696,
+          "sadness": 2.5218531098750524e-05,
+          "anger": 5.111578212715796e-05,
+          "fear": 4.4349195326771594e-06,
+          "disgust": 1.0443292986614343e-10,
+          "surprise": 0.003010618882475142,
+          "neutral": 0.3518539309240638
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.5259269654620319,
+          "joy": 0.3475273404281348,
+          "surprise": 0.026505309441237575,
+          "disgust": 0.02500000005221647,
+          "sadness": 0.02501260926554938,
+          "fear": 0.025002217459766343,
+          "anger": 0.025025557891063584
+        },
+        "micro_spike": true
+      }
+    ]
+  },
+  {
+    "t": 16,
+    "face": {
+      "joy": 0.3999942393739137,
+      "sadness": 0.0009713818867414823,
+      "anger": 0.0004833392793665781,
+      "fear": 0.000767873971822694,
+      "disgust": 7.864359750451407e-08,
+      "surprise": 0.017174071054931666,
+      "neutral": 0.5806090157896263
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.6403045078948131,
+      "joy": 0.22499711968695685,
+      "surprise": 0.033587035527465836,
+      "disgust": 0.025000039321798756,
+      "sadness": 0.025485690943370744,
+      "fear": 0.025383936985911352,
+      "anger": 0.025241669639683294
+    },
+    "text": {
+      "text": "I was born in 2010.",
+      "segments": [
+        {
+          "start": 13.39,
+          "end": 17.47,
+          "text": " I was born in 2010."
+        }
+      ],
+      "analysis": {
+        "valence": 0.0,
+        "arousal": 0.0,
+        "emotion_distribution": {
+          "joy": 0.05,
+          "sadness": 0.02,
+          "anger": 0.01,
+          "fear": 0.01,
+          "disgust": 0.01,
+          "surprise": 0.02,
+          "neutral": 0.88
+        },
+        "style": "uncertain",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.07816965574006196,
+      "text_face_valence_gap": 0.007581420445944298,
+      "text_audio_valence_gap": 0.07058823529411766,
+      "face_top": {
+        "label": "neutral",
+        "p": 0.5806090157896263
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.973943448086646
+    },
+    "spikes": [
+      {
+        "t": 16,
+        "face": {
+          "joy": 0.3999942393739137,
+          "sadness": 0.0009713818867414823,
+          "anger": 0.0004833392793665781,
+          "fear": 0.000767873971822694,
+          "disgust": 7.864359750451407e-08,
+          "surprise": 0.017174071054931666,
+          "neutral": 0.5806090157896263
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.6403045078948131,
+          "joy": 0.22499711968695685,
+          "surprise": 0.033587035527465836,
+          "disgust": 0.025000039321798756,
+          "sadness": 0.025485690943370744,
+          "fear": 0.025383936985911352,
+          "anger": 0.025241669639683294
+        },
+        "micro_spike": true
+      }
+    ]
+  },
+  {
+    "t": 17,
+    "face": {
+      "joy": 0.002391489950981306,
+      "sadness": 0.03961840716863626,
+      "anger": 0.011018356856598544,
+      "fear": 0.0017888114664052685,
+      "disgust": 1.867046486668376e-07,
+      "surprise": 1.9820040732779722e-05,
+      "neutral": 0.9451629278119972
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.8225814639059985,
+      "joy": 0.026195744975490657,
+      "surprise": 0.025009910020366396,
+      "disgust": 0.025000093352324337,
+      "sadness": 0.044809203584318134,
+      "fear": 0.02589440573320264,
+      "anger": 0.030509178428299276
+    },
+    "text": {
+      "text": "I was born in 2010. I drive a red car and I have a million dollars in my bank account right now.",
+      "segments": [
+        {
+          "start": 13.39,
+          "end": 17.47,
+          "text": " I was born in 2010."
+        },
+        {
+          "start": 17.47,
+          "end": 28.6,
+          "text": " I drive a red car and I have a million dollars in my bank account right now."
+        }
+      ],
+      "analysis": {
+        "valence": 0.2,
+        "arousal": 0.3,
+        "emotion_distribution": {
+          "joy": 0.15,
+          "sadness": 0.05,
+          "anger": 0.02,
+          "fear": 0.03,
+          "disgust": 0.01,
+          "surprise": 0.1,
+          "neutral": 0.64
+        },
+        "style": "uncertain"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.06908319160074156,
+      "text_face_valence_gap": 0.2015050436933761,
+      "text_audio_valence_gap": 0.2705882352941177,
+      "face_top": {
+        "label": "neutral",
+        "p": 0.9451629278119972
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.9098039215686274
+    },
+    "spikes": [
+      {
+        "t": 17,
+        "face": {
+          "joy": 0.002391489950981306,
+          "sadness": 0.03961840716863626,
+          "anger": 0.011018356856598544,
+          "fear": 0.0017888114664052685,
+          "disgust": 1.867046486668376e-07,
+          "surprise": 1.9820040732779722e-05,
+          "neutral": 0.9451629278119972
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.8225814639059985,
+          "joy": 0.026195744975490657,
+          "surprise": 0.025009910020366396,
+          "disgust": 0.025000093352324337,
+          "sadness": 0.044809203584318134,
+          "fear": 0.02589440573320264,
+          "anger": 0.030509178428299276
+        },
+        "micro_spike": true
+      }
+    ]
+  },
+  {
+    "t": 18,
+    "face": {
+      "joy": 3.3210024235936987e-07,
+      "sadness": 0.03128092272363272,
+      "anger": 0.008974968147311623,
+      "fear": 0.0002841668002121585,
+      "disgust": 2.9891331917504844e-10,
+      "surprise": 5.038301624689451e-09,
+      "neutral": 0.9594596048913862
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.829729802445693,
+      "joy": 0.025000166050121186,
+      "surprise": 0.025000002519150816,
+      "disgust": 0.025000000149456664,
+      "sadness": 0.040640461361816364,
+      "fear": 0.025142083400106083,
+      "anger": 0.029487484073655815
+    },
+    "text": {
+      "text": "I drive a red car and I have a million dollars in my bank account right now.",
+      "segments": [
+        {
+          "start": 17.47,
+          "end": 28.6,
+          "text": " I drive a red car and I have a million dollars in my bank account right now."
+        }
+      ],
+      "analysis": {
+        "valence": 0.5,
+        "arousal": 0.4,
+        "emotion_distribution": {
+          "joy": 0.15,
+          "sadness": 0.05,
+          "anger": 0.02,
+          "fear": 0.03,
+          "disgust": 0.01,
+          "surprise": 0.1,
+          "neutral": 0.64
+        },
+        "style": "uncertain"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.07035136776409591,
+      "text_face_valence_gap": 0.5002368675300217,
+      "text_audio_valence_gap": 0.5705882352941176,
+      "face_top": {
+        "label": "neutral",
+        "p": 0.9594596048913862
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.8098039215686275
+    },
+    "spikes": [
+      {
+        "t": 18,
+        "face": {
+          "joy": 3.3210024235936987e-07,
+          "sadness": 0.03128092272363272,
+          "anger": 0.008974968147311623,
+          "fear": 0.0002841668002121585,
+          "disgust": 2.9891331917504844e-10,
+          "surprise": 5.038301624689451e-09,
+          "neutral": 0.9594596048913862
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.829729802445693,
+          "joy": 0.025000166050121186,
+          "surprise": 0.025000002519150816,
+          "disgust": 0.025000000149456664,
+          "sadness": 0.040640461361816364,
+          "fear": 0.025142083400106083,
+          "anger": 0.029487484073655815
+        },
+        "micro_spike": false
+      }
+    ]
+  },
+  {
+    "t": 19,
+    "face": {
+      "joy": 3.812329103487757e-05,
+      "sadness": 0.005063191906192742,
+      "anger": 0.0011620834307466224,
+      "fear": 6.002385004597161e-05,
+      "disgust": 3.176510449645897e-09,
+      "surprise": 1.61699039122426e-05,
+      "neutral": 0.9936604044415571
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.8468302022207785,
+      "joy": 0.025019061645517444,
+      "surprise": 0.025008084951956125,
+      "disgust": 0.02500000158825523,
+      "sadness": 0.027531595953096375,
+      "fear": 0.02503001192502299,
+      "anger": 0.025581041715373315
+    },
+    "text": {
+      "text": "I drive a red car and I have a million dollars in my bank account right now.",
+      "segments": [
+        {
+          "start": 17.47,
+          "end": 28.6,
+          "text": " I drive a red car and I have a million dollars in my bank account right now."
+        }
+      ],
+      "analysis": {
+        "valence": 0.5,
+        "arousal": 0.4,
+        "emotion_distribution": {
+          "joy": 0.2,
+          "sadness": 0.05,
+          "anger": 0.02,
+          "fear": 0.03,
+          "disgust": 0.01,
+          "surprise": 0.1,
+          "neutral": 0.59
+        },
+        "style": "joking",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.07054479286444282,
+      "text_face_valence_gap": 0.5000434424296748,
+      "text_audio_valence_gap": 0.5705882352941176,
+      "face_top": {
+        "label": "neutral",
+        "p": 0.9936604044415571
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.8098039215686275
+    },
+    "spikes": [
+      {
+        "t": 19,
+        "face": {
+          "joy": 3.812329103487757e-05,
+          "sadness": 0.005063191906192742,
+          "anger": 0.0011620834307466224,
+          "fear": 6.002385004597161e-05,
+          "disgust": 3.176510449645897e-09,
+          "surprise": 1.61699039122426e-05,
+          "neutral": 0.9936604044415571
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.8468302022207785,
+          "joy": 0.025019061645517444,
+          "surprise": 0.025008084951956125,
+          "disgust": 0.02500000158825523,
+          "sadness": 0.027531595953096375,
+          "fear": 0.02503001192502299,
+          "anger": 0.025581041715373315
+        },
+        "micro_spike": false
+      }
+    ]
+  },
+  {
+    "t": 20,
+    "face": {
+      "joy": 0.28015863773987093,
+      "sadness": 0.06086413523163762,
+      "anger": 0.0250804386550705,
+      "fear": 0.012015815307664969,
+      "disgust": 6.621297082086326e-05,
+      "surprise": 0.09903807091453629,
+      "neutral": 0.5227766891803989
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.6113883445901994,
+      "joy": 0.16507931886993546,
+      "surprise": 0.07451903545726815,
+      "disgust": 0.025033106485410437,
+      "sadness": 0.055432067615818814,
+      "fear": 0.03100790765383249,
+      "anger": 0.037540219327535256
+    },
+    "text": {
+      "text": "I drive a red car and I have a million dollars in my bank account right now.",
+      "segments": [
+        {
+          "start": 17.47,
+          "end": 28.6,
+          "text": " I drive a red car and I have a million dollars in my bank account right now."
+        }
+      ],
+      "analysis": {
+        "valence": 0.5,
+        "arousal": 0.6,
+        "emotion_distribution": {
+          "joy": 0.25,
+          "sadness": 0.05,
+          "anger": 0.02,
+          "fear": 0.03,
+          "disgust": 0.01,
+          "surprise": 0.1,
+          "neutral": 0.54
+        },
+        "style": "joking",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.10222180769335446,
+      "text_face_valence_gap": 0.4683664276007632,
+      "text_audio_valence_gap": 0.5705882352941176,
+      "face_top": {
+        "label": "neutral",
+        "p": 0.5227766891803989
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.8098039215686275
+    },
+    "spikes": [
+      {
+        "t": 20,
+        "face": {
+          "joy": 0.28015863773987093,
+          "sadness": 0.06086413523163762,
+          "anger": 0.0250804386550705,
+          "fear": 0.012015815307664969,
+          "disgust": 6.621297082086326e-05,
+          "surprise": 0.09903807091453629,
+          "neutral": 0.5227766891803989
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.6113883445901994,
+          "joy": 0.16507931886993546,
+          "surprise": 0.07451903545726815,
+          "disgust": 0.025033106485410437,
+          "sadness": 0.055432067615818814,
+          "fear": 0.03100790765383249,
+          "anger": 0.037540219327535256
+        },
+        "micro_spike": true
+      }
+    ]
+  },
+  {
+    "t": 21,
+    "face": {
+      "joy": 0.00312565615126397,
+      "sadness": 0.006446663558181162,
+      "anger": 0.0007947902895441614,
+      "fear": 0.000292555559720789,
+      "disgust": 9.916442381977274e-08,
+      "surprise": 0.00040119121583171997,
+      "neutral": 0.9889390440610344
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.8444695220305172,
+      "joy": 0.02656282807563199,
+      "surprise": 0.025200595607915866,
+      "disgust": 0.025000049582211914,
+      "sadness": 0.028223331779090585,
+      "fear": 0.0251462777798604,
+      "anger": 0.025397395144772086
+    },
+    "text": {
+      "text": "I drive a red car and I have a million dollars in my bank account right now.",
+      "segments": [
+        {
+          "start": 17.47,
+          "end": 28.6,
+          "text": " I drive a red car and I have a million dollars in my bank account right now."
+        }
+      ],
+      "analysis": {
+        "valence": 0.3,
+        "arousal": 0.5,
+        "emotion_distribution": {
+          "joy": 0.15,
+          "sadness": 0.05,
+          "anger": 0.02,
+          "fear": 0.03,
+          "disgust": 0.01,
+          "surprise": 0.1,
+          "neutral": 0.64
+        },
+        "style": "serious",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.07047328711558282,
+      "text_face_valence_gap": 0.30011494817853485,
+      "text_audio_valence_gap": 0.37058823529411766,
+      "face_top": {
+        "label": "neutral",
+        "p": 0.9889390440610344
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.8764705882352941
+    },
+    "spikes": [
+      {
+        "t": 21,
+        "face": {
+          "joy": 0.00312565615126397,
+          "sadness": 0.006446663558181162,
+          "anger": 0.0007947902895441614,
+          "fear": 0.000292555559720789,
+          "disgust": 9.916442381977274e-08,
+          "surprise": 0.00040119121583171997,
+          "neutral": 0.9889390440610344
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.8444695220305172,
+          "joy": 0.02656282807563199,
+          "surprise": 0.025200595607915866,
+          "disgust": 0.025000049582211914,
+          "sadness": 0.028223331779090585,
+          "fear": 0.0251462777798604,
+          "anger": 0.025397395144772086
+        },
+        "micro_spike": true
+      }
+    ]
+  },
+  {
+    "t": 22,
+    "face": {
+      "joy": 6.455418497848523e-05,
+      "sadness": 0.07691689305470846,
+      "anger": 0.04833009126264879,
+      "fear": 0.0012190010849221409,
+      "disgust": 1.8744676255794977e-07,
+      "surprise": 2.083722160620298e-07,
+      "neutral": 0.8734690645937635
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.7867345322968817,
+      "joy": 0.025032277092489248,
+      "surprise": 0.025000104186108037,
+      "disgust": 0.025000093723381283,
+      "sadness": 0.06345844652735423,
+      "fear": 0.025609500542461076,
+      "anger": 0.0491650456313244
+    },
+    "text": {
+      "text": "I drive a red car and I have a million dollars in my bank account right now.",
+      "segments": [
+        {
+          "start": 17.47,
+          "end": 28.6,
+          "text": " I drive a red car and I have a million dollars in my bank account right now."
+        }
+      ],
+      "analysis": {
+        "valence": 0.3,
+        "arousal": 0.5,
+        "emotion_distribution": {
+          "joy": 0.15,
+          "sadness": 0.05,
+          "anger": 0.02,
+          "fear": 0.03,
+          "disgust": 0.01,
+          "surprise": 0.1,
+          "neutral": 0.64
+        },
+        "style": "uncertain",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.0694732445151873,
+      "text_face_valence_gap": 0.30111499077893034,
+      "text_audio_valence_gap": 0.37058823529411766,
+      "face_top": {
+        "label": "neutral",
+        "p": 0.8734690645937635
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.8764705882352941
+    },
+    "spikes": [
+      {
+        "t": 22,
+        "face": {
+          "joy": 6.455418497848523e-05,
+          "sadness": 0.07691689305470846,
+          "anger": 0.04833009126264879,
+          "fear": 0.0012190010849221409,
+          "disgust": 1.8744676255794977e-07,
+          "surprise": 2.083722160620298e-07,
+          "neutral": 0.8734690645937635
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.7867345322968817,
+          "joy": 0.025032277092489248,
+          "surprise": 0.025000104186108037,
+          "disgust": 0.025000093723381283,
+          "sadness": 0.06345844652735423,
+          "fear": 0.025609500542461076,
+          "anger": 0.0491650456313244
+        },
+        "micro_spike": false
+      }
+    ]
+  },
+  {
+    "t": 23,
+    "face": {
+      "joy": 8.238064008701849e-06,
+      "sadness": 0.0389269119038584,
+      "anger": 0.007023100952158738,
+      "fear": 0.0001399053932369685,
+      "disgust": 8.337262020833001e-10,
+      "surprise": 4.429180711469317e-09,
+      "neutral": 0.9539018384238304
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.8269509192119151,
+      "joy": 0.025004119032004356,
+      "surprise": 0.02500000221459036,
+      "disgust": 0.025000000416863104,
+      "sadness": 0.0444634559519292,
+      "fear": 0.025069952696618488,
+      "anger": 0.028511550476079374
+    },
+    "text": {
+      "text": "I drive a red car and I have a million dollars in my bank account right now.",
+      "segments": [
+        {
+          "start": 17.47,
+          "end": 28.6,
+          "text": " I drive a red car and I have a million dollars in my bank account right now."
+        }
+      ],
+      "analysis": {
+        "valence": 0.3,
+        "arousal": 0.5,
+        "emotion_distribution": {
+          "joy": 0.15,
+          "sadness": 0.05,
+          "anger": 0.02,
+          "fear": 0.03,
+          "disgust": 0.01,
+          "surprise": 0.1,
+          "neutral": 0.64
+        },
+        "style": "serious",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.07047092012468023,
+      "text_face_valence_gap": 0.3001173151694374,
+      "text_audio_valence_gap": 0.37058823529411766,
+      "face_top": {
+        "label": "neutral",
+        "p": 0.9539018384238304
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.8764705882352941
+    },
+    "spikes": [
+      {
+        "t": 23,
+        "face": {
+          "joy": 8.238064008701849e-06,
+          "sadness": 0.0389269119038584,
+          "anger": 0.007023100952158738,
+          "fear": 0.0001399053932369685,
+          "disgust": 8.337262020833001e-10,
+          "surprise": 4.429180711469317e-09,
+          "neutral": 0.9539018384238304
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.8269509192119151,
+          "joy": 0.025004119032004356,
+          "surprise": 0.02500000221459036,
+          "disgust": 0.025000000416863104,
+          "sadness": 0.0444634559519292,
+          "fear": 0.025069952696618488,
+          "anger": 0.028511550476079374
+        },
+        "micro_spike": false
+      }
+    ]
+  },
+  {
+    "t": 24,
+    "face": {
+      "joy": 0.010907893880632286,
+      "sadness": 0.021182645795363955,
+      "anger": 0.0030053420498566846,
+      "fear": 0.001008602633254358,
+      "disgust": 3.753428803737004e-07,
+      "surprise": 0.007772289163753615,
+      "neutral": 0.9561228511342588
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.8280614255671294,
+      "joy": 0.030453946940316147,
+      "surprise": 0.028886144581876813,
+      "disgust": 0.025000187671440192,
+      "sadness": 0.03559132289768198,
+      "fear": 0.025504301316627183,
+      "anger": 0.026502671024928346
+    },
+    "text": {
+      "text": "I drive a red car and I have a million dollars in my bank account right now.",
+      "segments": [
+        {
+          "start": 17.47,
+          "end": 28.6,
+          "text": " I drive a red car and I have a million dollars in my bank account right now."
+        }
+      ],
+      "analysis": {
+        "valence": 0.3,
+        "arousal": 0.5,
+        "emotion_distribution": {
+          "joy": 0.15,
+          "sadness": 0.05,
+          "anger": 0.02,
+          "fear": 0.03,
+          "disgust": 0.01,
+          "surprise": 0.1,
+          "neutral": 0.64
+        },
+        "style": "serious",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.07216822844953415,
+      "text_face_valence_gap": 0.2984200068445835,
+      "text_audio_valence_gap": 0.37058823529411766,
+      "face_top": {
+        "label": "neutral",
+        "p": 0.9561228511342588
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.8764705882352941
+    },
+    "spikes": [
+      {
+        "t": 24,
+        "face": {
+          "joy": 0.010907893880632286,
+          "sadness": 0.021182645795363955,
+          "anger": 0.0030053420498566846,
+          "fear": 0.001008602633254358,
+          "disgust": 3.753428803737004e-07,
+          "surprise": 0.007772289163753615,
+          "neutral": 0.9561228511342588
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.8280614255671294,
+          "joy": 0.030453946940316147,
+          "surprise": 0.028886144581876813,
+          "disgust": 0.025000187671440192,
+          "sadness": 0.03559132289768198,
+          "fear": 0.025504301316627183,
+          "anger": 0.026502671024928346
+        },
+        "micro_spike": false
+      }
+    ]
+  },
+  {
+    "t": 25,
+    "face": {
+      "joy": 5.291635542260515e-06,
+      "sadness": 0.18913884364562458,
+      "anger": 0.011995957612870074,
+      "fear": 0.00020055842719765384,
+      "disgust": 5.814054926149625e-09,
+      "surprise": 1.1826379689402554e-08,
+      "neutral": 0.7986593310383309
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.7493296655191655,
+      "joy": 0.025002645817771136,
+      "surprise": 0.02500000591318985,
+      "disgust": 0.025000002907027467,
+      "sadness": 0.1195694218228123,
+      "fear": 0.025100279213598833,
+      "anger": 0.030997978806435043
+    },
+    "text": {
+      "text": "I drive a red car and I have a million dollars in my bank account right now.",
+      "segments": [
+        {
+          "start": 17.47,
+          "end": 28.6,
+          "text": " I drive a red car and I have a million dollars in my bank account right now."
+        }
+      ],
+      "analysis": {
+        "valence": 0.5,
+        "arousal": 0.6,
+        "emotion_distribution": {
+          "joy": 0.2,
+          "sadness": 0.05,
+          "anger": 0.02,
+          "fear": 0.03,
+          "disgust": 0.01,
+          "surprise": 0.1,
+          "neutral": 0.59
+        },
+        "style": "serious",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.0703873899866295,
+      "text_face_valence_gap": 0.5002008453074882,
+      "text_audio_valence_gap": 0.5705882352941176,
+      "face_top": {
+        "label": "neutral",
+        "p": 0.7986593310383309
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.8098039215686275
+    },
+    "spikes": [
+      {
+        "t": 25,
+        "face": {
+          "joy": 5.291635542260515e-06,
+          "sadness": 0.18913884364562458,
+          "anger": 0.011995957612870074,
+          "fear": 0.00020055842719765384,
+          "disgust": 5.814054926149625e-09,
+          "surprise": 1.1826379689402554e-08,
+          "neutral": 0.7986593310383309
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.7493296655191655,
+          "joy": 0.025002645817771136,
+          "surprise": 0.02500000591318985,
+          "disgust": 0.025000002907027467,
+          "sadness": 0.1195694218228123,
+          "fear": 0.025100279213598833,
+          "anger": 0.030997978806435043
+        },
+        "micro_spike": false
+      }
+    ]
+  },
+  {
+    "t": 26,
+    "face": {
+      "joy": 0.0002314174703615165,
+      "sadness": 0.08208801161552053,
+      "anger": 0.007326930664958274,
+      "fear": 0.000475615480246365,
+      "disgust": 2.0219043751759053e-07,
+      "surprise": 6.237256957129083e-06,
+      "neutral": 0.9098715853215187
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.8049357926607593,
+      "joy": 0.025115708735180764,
+      "surprise": 0.02500311862847857,
+      "disgust": 0.025000101095218764,
+      "sadness": 0.06604400580776026,
+      "fear": 0.025237807740123186,
+      "anger": 0.02866346533247914
+    },
+    "text": {
+      "text": "I drive a red car and I have a million dollars in my bank account right now.",
+      "segments": [
+        {
+          "start": 17.47,
+          "end": 28.6,
+          "text": " I drive a red car and I have a million dollars in my bank account right now."
+        }
+      ],
+      "analysis": {
+        "valence": 0.3,
+        "arousal": 0.5,
+        "emotion_distribution": {
+          "joy": 0.15,
+          "sadness": 0.05,
+          "anger": 0.02,
+          "fear": 0.03,
+          "disgust": 0.01,
+          "surprise": 0.1,
+          "neutral": 0.64
+        },
+        "style": "serious",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.07017217419031128,
+      "text_face_valence_gap": 0.30041606110380636,
+      "text_audio_valence_gap": 0.37058823529411766,
+      "face_top": {
+        "label": "neutral",
+        "p": 0.9098715853215187
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.8764705882352941
+    },
+    "spikes": [
+      {
+        "t": 26,
+        "face": {
+          "joy": 0.0002314174703615165,
+          "sadness": 0.08208801161552053,
+          "anger": 0.007326930664958274,
+          "fear": 0.000475615480246365,
+          "disgust": 2.0219043751759053e-07,
+          "surprise": 6.237256957129083e-06,
+          "neutral": 0.9098715853215187
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.8049357926607593,
+          "joy": 0.025115708735180764,
+          "surprise": 0.02500311862847857,
+          "disgust": 0.025000101095218764,
+          "sadness": 0.06604400580776026,
+          "fear": 0.025237807740123186,
+          "anger": 0.02866346533247914
+        },
+        "micro_spike": false
+      }
+    ]
+  },
+  {
+    "t": 27,
+    "face": {
+      "joy": 0.0008238295789132283,
+      "sadness": 0.10251630231872068,
+      "anger": 0.016934309670555717,
+      "fear": 0.002215218183938023,
+      "disgust": 6.041874676884341e-07,
+      "surprise": 5.280769171755585e-05,
+      "neutral": 0.8774569283686872
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.7887284641843435,
+      "joy": 0.02541191478945662,
+      "surprise": 0.02502640384585878,
+      "disgust": 0.02500030209373385,
+      "sadness": 0.07625815115936034,
+      "fear": 0.026107609091969016,
+      "anger": 0.03346715483527786
+    },
+    "text": {
+      "text": "I drive a red car and I have a million dollars in my bank account right now.",
+      "segments": [
+        {
+          "start": 17.47,
+          "end": 28.6,
+          "text": " I drive a red car and I have a million dollars in my bank account right now."
+        }
+      ],
+      "analysis": {
+        "valence": 0.3,
+        "arousal": 0.5,
+        "emotion_distribution": {
+          "joy": 0.15,
+          "sadness": 0.05,
+          "anger": 0.02,
+          "fear": 0.03,
+          "disgust": 0.01,
+          "surprise": 0.1,
+          "neutral": 0.64
+        },
+        "style": "serious",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.06859129982484005,
+      "text_face_valence_gap": 0.3019969354692776,
+      "text_audio_valence_gap": 0.37058823529411766,
+      "face_top": {
+        "label": "neutral",
+        "p": 0.8774569283686872
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.8764705882352941
+    },
+    "spikes": [
+      {
+        "t": 27,
+        "face": {
+          "joy": 0.0008238295789132283,
+          "sadness": 0.10251630231872068,
+          "anger": 0.016934309670555717,
+          "fear": 0.002215218183938023,
+          "disgust": 6.041874676884341e-07,
+          "surprise": 5.280769171755585e-05,
+          "neutral": 0.8774569283686872
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.7887284641843435,
+          "joy": 0.02541191478945662,
+          "surprise": 0.02502640384585878,
+          "disgust": 0.02500030209373385,
+          "sadness": 0.07625815115936034,
+          "fear": 0.026107609091969016,
+          "anger": 0.03346715483527786
+        },
+        "micro_spike": false
+      }
+    ]
+  },
+  {
+    "t": 28,
+    "face": {
+      "joy": 0.00018900659898228792,
+      "sadness": 0.11755017674680876,
+      "anger": 0.02205538883123521,
+      "fear": 0.0025296534883803277,
+      "disgust": 2.9428775141879693e-07,
+      "surprise": 6.551519306498809e-07,
+      "neutral": 0.8576748248949113
+    },
+    "audio": {
+      "joy": 0.05000000000000001,
+      "sadness": 0.05000000000000001,
+      "anger": 0.05000000000000001,
+      "fear": 0.05000000000000001,
+      "disgust": 0.05000000000000001,
+      "surprise": 0.05000000000000001,
+      "neutral": 0.7
+    },
+    "combined": {
+      "neutral": 0.7788374124474556,
+      "joy": 0.025094503299491148,
+      "surprise": 0.02500032757596533,
+      "disgust": 0.025000147143875714,
+      "sadness": 0.08377508837340439,
+      "fear": 0.02626482674419017,
+      "anger": 0.03602769441561761
+    },
+    "text": {
+      "text": "I drive a red car and I have a million dollars in my bank account right now.",
+      "segments": [
+        {
+          "start": 17.47,
+          "end": 28.6,
+          "text": " I drive a red car and I have a million dollars in my bank account right now."
+        }
+      ],
+      "analysis": {
+        "valence": 0.3,
+        "arousal": 0.5,
+        "emotion_distribution": {
+          "joy": 0.15,
+          "sadness": 0.05,
+          "anger": 0.02,
+          "fear": 0.03,
+          "disgust": 0.01,
+          "surprise": 0.1,
+          "neutral": 0.64
+        },
+        "style": "uncertain",
+        "speaker": "SPEAKER_00"
+      }
+    },
+    "metrics": {
+      "face_audio_valence_gap": 0.06823562023137297,
+      "text_face_valence_gap": 0.3023526150627447,
+      "text_audio_valence_gap": 0.37058823529411766,
+      "face_top": {
+        "label": "neutral",
+        "p": 0.8576748248949113
+      },
+      "audio_top": {
+        "label": "neutral",
+        "p": 0.7
+      },
+      "text_top": {
+        "label": "neutral",
+        "p": 0.0
+      },
+      "congruence_score": 0.8764705882352941
+    },
+    "spikes": [
+      {
+        "t": 28,
+        "face": {
+          "joy": 0.00018900659898228792,
+          "sadness": 0.11755017674680876,
+          "anger": 0.02205538883123521,
+          "fear": 0.0025296534883803277,
+          "disgust": 2.9428775141879693e-07,
+          "surprise": 6.551519306498809e-07,
+          "neutral": 0.8576748248949113
+        },
+        "audio": {
+          "joy": 0.05000000000000001,
+          "sadness": 0.05000000000000001,
+          "anger": 0.05000000000000001,
+          "fear": 0.05000000000000001,
+          "disgust": 0.05000000000000001,
+          "surprise": 0.05000000000000001,
+          "neutral": 0.7
+        },
+        "combined": {
+          "neutral": 0.7788374124474556,
+          "joy": 0.025094503299491148,
+          "surprise": 0.02500032757596533,
+          "disgust": 0.025000147143875714,
+          "sadness": 0.08377508837340439,
+          "fear": 0.02626482674419017,
+          "anger": 0.03602769441561761
+        },
+        "micro_spike": false
+      }
+    ]
+  }
+]
